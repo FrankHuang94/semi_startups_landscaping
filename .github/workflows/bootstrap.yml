@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   bootstrap:
-    if: ${{ hashFiles('.bootstrap/READY') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,6 +19,7 @@ jobs:
       - name: Replace bootstrap with repository archive
         shell: bash
         run: |
+          test -f .bootstrap/READY
           cat .bootstrap/chunk-* | base64 --decode > /tmp/repo.tar.gz
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           tar -xzf /tmp/repo.tar.gz -C .
