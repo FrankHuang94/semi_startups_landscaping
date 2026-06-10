@@ -1,0 +1,28 @@
+name: Bootstrap repository
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    if: ${{ hashFiles('.bootstrap/repo.tar.gz.b64') != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Replace bootstrap with repository archive
+        shell: bash
+        run: |
+          base64 --decode .bootstrap/repo.tar.gz.b64 > /tmp/repo.tar.gz
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          tar -xzf /tmp/repo.tar.gz -C .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Build semiconductor VC intelligence database"
+          git push origin main
