@@ -1,1 +1,764 @@
-[]
+- company_id: groq_001
+  name: Groq
+  legal_name: null
+  status: private
+  website: https://groq.com/
+  hq:
+    city: Mountain View
+    state: California
+    country: United States
+  founded_year: 2016
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - LLM_inference
+  - low_latency
+  - compiler
+  one_line_summary: Statically scheduled tensor-streaming processor.
+  investor_summary: Groq addresses a strategically important bottleneck in inference acceleration. Its core investment
+    case is deterministic execution and a vertically integrated compiler/cloud service target low-latency token
+    generation. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in inference acceleration as incumbent platforms face scaling and cost constraints.
+  solution_summary: Groq offers statically scheduled tensor-streaming processor through LPU and GroqCloud.
+  product_profile:
+    products:
+    - product_name: LPU and GroqCloud
+      product_type: Statically scheduled tensor-streaming processor
+      product_status: deployed
+      target_workloads:
+      - LLM_inference
+      - low_latency
+      - compiler
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Statically scheduled tensor-streaming processor
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Deterministic execution and a vertically integrated compiler/cloud service target
+      low-latency token generation.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Deterministic execution and a vertically integrated compiler/cloud service target low-latency
+      token generation.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - AMD
+    - Oracle
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 5
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: active_diligence
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in inference acceleration.
+  sources:
+  - source_id: src_groq_official
+    title: Groq official website
+    url: https://groq.com/
+    publisher: Groq
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: dmatrix_001
+  name: d-Matrix
+  legal_name: null
+  status: private
+  website: https://www.d-matrix.ai/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  founded_year: 2019
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - in_memory_compute
+  - chiplet
+  - LLM_inference
+  one_line_summary: Digital in-memory compute with chiplet-based scaling.
+  investor_summary: d-Matrix addresses a strategically important bottleneck in inference acceleration. Its core
+    investment case is memory-centric digital compute architecture is designed around generative-ai inference latency
+    and efficiency. The underwriting focus should be repeatable customer adoption, production readiness, software
+    integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in inference acceleration as incumbent platforms face scaling and cost constraints.
+  solution_summary: d-Matrix offers digital in-memory compute with chiplet-based scaling through Corsair and JetStream.
+  product_profile:
+    products:
+    - product_name: Corsair and JetStream
+      product_type: Digital in-memory compute with chiplet-based scaling
+      product_status: shipping
+      target_workloads:
+      - in_memory_compute
+      - chiplet
+      - LLM_inference
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Digital in-memory compute with chiplet-based scaling
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Memory-centric digital compute architecture is designed around generative-AI inference
+      latency and efficiency.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Memory-centric digital compute architecture is designed around generative-AI inference latency
+      and efficiency.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_b
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Broadcom
+    - Marvell
+    - AMD
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: active_diligence
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in inference acceleration.
+  sources:
+  - source_id: src_dmatrix_official
+    title: d-Matrix official website
+    url: https://www.d-matrix.ai/
+    publisher: d-Matrix
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: etched_001
+  name: Etched
+  legal_name: null
+  status: private
+  website: https://www.etched.com/
+  hq:
+    city: Cupertino
+    state: California
+    country: United States
+  founded_year: 2022
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - transformer
+  - LLM_inference
+  - domain_specific_ASIC
+  one_line_summary: Transformer-specific inference ASIC.
+  investor_summary: Etched addresses a strategically important bottleneck in inference acceleration. Its core investment
+    case is extreme workload specialization could improve economics if transformer architectures remain dominant.
+    The underwriting focus should be repeatable customer adoption, production readiness, software integration, and
+    capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in inference acceleration as incumbent platforms face scaling and cost constraints.
+  solution_summary: Etched offers transformer-specific inference asic through Sohu.
+  product_profile:
+    products:
+    - product_name: Sohu
+      product_type: Transformer-specific inference ASIC
+      product_status: announced
+      target_workloads:
+      - transformer
+      - LLM_inference
+      - domain_specific_ASIC
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Transformer-specific inference ASIC
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Extreme workload specialization could improve economics if transformer architectures
+      remain dominant.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Extreme workload specialization could improve economics if transformer architectures remain
+      dominant.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_a
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - AMD
+    - Broadcom
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 4
+    customer_pull: 2
+    business_model_quality: 3
+    capital_efficiency: 2
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in inference acceleration.
+  sources:
+  - source_id: src_etched_official
+    title: Etched official website
+    url: https://www.etched.com/
+    publisher: Etched
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: positron_001
+  name: Positron
+  legal_name: null
+  status: private
+  website: https://www.positron.ai/
+  hq:
+    city: Reno
+    state: Nevada
+    country: United States
+  founded_year: 2023
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - LLM_inference
+  - memory_bandwidth
+  - low_precision
+  one_line_summary: Memory-capacity-oriented AI inference accelerator.
+  investor_summary: Positron addresses a strategically important bottleneck in inference acceleration. Its core
+    investment case is targets bandwidth and capacity constraints in model serving with an inference-first system
+    design. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in inference acceleration as incumbent platforms face scaling and cost constraints.
+  solution_summary: Positron offers memory-capacity-oriented ai inference accelerator through Atlas.
+  product_profile:
+    products:
+    - product_name: Atlas
+      product_type: Memory-capacity-oriented AI inference accelerator
+      product_status: announced
+      target_workloads:
+      - LLM_inference
+      - memory_bandwidth
+      - low_precision
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Memory-capacity-oriented AI inference accelerator
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Targets bandwidth and capacity constraints in model serving with an inference-first
+      system design.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Targets bandwidth and capacity constraints in model serving with an inference-first system
+      design.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_a
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - AMD
+    - Marvell
+    - Intel
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 4
+    founder_quality: 4
+    customer_pull: 2
+    business_model_quality: 3
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 4
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in inference acceleration.
+  sources:
+  - source_id: src_positron_official
+    title: Positron official website
+    url: https://www.positron.ai/
+    publisher: Positron
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.

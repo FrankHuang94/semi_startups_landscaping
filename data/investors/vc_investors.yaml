@@ -1,30 +1,312 @@
-- investor_id: example_vc_001
-  name: Example VC Placeholder
+- investor_id: eclipse
+  name: Eclipse Ventures
   investor_type: VC
-  website: null
+  website: https://eclipse.vc/
   hq:
-    city: null
-    state: null
-    country: null
-  semiconductor_thesis: null
-  ai_infrastructure_thesis: null
+    city: Palo Alto
+    state: California
+    country: United States
+  semiconductor_thesis: Industrial and semiconductor systems
+  ai_infrastructure_thesis: AI infrastructure and physical-world technology
   relevant_partners: []
-  preferred_stage: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
   relevant_portfolio_companies: []
   co_investors: []
   notable_exits: []
   investor_value_add:
-    technical_network: null
-    customer_network: null
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
     recruiting_support: null
     capital_markets_support: null
     strategic_relationships: []
   relevance_for_deal_sourcing:
-    score: null
-    rationale: null
-  notes: Replace with source-backed investor data.
-  sources: []
+    score: 5
+    rationale: Eclipse Ventures has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_eclipse
+    title: Eclipse Ventures official website
+    url: https://eclipse.vc/
+    publisher: Eclipse Ventures
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example; not a real investor.
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: playground
+  name: Playground Global
+  investor_type: VC
+  website: https://playground.global/
+  hq:
+    city: Palo Alto
+    state: California
+    country: United States
+  semiconductor_thesis: Deep-tech company creation and frontier hardware
+  ai_infrastructure_thesis: AI compute, robotics, and infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Playground Global has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_playground
+    title: Playground Global official website
+    url: https://playground.global/
+    publisher: Playground Global
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: walden_catalyst
+  name: Walden Catalyst Ventures
+  investor_type: VC
+  website: https://waldencatalyst.com/
+  hq:
+    city: San Francisco
+    state: California
+    country: United States
+  semiconductor_thesis: Semiconductors, deep tech, and global technical founders
+  ai_infrastructure_thesis: Compute, connectivity, and AI systems
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Walden Catalyst Ventures has a publicly stated or demonstrated focus relevant to semiconductor and
+      AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_walden_catalyst
+    title: Walden Catalyst Ventures official website
+    url: https://waldencatalyst.com/
+    publisher: Walden Catalyst Ventures
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: celesta
+  name: Celesta Capital
+  investor_type: VC
+  website: https://celesta.vc/
+  hq:
+    city: San Francisco
+    state: California
+    country: United States
+  semiconductor_thesis: Semiconductors and intelligent systems
+  ai_infrastructure_thesis: AI infrastructure, edge intelligence, and enterprise technology
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Celesta Capital has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_celesta
+    title: Celesta Capital official website
+    url: https://celesta.vc/
+    publisher: Celesta Capital
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: dcvc
+  name: DCVC
+  investor_type: VC
+  website: https://www.dcvc.com/
+  hq:
+    city: Palo Alto
+    state: California
+    country: United States
+  semiconductor_thesis: Deep tech, compute, and industrial transformation
+  ai_infrastructure_thesis: Compute-intensive AI and infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 4
+    rationale: DCVC has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_dcvc
+    title: DCVC official website
+    url: https://www.dcvc.com/
+    publisher: DCVC
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: lux
+  name: Lux Capital
+  investor_type: VC
+  website: https://www.luxcapital.com/
+  hq:
+    city: New York
+    state: New York
+    country: United States
+  semiconductor_thesis: Frontier science and deep technology
+  ai_infrastructure_thesis: AI systems, robotics, and advanced computing
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 4
+    rationale: Lux Capital has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_lux
+    title: Lux Capital official website
+    url: https://www.luxcapital.com/
+    publisher: Lux Capital
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: mayfield
+  name: Mayfield
+  investor_type: VC
+  website: https://www.mayfield.com/
+  hq:
+    city: Menlo Park
+    state: California
+    country: United States
+  semiconductor_thesis: Enterprise and semiconductor company formation
+  ai_infrastructure_thesis: AI infrastructure and developer platforms
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 4
+    rationale: Mayfield has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_mayfield
+    title: Mayfield official website
+    url: https://www.mayfield.com/
+    publisher: Mayfield
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: sutter_hill
+  name: Sutter Hill Ventures
+  investor_type: VC
+  website: https://www.shv.com/
+  hq:
+    city: Palo Alto
+    state: California
+    country: United States
+  semiconductor_thesis: Long-duration company building including semiconductors
+  ai_infrastructure_thesis: Infrastructure and systems companies
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 4
+    rationale: Sutter Hill Ventures has a publicly stated or demonstrated focus relevant to semiconductor and AI
+      infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_sutter_hill
+    title: Sutter Hill Ventures official website
+    url: https://www.shv.com/
+    publisher: Sutter Hill Ventures
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'

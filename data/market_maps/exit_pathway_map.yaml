@@ -4,6 +4,17 @@ pathways:
       - Large durable market
       - Defensible platform position
       - Scalable revenue and gross margin
+      - Customer diversification and financial controls
+      - Multi-generation product execution
+    strongest_categories:
+      - datacenter_ai_accelerators
+      - networking_switching_nic_dpu
+      - pcie_cxl_retimers_connectivity
+      - eda_compilers_runtimes_devtools
+    diligence:
+      - Revenue quality, backlog conversion, and customer concentration
+      - Gross margin after wafer, packaging, system, and cloud costs
+      - Export-control and supply-chain exposure
   strategic_M&A:
     likely_buyers:
       - semiconductor vendors
@@ -16,10 +27,32 @@ pathways:
       - talent and IP
       - customer access
       - roadmap acceleration
+      - standards position
+      - manufacturing or packaging capability
+    buyer_archetypes:
+      compute_platforms: [NVIDIA, AMD, Intel, Qualcomm, Arm]
+      connectivity_platforms: [Broadcom, Marvell, Cisco, HPE]
+      eda_and_ip: [Synopsys, Cadence, Siemens]
+      manufacturing_and_packaging: [TSMC, Samsung, Intel Foundry, ASE, Amkor]
+      power_and_thermal: [Vertiv, Schneider Electric, Eaton, Delta Electronics]
+    diligence:
+      - Identify the exact roadmap gap and internal build alternative
+      - Determine whether IP, team, customer qualification, or revenue drives value
+      - Model regulatory, export-control, and customer-conflict risk
   licensing:
     requirements:
       - Defensible IP
       - Integration support
       - Repeatable royalty or license economics
+      - Verification, documentation, and customer application engineering
+    strongest_categories:
+      - riscv_processor_ip
+      - custom_asic_chiplets
+      - automotive_robotics_ai_silicon
+      - security_confidential_compute
   acquihire:
     caution: Usually not a venture-scale base case.
+    warning_signs:
+      - Product milestones repeatedly slip while engineering headcount remains strong
+      - Strategic value is concentrated in a small architecture or compiler team
+      - Customer adoption requires a platform owner to complete the stack

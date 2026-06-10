@@ -1,6 +1,6 @@
-# Companies Missing Sources
+# Companies Missing Diligence Items
 
-Records needing source or field completion.
+Companies with incomplete scorecards or explicitly recorded data gaps.
 
 | Company | Category | Stage Fit | Priority | Score | Verified |
 | --- | --- | --- | --- | --- | --- |

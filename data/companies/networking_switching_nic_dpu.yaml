@@ -1,1 +1,762 @@
-[]
+- company_id: enfabrica_001
+  name: Enfabrica
+  legal_name: null
+  status: private
+  website: https://enfabrica.net/
+  hq:
+    city: Mountain View
+    state: California
+    country: United States
+  founded_year: 2020
+  primary_category: networking_switching_nic_dpu
+  secondary_categories: []
+  technology_tags:
+  - AI_networking
+  - CXL
+  - SuperNIC
+  one_line_summary: High-bandwidth networking and memory fabric for accelerated computing.
+  investor_summary: Enfabrica addresses a strategically important bottleneck in networking, switching, nic, and
+    dpu. Its core investment case is a converged fabric architecture targets scale-out, scale-up, and memory movement
+    in gpu clusters. The underwriting focus should be repeatable customer adoption, production readiness, software
+    integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in networking, switching, nic, and dpu as incumbent platforms face scaling and cost constraints.
+  solution_summary: Enfabrica offers high-bandwidth networking and memory fabric for accelerated computing through
+    ACF-S and ACF SuperNIC.
+  product_profile:
+    products:
+    - product_name: ACF-S and ACF SuperNIC
+      product_type: High-bandwidth networking and memory fabric for accelerated computing
+      product_status: announced
+      target_workloads:
+      - AI_networking
+      - CXL
+      - SuperNIC
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: High-bandwidth networking and memory fabric for accelerated computing
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: A converged fabric architecture targets scale-out, scale-up, and memory movement
+      in GPU clusters.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Networking, Switching, NIC, and DPU
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: A converged fabric architecture targets scale-out, scale-up, and memory movement in GPU clusters.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_c
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - Broadcom
+    - Marvell
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 4
+    business_model_quality: 5
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: high_conviction
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in networking, switching, nic, and dpu.
+  sources:
+  - source_id: src_enfabrica_official
+    title: Enfabrica official website
+    url: https://enfabrica.net/
+    publisher: Enfabrica
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: cornelis_001
+  name: Cornelis Networks
+  legal_name: null
+  status: private
+  website: https://www.cornelisnetworks.com/
+  hq:
+    city: Wayne
+    state: Pennsylvania
+    country: United States
+  founded_year: 2020
+  primary_category: networking_switching_nic_dpu
+  secondary_categories: []
+  technology_tags:
+  - HPC_networking
+  - AI_networking
+  - fabric
+  one_line_summary: HPC and AI interconnect adapters, switches, and software.
+  investor_summary: Cornelis Networks addresses a strategically important bottleneck in networking, switching, nic,
+    and dpu. Its core investment case is end-to-end fabric stack is optimized for tightly coupled hpc and ai clusters.
+    The underwriting focus should be repeatable customer adoption, production readiness, software integration, and
+    capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in networking, switching, nic, and dpu as incumbent platforms face scaling and cost constraints.
+  solution_summary: Cornelis Networks offers hpc and ai interconnect adapters, switches, and software through Omni-Path
+    Express.
+  product_profile:
+    products:
+    - product_name: Omni-Path Express
+      product_type: HPC and AI interconnect adapters, switches, and software
+      product_status: shipping
+      target_workloads:
+      - HPC_networking
+      - AI_networking
+      - fabric
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: HPC and AI interconnect adapters, switches, and software
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: End-to-end fabric stack is optimized for tightly coupled HPC and AI clusters.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Networking, Switching, NIC, and DPU
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: End-to-end fabric stack is optimized for tightly coupled HPC and AI clusters.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Intel
+    - NVIDIA
+    - HPE
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 4
+    technical_differentiation: 4
+    founder_quality: 5
+    customer_pull: 4
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 4
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in networking, switching, nic, and dpu.
+  sources:
+  - source_id: src_cornelis_official
+    title: Cornelis Networks official website
+    url: https://www.cornelisnetworks.com/
+    publisher: Cornelis Networks
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: asterfusion_001
+  name: Asterfusion
+  legal_name: null
+  status: private
+  website: https://www.asterfusion.com/
+  hq:
+    city: Beijing
+    state: null
+    country: China
+  founded_year: 2017
+  primary_category: networking_switching_nic_dpu
+  secondary_categories: []
+  technology_tags:
+  - DPU
+  - SmartNIC
+  - Ethernet
+  one_line_summary: Open-networking switches and SmartNIC/DPU systems.
+  investor_summary: Asterfusion addresses a strategically important bottleneck in networking, switching, nic, and
+    dpu. Its core investment case is combines merchant silicon, open networking software, and programmable infrastructure
+    products. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in networking, switching, nic, and dpu as incumbent platforms face scaling and cost constraints.
+  solution_summary: Asterfusion offers open-networking switches and smartnic/dpu systems through Helium and CX-N
+    series.
+  product_profile:
+    products:
+    - product_name: Helium and CX-N series
+      product_type: Open-networking switches and SmartNIC/DPU systems
+      product_status: shipping
+      target_workloads:
+      - DPU
+      - SmartNIC
+      - Ethernet
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Open-networking switches and SmartNIC/DPU systems
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Combines merchant silicon, open networking software, and programmable infrastructure
+      products.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Networking, Switching, NIC, and DPU
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Combines merchant silicon, open networking software, and programmable infrastructure products.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - H3C
+    - Broadcom
+    - Marvell
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 4
+    technical_differentiation: 3
+    founder_quality: 4
+    customer_pull: 3
+    business_model_quality: 4
+    capital_efficiency: 4
+    competitive_intensity: 5
+    exit_potential: 3
+    strategic_scarcity: 3
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in networking, switching, nic, and dpu.
+  sources:
+  - source_id: src_asterfusion_official
+    title: Asterfusion official website
+    url: https://www.asterfusion.com/
+    publisher: Asterfusion
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: nextsilicon_001
+  name: NextSilicon
+  legal_name: null
+  status: private
+  website: https://www.nextsilicon.com/
+  hq:
+    city: Givatayim
+    state: null
+    country: Israel
+  founded_year: 2018
+  primary_category: networking_switching_nic_dpu
+  secondary_categories: []
+  technology_tags:
+  - HPC
+  - dataflow
+  - adaptive_compute
+  one_line_summary: Intelligent compute acceleration for HPC.
+  investor_summary: NextSilicon addresses a strategically important bottleneck in networking, switching, nic, and
+    dpu. Its core investment case is software-defined accelerator architecture adapts execution resources to application
+    behavior. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in networking, switching, nic, and dpu as incumbent platforms face scaling and cost constraints.
+  solution_summary: NextSilicon offers intelligent compute acceleration for hpc through Maverick-2.
+  product_profile:
+    products:
+    - product_name: Maverick-2
+      product_type: Intelligent compute acceleration for HPC
+      product_status: sampling
+      target_workloads:
+      - HPC
+      - dataflow
+      - adaptive_compute
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Intelligent compute acceleration for HPC
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Software-defined accelerator architecture adapts execution resources to application
+      behavior.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Networking, Switching, NIC, and DPU
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Software-defined accelerator architecture adapts execution resources to application behavior.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - Intel
+    - HPE
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 4
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in networking, switching, nic, and dpu.
+  sources:
+  - source_id: src_nextsilicon_official
+    title: NextSilicon official website
+    url: https://www.nextsilicon.com/
+    publisher: NextSilicon
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.

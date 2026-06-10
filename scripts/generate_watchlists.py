@@ -8,6 +8,7 @@ from typing import Any, Dict, List
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.common import RESEARCH_DIR, ROOT, all_companies, load_yaml, markdown_table, ranked_companies, score_value
+from scripts.score_companies import score_report
 
 VIEWS = ROOT / "docs" / "views"
 
@@ -33,6 +34,7 @@ def write_view(filename: str, title: str, intro: str, body: str) -> None:
 
 def generate_watchlists() -> None:
     companies = ranked_companies(all_companies())
+    report = score_report()
     priority = lambda value: [
         c for c in companies if c.get("strategic_scoring", {}).get("overall_vc_priority") == value
     ]
@@ -95,6 +97,26 @@ def generate_watchlists() -> None:
     missing = [c for c in companies if not c.get("sources") or c.get("data_quality", {}).get("missing_fields")]
     write_view("companies_missing_sources.md", "Companies Missing Sources",
                "Records needing source or field completion.", company_table(missing))
+    write_view(
+        "high_risk_high_upside.md", "High Risk / High Upside",
+        "Companies with strong technical differentiation and low capital-efficiency scores.",
+        company_table(report["high_risk_high_upside"]),
+    )
+    write_view(
+        "technical_strength_commercial_gap.md", "Technical Strength / Commercial Gap",
+        "Companies scoring highly on technical differentiation but weakly on recorded customer pull.",
+        company_table(report["technical_strength_commercial_gap"]),
+    )
+    write_view(
+        "traction_without_clear_moat.md", "Traction Without Clear Technical Moat",
+        "Companies with strong customer pull but a low technical-differentiation score.",
+        company_table(report["traction_without_clear_moat"]),
+    )
+    write_view(
+        "missing_diligence_items.md", "Companies Missing Diligence Items",
+        "Companies with incomplete scorecards or explicitly recorded data gaps.",
+        company_table(report["missing_diligence"]),
+    )
 
 
 def main() -> int:

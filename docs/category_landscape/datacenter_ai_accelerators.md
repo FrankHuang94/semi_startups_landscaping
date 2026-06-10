@@ -2,7 +2,7 @@
 
 Last refreshed: 2026-06-10  
 Refresh scope: full  
-Number of companies: 1
+Number of companies: 4
 
 ## VC Summary
 
@@ -13,22 +13,113 @@ Large and strategically important market with strong demand, high capital requir
 
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Example AI Accelerator Placeholder | unknown | - | Placeholder record demonstrating the company schema. | - |  | monitor | 2026-06-10 |
+| Tenstorrent | growth | Santa Clara, California, United States | Scalable AI processors using RISC-V control cores and a spatial dataflow fabric. | - |  | active_diligence | 2026-06-10 |
+| Cerebras Systems | late_stage | Sunnyvale, California, United States | Wafer-scale processor and integrated AI systems. | - |  | watchlist | 2026-06-10 |
+| SambaNova Systems | growth | Palo Alto, California, United States | Reconfigurable dataflow units delivered as systems and cloud services. | - |  | watchlist | 2026-06-10 |
+| MatX | series_a | Mountain View, California, United States | Purpose-built accelerator architecture for large generative models. | - |  | watchlist | 2026-06-10 |
 
 ## Top Watchlist Names
 
-1. Example AI Accelerator Placeholder
+1. Tenstorrent
+2. Cerebras Systems
+3. SambaNova Systems
+4. MatX
+
+## Category Underwriting
+
+- **Timing:** Large and strategically important market with strong demand, high capital requirements, difficult software adoption, and intense incumbent and hyperscaler competition.
+
+- **Primary proof point:** Production workload advantage that survives software, system, and integration overhead.
+- **Commercial proof point:** Referenceable deployment, repeat order, or awarded design win with an economic path to scale.
+- **Financing risk:** Semiconductor milestones often require capital before revenue evidence; model downside dilution explicitly.
+- **Exit test:** Identify the strategic roadmap gap and likely buyer before underwriting M&A as a base case.
 
 ## Company Profiles
 
-### Example AI Accelerator Placeholder
+### Tenstorrent
 
-**Summary:** Example only. Replace this record with a source-backed company profile during the first datacenter accelerator category refresh.
+**Summary:** Tenstorrent addresses a strategically important bottleneck in datacenter ai accelerators. Its core investment case is combines ai accelerator silicon, risc-v cpu ip, open software, and licensing flexibility. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
 
+**Product / architecture:** Scalable AI processors using RISC-V control cores and a spatial dataflow fabric.
 
-**Differentiation:** Research required.
+**Differentiation:** Combines AI accelerator silicon, RISC-V CPU IP, open software, and licensing flexibility.
 
-**Key diligence:** Replace placeholder with a source-backed company record.
+**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+
+**VC view:** active_diligence at growth stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
+
+**Scorecard:** market size 5/5, timing 5/5, technical differentiation 5/5, founder quality 5/5, customer pull 3/5, business model quality 4/5, capital efficiency 3/5, competitive intensity 5/5, exit potential 5/5, strategic scarcity 5/5
+
+**Potential acquirers:** AMD, Arm, Samsung
+
+**Key diligence:** What is shipping today, at what volume, and with which production customers?; Which measured workload shows a durable advantage after software and system overhead?; What capital and supply commitments are required before the next commercial proof point?
+
+**Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
+
+**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+### Cerebras Systems
+
+**Summary:** Cerebras Systems addresses a strategically important bottleneck in datacenter ai accelerators. Its core investment case is wafer-scale compute combines a very large on-chip fabric and sram with a vertically integrated system stack. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
+
+**Product / architecture:** Wafer-scale processor and integrated AI systems.
+
+**Differentiation:** Wafer-scale compute combines a very large on-chip fabric and SRAM with a vertically integrated system stack.
+
+**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+
+**VC view:** watchlist at late_stage stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
+
+**Scorecard:** market size 5/5, timing 5/5, technical differentiation 5/5, founder quality 5/5, customer pull 5/5, business model quality 4/5, capital efficiency 2/5, competitive intensity 5/5, exit potential 5/5, strategic scarcity 5/5
+
+**Potential acquirers:** NVIDIA, AMD, Broadcom
+
+**Key diligence:** What is shipping today, at what volume, and with which production customers?; Which measured workload shows a durable advantage after software and system overhead?; What capital and supply commitments are required before the next commercial proof point?
+
+**Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
+
+**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+### SambaNova Systems
+
+**Summary:** SambaNova Systems addresses a strategically important bottleneck in datacenter ai accelerators. Its core investment case is full-stack dataflow architecture targets enterprise ai deployment with integrated models, software, and systems. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
+
+**Product / architecture:** Reconfigurable dataflow units delivered as systems and cloud services.
+
+**Differentiation:** Full-stack dataflow architecture targets enterprise AI deployment with integrated models, software, and systems.
+
+**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+
+**VC view:** watchlist at growth stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
+
+**Scorecard:** market size 5/5, timing 4/5, technical differentiation 4/5, founder quality 5/5, customer pull 3/5, business model quality 3/5, capital efficiency 2/5, competitive intensity 5/5, exit potential 4/5, strategic scarcity 4/5
+
+**Potential acquirers:** NVIDIA, AMD, Oracle
+
+**Key diligence:** What is shipping today, at what volume, and with which production customers?; Which measured workload shows a durable advantage after software and system overhead?; What capital and supply commitments are required before the next commercial proof point?
+
+**Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
+
+**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+### MatX
+
+**Summary:** MatX addresses a strategically important bottleneck in datacenter ai accelerators. Its core investment case is focused team and architecture target transformer-scale workloads rather than broad gpu compatibility. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
+
+**Product / architecture:** Purpose-built accelerator architecture for large generative models.
+
+**Differentiation:** Focused team and architecture target transformer-scale workloads rather than broad GPU compatibility.
+
+**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+
+**VC view:** watchlist at series_a stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
+
+**Scorecard:** market size 5/5, timing 5/5, technical differentiation 4/5, founder quality 5/5, customer pull 2/5, business model quality 3/5, capital efficiency 2/5, competitive intensity 5/5, exit potential 4/5, strategic scarcity 4/5
+
+**Potential acquirers:** NVIDIA, AMD, Broadcom
+
+**Key diligence:** What is shipping today, at what volume, and with which production customers?; Which measured workload shows a durable advantage after software and system overhead?; What capital and supply commitments are required before the next commercial proof point?
+
+**Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
+
+**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
 
 ## Diligence Questions
 
@@ -43,8 +134,11 @@ Large and strategically important market with strong demand, high capital requir
 
 ## Key Sources
 
-No sources recorded yet.
+- [Tenstorrent official website](https://tenstorrent.com/)
+- [Cerebras Systems official website](https://www.cerebras.ai/)
+- [SambaNova Systems official website](https://sambanova.ai/)
+- [MatX official website](https://matx.com/)
 
 ## Refresh Notes
 
-Initial schema and placeholder seed.
+Replaced empty scaffold with 4 source-backed baseline profiles.

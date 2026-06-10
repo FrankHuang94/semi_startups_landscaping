@@ -1,1 +1,761 @@
-[]
+- company_id: sifive_001
+  name: SiFive
+  legal_name: null
+  status: private
+  website: https://www.sifive.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  founded_year: 2015
+  primary_category: riscv_processor_ip
+  secondary_categories: []
+  technology_tags:
+  - RISC-V
+  - processor_IP
+  - vector
+  one_line_summary: Configurable RISC-V processor IP and development platforms.
+  investor_summary: SiFive addresses a strategically important bottleneck in risc-v and processor ip. Its core investment
+    case is broad risc-v ip portfolio, tooling, and ecosystem position support custom soc adoption. The underwriting
+    focus should be repeatable customer adoption, production readiness, software integration, and capital required
+    to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in risc-v and processor ip as incumbent platforms face scaling and cost constraints.
+  solution_summary: SiFive offers configurable risc-v processor ip and development platforms through Performance
+    and Intelligence processor IP.
+  product_profile:
+    products:
+    - product_name: Performance and Intelligence processor IP
+      product_type: Configurable RISC-V processor IP and development platforms
+      product_status: shipping
+      target_workloads:
+      - RISC-V
+      - processor_IP
+      - vector
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Configurable RISC-V processor IP and development platforms
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Broad RISC-V IP portfolio, tooling, and ecosystem position support custom SoC adoption.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: RISC-V and Processor IP
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Broad RISC-V IP portfolio, tooling, and ecosystem position support custom SoC adoption.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: medium
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Intel
+    - Arm
+    - Synopsys
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 4
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 5
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in risc-v and processor ip.
+  sources:
+  - source_id: src_sifive_official
+    title: SiFive official website
+    url: https://www.sifive.com/
+    publisher: SiFive
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: codasip_001
+  name: Codasip
+  legal_name: null
+  status: private
+  website: https://codasip.com/
+  hq:
+    city: Munich
+    state: null
+    country: Germany
+  founded_year: 2014
+  primary_category: riscv_processor_ip
+  secondary_categories: []
+  technology_tags:
+  - RISC-V
+  - processor_IP
+  - custom_instructions
+  one_line_summary: Customizable RISC-V processor IP and design tools.
+  investor_summary: Codasip addresses a strategically important bottleneck in risc-v and processor ip. Its core
+    investment case is architecture customization tools allow customers to create application-specific processor
+    extensions. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in risc-v and processor ip as incumbent platforms face scaling and cost constraints.
+  solution_summary: Codasip offers customizable risc-v processor ip and design tools through Codasip Studio and
+    RISC-V cores.
+  product_profile:
+    products:
+    - product_name: Codasip Studio and RISC-V cores
+      product_type: Customizable RISC-V processor IP and design tools
+      product_status: shipping
+      target_workloads:
+      - RISC-V
+      - processor_IP
+      - custom_instructions
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Customizable RISC-V processor IP and design tools
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Architecture customization tools allow customers to create application-specific processor
+      extensions.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: RISC-V and Processor IP
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Architecture customization tools allow customers to create application-specific processor extensions.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: medium
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Synopsys
+    - Cadence
+    - Arm
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in risc-v and processor ip.
+  sources:
+  - source_id: src_codasip_official
+    title: Codasip official website
+    url: https://codasip.com/
+    publisher: Codasip
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: mips_001
+  name: MIPS
+  legal_name: null
+  status: private
+  website: https://mips.com/
+  hq:
+    city: San Jose
+    state: California
+    country: United States
+  founded_year: 1984
+  primary_category: riscv_processor_ip
+  secondary_categories: []
+  technology_tags:
+  - RISC-V
+  - processor_IP
+  - automotive
+  one_line_summary: RISC-V processor IP for automotive, embedded, and datacenter markets.
+  investor_summary: MIPS addresses a strategically important bottleneck in risc-v and processor ip. Its core investment
+    case is established processor-ip team is repositioning around configurable risc-v implementations. The underwriting
+    focus should be repeatable customer adoption, production readiness, software integration, and capital required
+    to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in risc-v and processor ip as incumbent platforms face scaling and cost constraints.
+  solution_summary: MIPS offers risc-v processor ip for automotive, embedded, and datacenter markets through MIPS
+    Atlas portfolio.
+  product_profile:
+    products:
+    - product_name: MIPS Atlas portfolio
+      product_type: RISC-V processor IP for automotive, embedded, and datacenter markets
+      product_status: sampling
+      target_workloads:
+      - RISC-V
+      - processor_IP
+      - automotive
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: RISC-V processor IP for automotive, embedded, and datacenter markets
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Established processor-IP team is repositioning around configurable RISC-V implementations.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: RISC-V and Processor IP
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Established processor-IP team is repositioning around configurable RISC-V implementations.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: medium
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Synopsys
+    - Cadence
+    - Arm
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 4
+    technical_differentiation: 4
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 4
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in risc-v and processor ip.
+  sources:
+  - source_id: src_mips_official
+    title: MIPS official website
+    url: https://mips.com/
+    publisher: MIPS
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: semidynamics_001
+  name: Semidynamics
+  legal_name: null
+  status: private
+  website: https://semidynamics.com/
+  hq:
+    city: Barcelona
+    state: null
+    country: Spain
+  founded_year: 2016
+  primary_category: riscv_processor_ip
+  secondary_categories: []
+  technology_tags:
+  - RISC-V
+  - vector
+  - processor_IP
+  one_line_summary: Customizable high-bandwidth RISC-V processor IP.
+  investor_summary: Semidynamics addresses a strategically important bottleneck in risc-v and processor ip. Its
+    core investment case is vector, tensor, and memory-streaming options target ai and data-intensive custom processors.
+    The underwriting focus should be repeatable customer adoption, production readiness, software integration, and
+    capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in risc-v and processor ip as incumbent platforms face scaling and cost constraints.
+  solution_summary: Semidynamics offers customizable high-bandwidth risc-v processor ip through Atrevido and Avispado.
+  product_profile:
+    products:
+    - product_name: Atrevido and Avispado
+      product_type: Customizable high-bandwidth RISC-V processor IP
+      product_status: announced
+      target_workloads:
+      - RISC-V
+      - vector
+      - processor_IP
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Customizable high-bandwidth RISC-V processor IP
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Vector, tensor, and memory-streaming options target AI and data-intensive custom
+      processors.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: RISC-V and Processor IP
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Vector, tensor, and memory-streaming options target AI and data-intensive custom processors.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_a
+    venture_scale_potential: medium
+    capital_intensity: medium
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Synopsys
+    - Cadence
+    - SiFive
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in risc-v and processor ip.
+  sources:
+  - source_id: src_semidynamics_official
+    title: Semidynamics official website
+    url: https://semidynamics.com/
+    publisher: Semidynamics
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.

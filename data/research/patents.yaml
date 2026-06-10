@@ -1,35 +1,367 @@
-- patent_id: example_patent_001
-  title: Example Patent Placeholder
-  patent_number: null
+- patent_id: patent_cerebras_descriptors
+  title: Data structure descriptors for deep learning acceleration
+  patent_number: US11727257B2
   application_number: null
-  jurisdiction: null
-  filing_date: null
+  jurisdiction: US
+  filing_date: '2022-01-24'
   publication_date: null
-  grant_date: null
-  assignee: null
-  inventors: []
+  grant_date: '2023-08-15'
+  assignee: Cerebras Systems
+  inventors:
+  - Sean Lie
   research_category:
-    - optical_interconnect_photonics_dsp
-  technology_tags:
-    - TODO_research
-  patent_summary: Placeholder only.
-  claimed_invention_summary: null
-  investor_relevance: Replace with a source-backed patent during a patent refresh.
+  - datacenter_ai_accelerators
+  technology_tags: &id001
+  - wafer_scale
+  - compiler
+  patent_summary: Describes data descriptors used to map deep-learning work onto an accelerator.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around wafer_scale, compiler and may indicate strategic IP
+    depth.
   possible_company_relationship:
     company_id: null
-    relationship_type: unknown
+    relationship_type: assignee
   commercialization_signal:
-    score: null
-    rationale: null
-    possible_product_areas: []
+    score: 4
+    rationale: Describes data descriptors used to map deep-learning work onto an accelerator.
+    possible_product_areas: *id001
   patent_strength_estimate:
     breadth: unknown
-    relevance: unknown
-    notes: null
+    relevance: medium
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
   related_papers: []
   related_researchers: []
-  sources: []
+  sources:
+  - source_id: src_patent_cerebras_descriptors
+    title: 'US11727257B2: Data structure descriptors for deep learning acceleration'
+    url: https://patents.google.com/patent/US11727257B2/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
   data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example; not a real patent record.
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_cerebras_redundancy
+  title: Processor element redundancy for accelerated deep learning
+  patent_number: US11328208B2
+  application_number: null
+  jurisdiction: US
+  filing_date: '2019-08-27'
+  publication_date: null
+  grant_date: '2022-05-10'
+  assignee: Cerebras Systems
+  inventors:
+  - Sean Lie
+  research_category:
+  - datacenter_ai_accelerators
+  technology_tags: &id002
+  - wafer_scale
+  - yield
+  - fault_tolerance
+  patent_summary: Covers redundancy techniques important to practical wafer-scale manufacturing.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around wafer_scale, yield, fault_tolerance and may indicate
+    strategic IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Covers redundancy techniques important to practical wafer-scale manufacturing.
+    possible_product_areas: *id002
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_cerebras_redundancy
+    title: 'US11328208B2: Processor element redundancy for accelerated deep learning'
+    url: https://patents.google.com/patent/US11328208B2/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_ayar_polarization
+  title: Optical Input Polarization Management Device and Associated Methods
+  patent_number: US20230161106A1
+  application_number: null
+  jurisdiction: US
+  filing_date: '2023-01-19'
+  publication_date: null
+  grant_date: null
+  assignee: Ayar Labs
+  inventors:
+  - Pavan Bhargava
+  research_category:
+  - optical_interconnect_photonics_dsp
+  technology_tags: &id003
+  - optical_io
+  - silicon_photonics
+  patent_summary: Addresses polarization management in optical input paths.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around optical_io, silicon_photonics and may indicate strategic
+    IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 4
+    rationale: Addresses polarization management in optical input paths.
+    possible_product_areas: *id003
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: medium
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_ayar_polarization
+    title: 'US20230161106A1: Optical Input Polarization Management Device and Associated Methods'
+    url: https://patents.google.com/patent/US20230161106A1/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_ayar_vertical
+  title: Vertical Integrated Photonics Chiplet for In-Package Optical Interconnect
+  patent_number: US20240176081A1
+  application_number: null
+  jurisdiction: US
+  filing_date: '2024-02-05'
+  publication_date: null
+  grant_date: null
+  assignee: Ayar Labs
+  inventors:
+  - Chong Zhang
+  research_category:
+  - optical_interconnect_photonics_dsp
+  - advanced_packaging_chiplets_substrates
+  technology_tags: &id004
+  - optical_io
+  - chiplet
+  - advanced_packaging
+  patent_summary: Describes vertically integrated photonic chiplets for in-package optical links.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around optical_io, chiplet, advanced_packaging and may indicate
+    strategic IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Describes vertically integrated photonic chiplets for in-package optical links.
+    possible_product_areas: *id004
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_ayar_vertical
+    title: 'US20240176081A1: Vertical Integrated Photonics Chiplet for In-Package Optical Interconnect'
+    url: https://patents.google.com/patent/US20240176081A1/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_eliyan_usr
+  title: Low cost solution for 2.5D and 3D packaging using USR chiplets
+  patent_number: US12494469B1
+  application_number: null
+  jurisdiction: US
+  filing_date: '2023-05-23'
+  publication_date: null
+  grant_date: '2025-12-09'
+  assignee: Eliyan
+  inventors:
+  - Mohsen F. Rad
+  research_category:
+  - custom_asic_chiplets
+  - advanced_packaging_chiplets_substrates
+  technology_tags: &id005
+  - chiplet
+  - die_to_die
+  - advanced_packaging
+  patent_summary: Covers chiplet connectivity intended to reduce advanced-packaging cost.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around chiplet, die_to_die, advanced_packaging and may indicate
+    strategic IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Covers chiplet connectivity intended to reduce advanced-packaging cost.
+    possible_product_areas: *id005
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_eliyan_usr
+    title: 'US12494469B1: Low cost solution for 2.5D and 3D packaging using USR chiplets'
+    url: https://patents.google.com/patent/US12494469B1/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_eliyan_gearbox
+  title: Chiplet gearbox for low-cost multi-chip module applications
+  patent_number: US12248421B1
+  application_number: null
+  jurisdiction: US
+  filing_date: '2023-12-12'
+  publication_date: null
+  grant_date: '2025-03-11'
+  assignee: Eliyan
+  inventors:
+  - Ramin Farjadrad
+  research_category:
+  - custom_asic_chiplets
+  technology_tags: &id006
+  - chiplet
+  - die_to_die
+  patent_summary: Describes gearbox techniques for multi-chip module links.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around chiplet, die_to_die and may indicate strategic IP
+    depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Describes gearbox techniques for multi-chip module links.
+    possible_product_areas: *id006
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_eliyan_gearbox
+    title: 'US12248421B1: Chiplet gearbox for low-cost multi-chip module applications'
+    url: https://patents.google.com/patent/US12248421B1/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_lightmatter_linear
+  title: Linear photonic processors and related methods
+  patent_number: US11768662B1
+  application_number: null
+  jurisdiction: US
+  filing_date: '2023-02-17'
+  publication_date: null
+  grant_date: '2023-09-26'
+  assignee: Lightmatter
+  inventors:
+  - Nicholas C. Harris
+  research_category:
+  - optical_interconnect_photonics_dsp
+  - datacenter_ai_accelerators
+  technology_tags: &id007
+  - photonic_compute
+  - silicon_photonics
+  patent_summary: Covers linear operations implemented using photonic processors.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around photonic_compute, silicon_photonics and may indicate
+    strategic IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Covers linear operations implemented using photonic processors.
+    possible_product_areas: *id007
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_lightmatter_linear
+    title: 'US11768662B1: Linear photonic processors and related methods'
+    url: https://patents.google.com/patent/US11768662B1/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- patent_id: patent_lightmatter_matmul
+  title: Matrix multiplication using optical processing
+  patent_number: US12174656B2
+  application_number: null
+  jurisdiction: US
+  filing_date: '2023-11-09'
+  publication_date: null
+  grant_date: '2024-12-24'
+  assignee: Lightmatter
+  inventors:
+  - Darius Bunandar
+  research_category:
+  - optical_interconnect_photonics_dsp
+  - datacenter_ai_accelerators
+  technology_tags: &id008
+  - photonic_compute
+  - matrix_multiplication
+  patent_summary: Covers optical techniques for matrix multiplication.
+  claimed_invention_summary: Plain-English directional summary only; review the claims and prosecution history for
+    legal analysis.
+  investor_relevance: The family is a technical signal around photonic_compute, matrix_multiplication and may indicate
+    strategic IP depth.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: assignee
+  commercialization_signal:
+    score: 5
+    rationale: Covers optical techniques for matrix multiplication.
+    possible_product_areas: *id008
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: high
+    notes: No legal opinion, validity assessment, or freedom-to-operate conclusion is provided.
+  related_papers: []
+  related_researchers: []
+  sources:
+  - source_id: src_patent_lightmatter_matmul
+    title: 'US12174656B2: Matrix multiplication using optical processing'
+    url: https://patents.google.com/patent/US12174656B2/en
+    publisher: Google Patents / USPTO publication
+    date_accessed: '2026-06-10'
+    source_type: patent
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'

@@ -1,15 +1,15 @@
-- transaction_id: example_txn_001
-  target_company: Example Transaction Placeholder
+- transaction_id: txn_amd_seamicro
+  target_company: SeaMicro
   target_company_id: null
-  acquirer: null
-  acquirer_type: unknown
-  target_categories:
-    - datacenter_ai_accelerators
-  announcement_date: null
-  close_date: null
-  transaction_status: unknown
-  transaction_value_usd_m: null
-  consideration_type: unknown
+  acquirer: AMD
+  acquirer_type: strategic
+  target_categories: &id001
+  - datacenter_cpu_server_soc
+  announcement_date: '2012-02-29'
+  close_date: '2012-03-23'
+  transaction_status: closed
+  transaction_value_usd_m: 334.0
+  consideration_type: cash
   target_profile_at_acquisition:
     stage: null
     estimated_revenue: null
@@ -17,15 +17,453 @@
     employee_count: null
     funding_raised_usd_m: null
     key_investors: []
-  strategic_rationale: null
-  technology_rationale: null
-  buyer_gap_filled: null
-  exit_readthrough_for_vc: null
-  valuation_readthrough: null
-  likely_comparable_for:
-    - datacenter_ai_accelerators
-  sources: []
+  strategic_rationale: Added dense low-power server systems and fabric technology.
+  technology_rationale: Added dense low-power server systems and fabric technology.
+  buyer_gap_filled: Added dense low-power server systems and fabric technology.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id001
+  sources:
+  - source_id: src_txn_amd_seamicro
+    title: AMD transaction announcement for SeaMicro
+    url: https://www.amd.com/en/newsroom/press-releases/2012-2-29-amd-to-acquire-seamicro.html
+    publisher: AMD
+    date_published: '2012-02-29'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example; not a real transaction.
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_intel_habana
+  target_company: Habana Labs
+  target_company_id: null
+  acquirer: Intel
+  acquirer_type: strategic
+  target_categories: &id002
+  - datacenter_ai_accelerators
+  announcement_date: '2019-12-16'
+  close_date: '2019-12-16'
+  transaction_status: closed
+  transaction_value_usd_m: 2000.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added dedicated training and inference accelerator silicon and software.
+  technology_rationale: Added dedicated training and inference accelerator silicon and software.
+  buyer_gap_filled: Added dedicated training and inference accelerator silicon and software.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id002
+  sources:
+  - source_id: src_txn_intel_habana
+    title: Intel transaction announcement for Habana Labs
+    url: https://www.intel.com/content/www/us/en/newsroom/news/intel-acquires-habana-labs.html
+    publisher: Intel
+    date_published: '2019-12-16'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_nvidia_mellanox
+  target_company: Mellanox Technologies
+  target_company_id: null
+  acquirer: NVIDIA
+  acquirer_type: strategic
+  target_categories: &id003
+  - networking_switching_nic_dpu
+  announcement_date: '2019-03-11'
+  close_date: '2020-04-27'
+  transaction_status: closed
+  transaction_value_usd_m: 6900.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Combined accelerated compute with high-performance networking.
+  technology_rationale: Combined accelerated compute with high-performance networking.
+  buyer_gap_filled: Combined accelerated compute with high-performance networking.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id003
+  sources:
+  - source_id: src_txn_nvidia_mellanox
+    title: NVIDIA transaction announcement for Mellanox Technologies
+    url: https://nvidianews.nvidia.com/news/nvidia-to-acquire-mellanox-for-6-9-billion
+    publisher: NVIDIA
+    date_published: '2019-03-11'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_amd_xilinx
+  target_company: Xilinx
+  target_company_id: null
+  acquirer: AMD
+  acquirer_type: strategic
+  target_categories: &id004
+  - custom_asic_chiplets
+  - datacenter_ai_accelerators
+  announcement_date: '2020-10-27'
+  close_date: '2022-02-14'
+  transaction_status: closed
+  transaction_value_usd_m: 35000.0
+  consideration_type: stock
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added adaptive compute, FPGA, embedded, and datacenter capabilities.
+  technology_rationale: Added adaptive compute, FPGA, embedded, and datacenter capabilities.
+  buyer_gap_filled: Added adaptive compute, FPGA, embedded, and datacenter capabilities.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id004
+  sources:
+  - source_id: src_txn_amd_xilinx
+    title: AMD transaction announcement for Xilinx
+    url: https://www.amd.com/en/newsroom/press-releases/2020-10-27-amd-to-acquire-xilinx-creating-the-industry-s-h.html
+    publisher: AMD
+    date_published: '2020-10-27'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_qualcomm_nuvia
+  target_company: Nuvia
+  target_company_id: null
+  acquirer: Qualcomm
+  acquirer_type: strategic
+  target_categories: &id005
+  - datacenter_cpu_server_soc
+  announcement_date: '2021-01-13'
+  close_date: '2021-03-16'
+  transaction_status: closed
+  transaction_value_usd_m: 1400.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added custom high-performance CPU design talent and IP.
+  technology_rationale: Added custom high-performance CPU design talent and IP.
+  buyer_gap_filled: Added custom high-performance CPU design talent and IP.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id005
+  sources:
+  - source_id: src_txn_qualcomm_nuvia
+    title: Qualcomm transaction announcement for Nuvia
+    url: https://www.qualcomm.com/news/releases/2021/01/qualcomm-acquire-nuvia
+    publisher: Qualcomm
+    date_published: '2021-01-13'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_marvell_innovium
+  target_company: Innovium
+  target_company_id: null
+  acquirer: Marvell
+  acquirer_type: strategic
+  target_categories: &id006
+  - networking_switching_nic_dpu
+  announcement_date: '2021-08-03'
+  close_date: '2021-10-05'
+  transaction_status: closed
+  transaction_value_usd_m: 1100.0
+  consideration_type: stock
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added cloud-optimized Ethernet switch silicon.
+  technology_rationale: Added cloud-optimized Ethernet switch silicon.
+  buyer_gap_filled: Added cloud-optimized Ethernet switch silicon.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id006
+  sources:
+  - source_id: src_txn_marvell_innovium
+    title: Marvell transaction announcement for Innovium
+    url: https://www.marvell.com/company/newsroom/marvell-to-acquire-innovium.html
+    publisher: Marvell
+    date_published: '2021-08-03'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_amd_pensando
+  target_company: Pensando Systems
+  target_company_id: null
+  acquirer: AMD
+  acquirer_type: strategic
+  target_categories: &id007
+  - networking_switching_nic_dpu
+  announcement_date: '2022-04-04'
+  close_date: '2022-05-26'
+  transaction_status: closed
+  transaction_value_usd_m: 1900.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added distributed services cards, DPUs, and infrastructure software.
+  technology_rationale: Added distributed services cards, DPUs, and infrastructure software.
+  buyer_gap_filled: Added distributed services cards, DPUs, and infrastructure software.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id007
+  sources:
+  - source_id: src_txn_amd_pensando
+    title: AMD transaction announcement for Pensando Systems
+    url: https://www.amd.com/en/newsroom/press-releases/2022-4-4-amd-to-acquire-pensando-for-approximately-1-9-bil.html
+    publisher: AMD
+    date_published: '2022-04-04'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_softbank_graphcore
+  target_company: Graphcore
+  target_company_id: null
+  acquirer: SoftBank Group
+  acquirer_type: strategic
+  target_categories: &id008
+  - datacenter_ai_accelerators
+  announcement_date: '2024-07-11'
+  close_date: '2024-07-11'
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  technology_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  buyer_gap_filled: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id008
+  sources:
+  - source_id: src_txn_softbank_graphcore
+    title: SoftBank Group transaction announcement for Graphcore
+    url: https://group.softbank/en/news/press/20240711
+    publisher: SoftBank Group
+    date_published: '2024-07-11'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_synopsys_ansys
+  target_company: Ansys
+  target_company_id: null
+  acquirer: Synopsys
+  acquirer_type: strategic
+  target_categories: &id009
+  - eda_compilers_runtimes_devtools
+  announcement_date: '2024-01-16'
+  close_date: '2025-07-17'
+  transaction_status: closed
+  transaction_value_usd_m: 35000.0
+  consideration_type: cash_stock
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Combined chip design automation with multiphysics simulation.
+  technology_rationale: Combined chip design automation with multiphysics simulation.
+  buyer_gap_filled: Combined chip design automation with multiphysics simulation.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id009
+  sources:
+  - source_id: src_txn_synopsys_ansys
+    title: Synopsys transaction announcement for Ansys
+    url: https://news.synopsys.com/2024-01-16-Synopsys-to-Acquire-Ansys
+    publisher: Synopsys
+    date_published: '2024-01-16'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_renesas_altium
+  target_company: Altium
+  target_company_id: null
+  acquirer: Renesas Electronics
+  acquirer_type: strategic
+  target_categories: &id010
+  - eda_compilers_runtimes_devtools
+  announcement_date: '2024-02-15'
+  close_date: '2024-08-01'
+  transaction_status: closed
+  transaction_value_usd_m: 5900.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added cloud electronics design software and a component-to-system platform.
+  technology_rationale: Added cloud electronics design software and a component-to-system platform.
+  buyer_gap_filled: Added cloud electronics design software and a component-to-system platform.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id010
+  sources:
+  - source_id: src_txn_renesas_altium
+    title: Renesas Electronics transaction announcement for Altium
+    url: https://www.renesas.com/us/en/about/press-room/renesas-acquire-altium
+    publisher: Renesas Electronics
+    date_published: '2024-02-15'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_qualcomm_kandou
+  target_company: Kandou
+  target_company_id: kandou_001
+  acquirer: Qualcomm
+  acquirer_type: strategic
+  target_categories: &id011
+  - pcie_cxl_retimers_connectivity
+  announcement_date: '2024-06-13'
+  close_date: '2024-11-14'
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added high-speed wired connectivity technology and engineering capability.
+  technology_rationale: Added high-speed wired connectivity technology and engineering capability.
+  buyer_gap_filled: Added high-speed wired connectivity technology and engineering capability.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id011
+  sources:
+  - source_id: src_txn_qualcomm_kandou
+    title: Qualcomm transaction announcement for Kandou
+    url: https://www.qualcomm.com/news/releases/2024/11/qualcomm-completes-acquisition-of-kandou
+    publisher: Qualcomm
+    date_published: '2024-06-13'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_softbank_ampere
+  target_company: Ampere Computing
+  target_company_id: ampere_001
+  acquirer: SoftBank Group
+  acquirer_type: strategic
+  target_categories: &id012
+  - datacenter_cpu_server_soc
+  announcement_date: '2025-03-19'
+  close_date: '2025-11-25'
+  transaction_status: closed
+  transaction_value_usd_m: 6500.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added Arm-based cloud CPU capability to SoftBank's AI infrastructure portfolio.
+  technology_rationale: Added Arm-based cloud CPU capability to SoftBank's AI infrastructure portfolio.
+  buyer_gap_filled: Added Arm-based cloud CPU capability to SoftBank's AI infrastructure portfolio.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id012
+  sources:
+  - source_id: src_txn_softbank_ampere
+    title: SoftBank Group transaction announcement for Ampere Computing
+    url: https://group.softbank/en/news/press/20250320
+    publisher: SoftBank Group
+    date_published: '2025-03-19'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'

@@ -1,1 +1,214 @@
-[]
+- partnership_id: partnership_ualink
+  name: UALink Consortium
+  participants:
+  - AMD
+  - Broadcom
+  - Cisco
+  - Google
+  - HPE
+  - Intel
+  - Meta
+  - Microsoft
+  categories:
+  - networking_switching_nic_dpu
+  - custom_asic_chiplets
+  announcement_date: '2024-05-30'
+  strategic_rationale: Open scale-up interconnect initiative for AI accelerator systems.
+  vc_readthrough: Creates startup opportunities in PHYs, switches, retimers, security, validation, and fabric software.
+  sources:
+  - source_id: src_partnership_ualink
+    title: UALink Consortium
+    url: https://www.ualinkconsortium.org/
+    publisher: AMD
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_uec
+  name: Ultra Ethernet Consortium
+  participants:
+  - AMD
+  - Arista
+  - Broadcom
+  - Cisco
+  - HPE
+  - Intel
+  - Meta
+  - Microsoft
+  categories:
+  - networking_switching_nic_dpu
+  announcement_date: '2023-07-19'
+  strategic_rationale: Industry effort to adapt Ethernet for high-performance AI and HPC fabrics.
+  vc_readthrough: Supports open Ethernet challengers in NICs, switching, congestion control, telemetry, and collectives.
+  sources:
+  - source_id: src_partnership_uec
+    title: Ultra Ethernet Consortium
+    url: https://ultraethernet.org/
+    publisher: AMD
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_ucie
+  name: UCIe Consortium
+  participants:
+  - AMD
+  - Arm
+  - ASE
+  - Google Cloud
+  - Intel
+  - Meta
+  - Microsoft
+  - Qualcomm
+  - Samsung
+  - TSMC
+  categories:
+  - custom_asic_chiplets
+  - advanced_packaging_chiplets_substrates
+  announcement_date: '2022-03-02'
+  strategic_rationale: Open die-to-die interconnect standard for interoperable chiplet ecosystems.
+  vc_readthrough: Expands markets for chiplet IP, verification, packaging, test, security, and marketplaces.
+  sources:
+  - source_id: src_partnership_ucie
+    title: UCIe Consortium
+    url: https://www.uciexpress.org/
+    publisher: AMD
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_cxl
+  name: CXL Consortium
+  participants:
+  - AMD
+  - Arm
+  - Broadcom
+  - Cisco
+  - Google
+  - Intel
+  - Meta
+  - Microsoft
+  categories:
+  - memory_hbm_cxl_near_memory
+  - pcie_cxl_retimers_connectivity
+  announcement_date: '2019-03-11'
+  strategic_rationale: Open coherent interconnect ecosystem for processors, memory expansion, and accelerators.
+  vc_readthrough: Creates investable control points in switches, controllers, memory appliances, and orchestration
+    software.
+  sources:
+  - source_id: src_partnership_cxl
+    title: CXL Consortium
+    url: https://computeexpresslink.org/
+    publisher: AMD
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_dmatrix_rack
+  name: d-Matrix SquadRack ecosystem
+  participants:
+  - d-Matrix
+  - Arista Networks
+  - Broadcom
+  - Supermicro
+  categories:
+  - inference_acceleration
+  - networking_switching_nic_dpu
+  announcement_date: '2025-03-18'
+  strategic_rationale: Standards-based rack-scale generative-AI inference system collaboration.
+  vc_readthrough: Signals that inference startups increasingly need complete rack and networking partnerships, not
+    isolated chips.
+  sources:
+  - source_id: src_partnership_dmatrix_rack
+    title: d-Matrix SquadRack ecosystem
+    url: https://www.d-matrix.ai/
+    publisher: d-Matrix
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_ayar_ecosystem
+  name: Ayar Labs joins NVIDIA NVLink Fusion ecosystem
+  participants:
+  - Ayar Labs
+  - NVIDIA
+  categories:
+  - optical_interconnect_photonics_dsp
+  - networking_switching_nic_dpu
+  announcement_date: '2026-06-02'
+  strategic_rationale: Makes Ayar Labs co-packaged optics electrically and optically compatible with NVIDIA NVLink
+    Fusion technologies.
+  vc_readthrough: Validates a route for optical I/O inside a major rack-scale AI ecosystem while preserving integration
+    and timing risk.
+  sources:
+  - source_id: src_partnership_ayar_ecosystem
+    title: Ayar Labs joins NVIDIA NVLink Fusion ecosystem
+    url: https://ayarlabs.com/news/ayar-labs-joins-nvidia-nvlink-fusion-ecosystem-to-bring-co-packaged-optics-to-rack-scale-ai-infrastructure/
+    publisher: Ayar Labs
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_riscv
+  name: RISC-V International ecosystem
+  participants:
+  - Google
+  - Intel
+  - NVIDIA
+  - Qualcomm
+  - Samsung
+  - SiFive
+  categories:
+  - riscv_processor_ip
+  - datacenter_cpu_server_soc
+  announcement_date: '2015-08-01'
+  strategic_rationale: Open instruction-set ecosystem spanning embedded, automotive, and high-performance compute.
+  vc_readthrough: Enables processor-IP, verification, software, security, and custom-extension startups.
+  sources:
+  - source_id: src_partnership_riscv
+    title: RISC-V International ecosystem
+    url: https://riscv.org/
+    publisher: Google
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- partnership_id: partnership_chips
+  name: U.S. CHIPS manufacturing ecosystem
+  participants:
+  - U.S. Department of Commerce
+  - Foundries
+  - OSATs
+  - Equipment suppliers
+  categories:
+  - advanced_packaging_chiplets_substrates
+  - power_thermal_infrastructure
+  announcement_date: '2022-08-09'
+  strategic_rationale: Public investment framework for domestic semiconductor manufacturing and advanced packaging.
+  vc_readthrough: Can accelerate domestic pilot lines and suppliers, but grant timing must not substitute for customer
+    economics.
+  sources:
+  - source_id: src_partnership_chips
+    title: U.S. CHIPS manufacturing ecosystem
+    url: https://www.nist.gov/chips
+    publisher: U.S. Department of Commerce
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'

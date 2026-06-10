@@ -1,4 +1,35 @@
-edges: []
-methodology: >
-  Add one edge per observed co-investment. Include round, date, company, and source IDs.
-  Network strength should be based on observed deals, not inferred relationships.
+methodology: Directional network based on recurring participation in disclosed semiconductor financings; verify
+  each edge before use.
+clusters:
+- cluster_id: deeptech_seed
+  name: US deep-tech seed
+  investors:
+  - Eclipse Ventures
+  - Playground Global
+  - DCVC
+  - Lux Capital
+  common_categories:
+  - datacenter_ai_accelerators
+  - power_thermal_infrastructure
+  - advanced_packaging_chiplets_substrates
+- cluster_id: semiconductor_specialists
+  name: Semiconductor specialists
+  investors:
+  - Walden Catalyst Ventures
+  - Celesta Capital
+  - Mayfield
+  common_categories:
+  - custom_asic_chiplets
+  - riscv_processor_ip
+  - edge_ai_iot_wearables
+- cluster_id: strategic_syndicate
+  name: Strategic semiconductor syndicate
+  investors:
+  - Intel Capital
+  - Qualcomm Ventures
+  - Samsung Catalyst Fund
+  - Applied Ventures
+  common_categories:
+  - optical_interconnect_photonics_dsp
+  - memory_hbm_cxl_near_memory
+  - advanced_packaging_chiplets_substrates

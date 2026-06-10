@@ -1,1 +1,160 @@
-[]
+- investor_id: intel_capital
+  name: Intel Capital
+  investor_type: CVC
+  website: https://www.intelcapital.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  semiconductor_thesis: Compute, semiconductor, and manufacturing ecosystem
+  ai_infrastructure_thesis: AI compute, cloud, edge, and datacenter infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Intel Capital has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_intel_capital
+    title: Intel Capital official website
+    url: https://www.intelcapital.com/
+    publisher: Intel Capital
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: qualcomm_ventures
+  name: Qualcomm Ventures
+  investor_type: CVC
+  website: https://www.qualcommventures.com/
+  hq:
+    city: San Diego
+    state: California
+    country: United States
+  semiconductor_thesis: Wireless, edge computing, automotive, and semiconductors
+  ai_infrastructure_thesis: On-device AI, robotics, and connected infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Qualcomm Ventures has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_qualcomm_ventures
+    title: Qualcomm Ventures official website
+    url: https://www.qualcommventures.com/
+    publisher: Qualcomm Ventures
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: samsung_catalyst
+  name: Samsung Catalyst Fund
+  investor_type: CVC
+  website: https://www.samsung.com/us/ssic/innovation/catalyst-fund/
+  hq:
+    city: Menlo Park
+    state: California
+    country: United States
+  semiconductor_thesis: Semiconductors, components, and strategic deep tech
+  ai_infrastructure_thesis: AI compute, memory, networking, and systems
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Samsung Catalyst Fund has a publicly stated or demonstrated focus relevant to semiconductor and AI
+      infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_samsung_catalyst
+    title: Samsung Catalyst Fund official website
+    url: https://www.samsung.com/us/ssic/innovation/catalyst-fund/
+    publisher: Samsung Catalyst Fund
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: applied_ventures
+  name: Applied Ventures
+  investor_type: CVC
+  website: https://www.appliedventures.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  semiconductor_thesis: Materials, manufacturing, devices, and semiconductor infrastructure
+  ai_infrastructure_thesis: AI-enabling devices, packaging, and energy efficiency
+  relevant_partners: []
+  preferred_stage:
+  - Seed
+  - Series A
+  - Series B
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Applied Ventures has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_applied_ventures
+    title: Applied Ventures official website
+    url: https://www.appliedventures.com/
+    publisher: Applied Ventures
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'

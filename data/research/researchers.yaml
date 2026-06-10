@@ -1,24 +1,450 @@
-- researcher_id: example_researcher_001
-  name: Example Researcher Placeholder
-  current_affiliation: null
-  prior_affiliations: []
-  location: null
+- researcher_id: song_han
+  name: Song Han
+  current_affiliation: MIT
+  prior_affiliations:
+  - Stanford University
+  location: Cambridge, Massachusetts
   research_areas:
-    - TODO research
+  - efficient AI
+  - model compression
+  - AI accelerators
   related_categories:
-    - datacenter_ai_accelerators
+  - edge_ai_iot_wearables
+  - datacenter_ai_accelerators
   notable_papers: []
   notable_patents: []
   related_companies: []
   commercialization_signal:
-    score: null
-    rationale: null
-    evidence: []
-  possible_startup_angle: null
-  investor_notes: Replace with a source-backed researcher profile.
-  contact_or_network_notes: null
-  sources: []
+    score: 5
+    rationale: Repeated research-to-product translation through efficient-AI software and hardware work.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Efficient model deployment, sparsity tooling, or accelerator/software co-design
+  investor_notes: Repeated research-to-product translation through efficient-AI software and hardware work.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_song_han
+    title: Song Han official profile
+    url: https://hanlab.mit.edu/
+    publisher: MIT
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example; not a real person.
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: vivienne_sze
+  name: Vivienne Sze
+  current_affiliation: MIT
+  prior_affiliations: []
+  location: Cambridge, Massachusetts
+  research_areas:
+  - energy-efficient AI
+  - computer architecture
+  - video processing
+  related_categories:
+  - edge_ai_iot_wearables
+  - automotive_robotics_ai_silicon
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Leading body of work on energy-aware accelerator design and deployable edge AI.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Edge accelerator IP, design tools, or workload-aware optimization
+  investor_notes: Leading body of work on energy-aware accelerator design and deployable edge AI.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_vivienne_sze
+    title: Vivienne Sze official profile
+    url: https://www.rle.mit.edu/eems/
+    publisher: MIT
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: onur_mutlu
+  name: Onur Mutlu
+  current_affiliation: ETH Zurich
+  prior_affiliations:
+  - Carnegie Mellon University
+  location: Zurich, Switzerland
+  research_areas:
+  - memory systems
+  - processing-in-memory
+  - computer architecture
+  related_categories:
+  - memory_hbm_cxl_near_memory
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Large research portfolio and industry collaboration around memory bottlenecks and processing-in-memory.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Near-memory compute, memory reliability, or CXL system software
+  investor_notes: Large research portfolio and industry collaboration around memory bottlenecks and processing-in-memory.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_onur_mutlu
+    title: Onur Mutlu official profile
+    url: https://people.inf.ethz.ch/omutlu/
+    publisher: ETH Zurich
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: david_patterson
+  name: David Patterson
+  current_affiliation: UC Berkeley
+  prior_affiliations:
+  - Google
+  location: Berkeley, California
+  research_areas:
+  - RISC-V
+  - computer architecture
+  - domain-specific accelerators
+  related_categories:
+  - riscv_processor_ip
+  - datacenter_ai_accelerators
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Co-created RISC-V and remains central to open architecture commercialization networks.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: RISC-V ecosystem, accelerator benchmarking, or technical advisory network
+  investor_notes: Co-created RISC-V and remains central to open architecture commercialization networks.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_david_patterson
+    title: David Patterson official profile
+    url: https://people.eecs.berkeley.edu/~pattrsn/
+    publisher: UC Berkeley
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: ramin_farjadrad
+  name: Ramin Farjadrad
+  current_affiliation: Eliyan
+  prior_affiliations:
+  - Aquantia
+  location: Santa Clara, California
+  research_areas:
+  - chiplets
+  - SerDes
+  - die-to-die interconnect
+  related_categories:
+  - custom_asic_chiplets
+  - pcie_cxl_retimers_connectivity
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Serial founder with directly relevant high-speed interface and chiplet commercialization experience.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Die-to-die IP, chiplet platforms, or advanced packaging connectivity
+  investor_notes: Serial founder with directly relevant high-speed interface and chiplet commercialization experience.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_ramin_farjadrad
+    title: Ramin Farjadrad official profile
+    url: https://eliyan.com/company/
+    publisher: Eliyan
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: vladimir_stojanovic
+  name: Vladimir Stojanovic
+  current_affiliation: UC Berkeley / Ayar Labs
+  prior_affiliations:
+  - MIT
+  location: Berkeley, California
+  research_areas:
+  - silicon photonics
+  - integrated circuits
+  - optical I/O
+  related_categories:
+  - optical_interconnect_photonics_dsp
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Research and company formation bridge around in-package optical I/O.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Optical chiplets, photonic link architecture, or mixed-signal photonics
+  investor_notes: Research and company formation bridge around in-package optical I/O.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_vladimir_stojanovic
+    title: Vladimir Stojanovic official profile
+    url: https://www2.eecs.berkeley.edu/Faculty/Homepages/stojanovic.html
+    publisher: UC Berkeley / Ayar Labs
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: nicholas_harris
+  name: Nicholas Harris
+  current_affiliation: Lightmatter
+  prior_affiliations:
+  - MIT
+  location: Mountain View, California
+  research_areas:
+  - photonic computing
+  - silicon photonics
+  - AI systems
+  related_categories:
+  - optical_interconnect_photonics_dsp
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Founder translating integrated photonics research into AI interconnect and compute products.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Photonic interconnect, photonic compute, or optical system software
+  investor_notes: Founder translating integrated photonics research into AI interconnect and compute products.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_nicholas_harris
+    title: Nicholas Harris official profile
+    url: https://lightmatter.co/company/
+    publisher: Lightmatter
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: kunle_olukotun
+  name: Kunle Olukotun
+  current_affiliation: Stanford University / SambaNova Systems
+  prior_affiliations: []
+  location: Stanford, California
+  research_areas:
+  - parallel computing
+  - dataflow
+  - AI systems
+  related_categories:
+  - datacenter_ai_accelerators
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Long record of architecture research, founder activity, and commercial system building.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Dataflow systems, AI infrastructure, or architecture-led company formation
+  investor_notes: Long record of architecture research, founder activity, and commercial system building.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_kunle_olukotun
+    title: Kunle Olukotun official profile
+    url: https://engineering.stanford.edu/people/kunle-olukotun
+    publisher: Stanford University / SambaNova Systems
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: naveen_verma
+  name: Naveen Verma
+  current_affiliation: Princeton University / EnCharge AI
+  prior_affiliations: []
+  location: Princeton, New Jersey
+  research_areas:
+  - in-memory compute
+  - mixed-signal circuits
+  - AI accelerators
+  related_categories:
+  - inference_acceleration
+  - edge_ai_iot_wearables
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Academic work has already produced a venture-backed in-memory-compute spinout.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: In-memory inference, mixed-signal accelerators, or edge AI systems
+  investor_notes: Academic work has already produced a venture-backed in-memory-compute spinout.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_naveen_verma
+    title: Naveen Verma official profile
+    url: https://verma.princeton.edu/
+    publisher: Princeton University / EnCharge AI
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: priyanka_raina
+  name: Priyanka Raina
+  current_affiliation: Stanford University
+  prior_affiliations:
+  - NVIDIA
+  location: Stanford, California
+  research_areas:
+  - domain-specific architectures
+  - accelerator design
+  - EDA
+  related_categories:
+  - datacenter_ai_accelerators
+  - eda_compilers_runtimes_devtools
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 4
+    rationale: Works across architecture, mapping, and hardware design with strong industry relevance.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Accelerator EDA, mapping tools, or domain-specific architecture
+  investor_notes: Works across architecture, mapping, and hardware design with strong industry relevance.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_priyanka_raina
+    title: Priyanka Raina official profile
+    url: https://rsg.stanford.edu/
+    publisher: Stanford University
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: boris_murmann
+  name: Boris Murmann
+  current_affiliation: University of Hawaii
+  prior_affiliations:
+  - Stanford University
+  location: Honolulu, Hawaii
+  research_areas:
+  - mixed-signal IC
+  - data converters
+  - open-source silicon
+  related_categories:
+  - custom_asic_chiplets
+  - edge_ai_iot_wearables
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 4
+    rationale: Strong mixed-signal and open-silicon network with relevance to interface and sensing startups.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Analog IP, chiplet interfaces, or open mixed-signal design infrastructure
+  investor_notes: Strong mixed-signal and open-silicon network with relevance to interface and sensing startups.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_boris_murmann
+    title: Boris Murmann official profile
+    url: https://murmann-group.stanford.edu/
+    publisher: University of Hawaii
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- researcher_id: subhasish_mitra
+  name: Subhasish Mitra
+  current_affiliation: Stanford University
+  prior_affiliations: []
+  location: Stanford, California
+  research_areas:
+  - 3D integration
+  - nano systems
+  - hardware reliability
+  related_categories:
+  - advanced_packaging_chiplets_substrates
+  - datacenter_ai_accelerators
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: 5
+    rationale: Research combines new devices, 3D integration, and system architecture with substantial commercialization
+      potential.
+    evidence:
+    - industry_collaboration
+    - patent_activity
+    - conference_keynote
+    - open_source_project
+  possible_startup_angle: Monolithic 3D systems, resilient accelerators, or new-device integration
+  investor_notes: Research combines new devices, 3D integration, and system architecture with substantial commercialization
+    potential.
+  contact_or_network_notes: Use public institutional or company channels; verify conflicts and employment restrictions.
+  sources:
+  - source_id: src_researcher_subhasish_mitra
+    title: Subhasish Mitra official profile
+    url: https://subhasish.stanford.edu/
+    publisher: Stanford University
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'

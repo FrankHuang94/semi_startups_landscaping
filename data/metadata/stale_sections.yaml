@@ -1,5 +1,2 @@
-policy:
-  default_stale_after_days: 90
-  high_velocity_categories_days: 45
 stale_sections: []
-generated_at: 2026-06-10
+generated_on: '2026-06-10'

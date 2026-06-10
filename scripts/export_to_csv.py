@@ -31,7 +31,12 @@ def scalar(value: Any) -> Any:
 def write_csv(path: Path, records: List[Dict[str, Any]], fields: List[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=fields,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
         writer.writeheader()
         for record in records:
             writer.writerow({field: scalar(record.get(field)) for field in fields})

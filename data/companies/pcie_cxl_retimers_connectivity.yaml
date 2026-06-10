@@ -1,1 +1,763 @@
-[]
+- company_id: astera_labs_001
+  name: Astera Labs
+  legal_name: null
+  status: public
+  website: https://www.asteralabs.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  founded_year: 2017
+  primary_category: pcie_cxl_retimers_connectivity
+  secondary_categories: []
+  technology_tags:
+  - PCIe
+  - CXL
+  - retimer
+  one_line_summary: PCIe/CXL connectivity silicon and rack-scale fabric products.
+  investor_summary: Astera Labs addresses a strategically important bottleneck in pcie, cxl, retimers, and connectivity.
+    Its core investment case is broad connectivity portfolio and cloud qualification establish a strong position
+    in ai infrastructure links. The underwriting focus should be repeatable customer adoption, production readiness,
+    software integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in pcie, cxl, retimers, and connectivity as incumbent platforms face scaling and cost constraints.
+  solution_summary: Astera Labs offers pcie/cxl connectivity silicon and rack-scale fabric products through Aries,
+    Leo, and Scorpio.
+  product_profile:
+    products:
+    - product_name: Aries, Leo, and Scorpio
+      product_type: PCIe/CXL connectivity silicon and rack-scale fabric products
+      product_status: shipping
+      target_workloads:
+      - PCIe
+      - CXL
+      - retimer
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: PCIe/CXL connectivity silicon and rack-scale fabric products
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Broad connectivity portfolio and cloud qualification establish a strong position
+      in AI infrastructure links.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: PCIe, CXL, Retimers, and Connectivity
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Broad connectivity portfolio and cloud qualification establish a strong position in AI infrastructure
+      links.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: late_stage
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Broadcom
+    - Marvell
+    - Microchip
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 5
+    business_model_quality: 5
+    capital_efficiency: 4
+    competitive_intensity: 4
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in pcie, cxl, retimers, and connectivity.
+  sources:
+  - source_id: src_astera_labs_official
+    title: Astera Labs official website
+    url: https://www.asteralabs.com/
+    publisher: Astera Labs
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: kandou_001
+  name: Kandou
+  legal_name: null
+  status: acquired
+  website: https://www.kandou.com/
+  hq:
+    city: Lausanne
+    state: null
+    country: Switzerland
+  founded_year: 2011
+  primary_category: pcie_cxl_retimers_connectivity
+  secondary_categories: []
+  technology_tags:
+  - PCIe
+  - SerDes
+  - connectivity
+  one_line_summary: High-speed wired connectivity and SerDes products.
+  investor_summary: Kandou addresses a strategically important bottleneck in pcie, cxl, retimers, and connectivity.
+    Its core investment case is signaling and connectivity ip address high-speed links across pcie, usb, and related
+    interfaces. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in pcie, cxl, retimers, and connectivity as incumbent platforms face scaling and cost constraints.
+  solution_summary: Kandou offers high-speed wired connectivity and serdes products through Regli and Matterhorn.
+  product_profile:
+    products:
+    - product_name: Regli and Matterhorn
+      product_type: High-speed wired connectivity and SerDes products
+      product_status: shipping
+      target_workloads:
+      - PCIe
+      - SerDes
+      - connectivity
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: High-speed wired connectivity and SerDes products
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Signaling and connectivity IP address high-speed links across PCIe, USB, and related
+      interfaces.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: PCIe, CXL, Retimers, and Connectivity
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Signaling and connectivity IP address high-speed links across PCIe, USB, and related interfaces.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: late_stage
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Qualcomm
+    - Synopsys
+    - Cadence
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 4
+    technical_differentiation: 4
+    founder_quality: 5
+    customer_pull: 4
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 5
+    exit_potential: 4
+    strategic_scarcity: 4
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in pcie, cxl, retimers, and connectivity.
+  sources:
+  - source_id: src_kandou_official
+    title: Kandou official website
+    url: https://www.kandou.com/
+    publisher: Kandou
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: point2_001
+  name: Point2 Technology
+  legal_name: null
+  status: private
+  website: https://www.point2tech.com/
+  hq:
+    city: San Jose
+    state: California
+    country: United States
+  founded_year: 2016
+  primary_category: pcie_cxl_retimers_connectivity
+  secondary_categories: []
+  technology_tags:
+  - SerDes
+  - connectivity
+  - low_power
+  one_line_summary: Low-power high-speed point-to-point interconnect.
+  investor_summary: Point2 Technology addresses a strategically important bottleneck in pcie, cxl, retimers, and
+    connectivity. Its core investment case is mixed-signal link technology targets reach and power constraints in
+    cloud and automotive connectivity. The underwriting focus should be repeatable customer adoption, production
+    readiness, software integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in pcie, cxl, retimers, and connectivity as incumbent platforms face scaling and cost constraints.
+  solution_summary: Point2 Technology offers low-power high-speed point-to-point interconnect through e-Tube connectivity
+    products.
+  product_profile:
+    products:
+    - product_name: e-Tube connectivity products
+      product_type: Low-power high-speed point-to-point interconnect
+      product_status: sampling
+      target_workloads:
+      - SerDes
+      - connectivity
+      - low_power
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Low-power high-speed point-to-point interconnect
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Mixed-signal link technology targets reach and power constraints in cloud and automotive
+      connectivity.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: PCIe, CXL, Retimers, and Connectivity
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Mixed-signal link technology targets reach and power constraints in cloud and automotive connectivity.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Broadcom
+    - Marvell
+    - Microchip
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 4
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 4
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in pcie, cxl, retimers, and connectivity.
+  sources:
+  - source_id: src_point2_official
+    title: Point2 Technology official website
+    url: https://www.point2tech.com/
+    publisher: Point2 Technology
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: credo_001
+  name: Credo Technology Group
+  legal_name: null
+  status: public
+  website: https://credosemi.com/
+  hq:
+    city: San Jose
+    state: California
+    country: United States
+  founded_year: 2008
+  primary_category: pcie_cxl_retimers_connectivity
+  secondary_categories: []
+  technology_tags:
+  - SerDes
+  - AEC
+  - connectivity
+  one_line_summary: High-speed connectivity silicon and active electrical cables.
+  investor_summary: Credo Technology Group addresses a strategically important bottleneck in pcie, cxl, retimers,
+    and connectivity. Its core investment case is dsp and serdes expertise supports power-efficient high-speed links
+    in ai datacenters. The underwriting focus should be repeatable customer adoption, production readiness, software
+    integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in pcie, cxl, retimers, and connectivity as incumbent platforms face scaling and cost constraints.
+  solution_summary: Credo Technology Group offers high-speed connectivity silicon and active electrical cables through
+    HiWire AEC and SerDes chiplets.
+  product_profile:
+    products:
+    - product_name: HiWire AEC and SerDes chiplets
+      product_type: High-speed connectivity silicon and active electrical cables
+      product_status: shipping
+      target_workloads:
+      - SerDes
+      - AEC
+      - connectivity
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: High-speed connectivity silicon and active electrical cables
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: DSP and SerDes expertise supports power-efficient high-speed links in AI datacenters.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: PCIe, CXL, Retimers, and Connectivity
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: DSP and SerDes expertise supports power-efficient high-speed links in AI datacenters.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: late_stage
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Broadcom
+    - Marvell
+    - NVIDIA
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 5
+    business_model_quality: 5
+    capital_efficiency: 4
+    competitive_intensity: 4
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in pcie, cxl, retimers, and connectivity.
+  sources:
+  - source_id: src_credo_official
+    title: Credo Technology Group official website
+    url: https://credosemi.com/
+    publisher: Credo Technology Group
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.

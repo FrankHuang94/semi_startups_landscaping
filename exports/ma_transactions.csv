@@ -1,2 +1,13 @@
 transaction_id,target_company,target_company_id,acquirer,acquirer_type,target_categories,announcement_date,close_date,transaction_status,transaction_value_usd_m,consideration_type,strategic_rationale
-example_txn_001,Example Transaction Placeholder,,,unknown,"[""datacenter_ai_accelerators""]",,,unknown,,unknown,
+txn_amd_seamicro,SeaMicro,,AMD,strategic,"[""datacenter_cpu_server_soc""]",2012-02-29,2012-03-23,closed,334.0,cash,Added dense low-power server systems and fabric technology.
+txn_intel_habana,Habana Labs,,Intel,strategic,"[""datacenter_ai_accelerators""]",2019-12-16,2019-12-16,closed,2000.0,cash,Added dedicated training and inference accelerator silicon and software.
+txn_nvidia_mellanox,Mellanox Technologies,,NVIDIA,strategic,"[""networking_switching_nic_dpu""]",2019-03-11,2020-04-27,closed,6900.0,cash,Combined accelerated compute with high-performance networking.
+txn_amd_xilinx,Xilinx,,AMD,strategic,"[""custom_asic_chiplets"", ""datacenter_ai_accelerators""]",2020-10-27,2022-02-14,closed,35000.0,stock,"Added adaptive compute, FPGA, embedded, and datacenter capabilities."
+txn_qualcomm_nuvia,Nuvia,,Qualcomm,strategic,"[""datacenter_cpu_server_soc""]",2021-01-13,2021-03-16,closed,1400.0,cash,Added custom high-performance CPU design talent and IP.
+txn_marvell_innovium,Innovium,,Marvell,strategic,"[""networking_switching_nic_dpu""]",2021-08-03,2021-10-05,closed,1100.0,stock,Added cloud-optimized Ethernet switch silicon.
+txn_amd_pensando,Pensando Systems,,AMD,strategic,"[""networking_switching_nic_dpu""]",2022-04-04,2022-05-26,closed,1900.0,cash,"Added distributed services cards, DPUs, and infrastructure software."
+txn_softbank_graphcore,Graphcore,,SoftBank Group,strategic,"[""datacenter_ai_accelerators""]",2024-07-11,2024-07-11,closed,,undisclosed,Preserved and added a differentiated AI accelerator team and IP portfolio.
+txn_synopsys_ansys,Ansys,,Synopsys,strategic,"[""eda_compilers_runtimes_devtools""]",2024-01-16,2025-07-17,closed,35000.0,cash_stock,Combined chip design automation with multiphysics simulation.
+txn_renesas_altium,Altium,,Renesas Electronics,strategic,"[""eda_compilers_runtimes_devtools""]",2024-02-15,2024-08-01,closed,5900.0,cash,Added cloud electronics design software and a component-to-system platform.
+txn_qualcomm_kandou,Kandou,kandou_001,Qualcomm,strategic,"[""pcie_cxl_retimers_connectivity""]",2024-06-13,2024-11-14,closed,,undisclosed,Added high-speed wired connectivity technology and engineering capability.
+txn_softbank_ampere,Ampere Computing,ampere_001,SoftBank Group,strategic,"[""datacenter_cpu_server_soc""]",2025-03-19,2025-11-25,closed,6500.0,cash,Added Arm-based cloud CPU capability to SoftBank's AI infrastructure portfolio.

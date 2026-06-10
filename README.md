@@ -6,8 +6,13 @@ CSV files, and SQLite are generated views.
 
 The repository supports sourcing, market mapping, investment screening, technical
 diligence, co-investor analysis, M&A exit analysis, and category-by-category refreshes.
-Initial records are deliberately conservative placeholders and must be replaced with
-source-backed research.
+
+The June 2026 baseline contains 60 company profiles across all 15 categories, 10
+commercialization-relevant papers, 8 patent publications, 12 researcher profiles,
+10 labs, 17 investors, 12 M&A transactions, 12 public comparables, and 8 strategic
+partnerships or standards ecosystems. Records are conservative screening profiles:
+unknown financing, customer, benchmark, and manufacturing details remain `null` or
+are explicitly listed as diligence gaps.
 
 ## Investor Workflow
 
@@ -44,6 +49,15 @@ python scripts/export_to_csv.py
 python scripts/export_to_sqlite.py
 python scripts/build_all.py
 ```
+
+The one-time curated baseline is reproducible with:
+
+```bash
+python scripts/populate_research_baseline.py
+```
+
+Do not rerun the baseline script over later analyst edits. Use the normal add, update,
+and section-refresh commands for ongoing maintenance.
 
 ## Add or Update a Company
 

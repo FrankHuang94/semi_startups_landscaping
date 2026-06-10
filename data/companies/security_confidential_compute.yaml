@@ -1,1 +1,758 @@
-[]
+- company_id: axiado_001
+  name: Axiado
+  legal_name: null
+  status: private
+  website: https://www.axiado.com/
+  hq:
+    city: San Jose
+    state: California
+    country: United States
+  founded_year: 2017
+  primary_category: security_confidential_compute
+  secondary_categories: []
+  technology_tags:
+  - root_of_trust
+  - DPU
+  - platform_security
+  one_line_summary: AI-driven hardware security and platform management processors.
+  investor_summary: Axiado addresses a strategically important bottleneck in security and confidential compute silicon.
+    Its core investment case is combines root-of-trust, platform management, and ai-based threat detection in a
+    dedicated controller. The underwriting focus should be repeatable customer adoption, production readiness, software
+    integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in security and confidential compute silicon as incumbent platforms face scaling and cost constraints.
+  solution_summary: Axiado offers ai-driven hardware security and platform management processors through TCU.
+  product_profile:
+    products:
+    - product_name: TCU
+      product_type: AI-driven hardware security and platform management processors
+      product_status: announced
+      target_workloads:
+      - root_of_trust
+      - DPU
+      - platform_security
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: AI-driven hardware security and platform management processors
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Combines root-of-trust, platform management, and AI-based threat detection in a dedicated
+      controller.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Security and Confidential Compute Silicon
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Combines root-of-trust, platform management, and AI-based threat detection in a dedicated controller.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_c
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - Marvell
+    - Broadcom
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 3
+    competitive_intensity: 4
+    exit_potential: 5
+    strategic_scarcity: 5
+    overall_vc_priority: active_diligence
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: high
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in security and confidential compute silicon.
+  sources:
+  - source_id: src_axiado_official
+    title: Axiado official website
+    url: https://www.axiado.com/
+    publisher: Axiado
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: cornami_001
+  name: Cornami
+  legal_name: null
+  status: private
+  website: https://cornami.com/
+  hq:
+    city: Dallas
+    state: Texas
+    country: United States
+  founded_year: 2012
+  primary_category: security_confidential_compute
+  secondary_categories: []
+  technology_tags:
+  - post_quantum
+  - cryptography
+  - manycore
+  one_line_summary: Scalable compute architecture targeting post-quantum cryptography.
+  investor_summary: Cornami addresses a strategically important bottleneck in security and confidential compute
+    silicon. Its core investment case is massively parallel fabric is positioned for high-performance cryptographic
+    workloads. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
+    and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in security and confidential compute silicon as incumbent platforms face scaling and cost constraints.
+  solution_summary: Cornami offers scalable compute architecture targeting post-quantum cryptography through TruStream.
+  product_profile:
+    products:
+    - product_name: TruStream
+      product_type: Scalable compute architecture targeting post-quantum cryptography
+      product_status: sampling
+      target_workloads:
+      - post_quantum
+      - cryptography
+      - manycore
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Scalable compute architecture targeting post-quantum cryptography
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Massively parallel fabric is positioned for high-performance cryptographic workloads.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Security and Confidential Compute Silicon
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: growth
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Massively parallel fabric is positioned for high-performance cryptographic workloads.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - NVIDIA
+    - AMD
+    - Thales
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 4
+    technical_differentiation: 5
+    founder_quality: 4
+    customer_pull: 2
+    business_model_quality: 4
+    capital_efficiency: 3
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in security and confidential compute silicon.
+  sources:
+  - source_id: src_cornami_official
+    title: Cornami official website
+    url: https://cornami.com/
+    publisher: Cornami
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: crypto_quantique_001
+  name: Crypto Quantique
+  legal_name: null
+  status: private
+  website: https://www.cryptoquantique.com/
+  hq:
+    city: London
+    state: null
+    country: United Kingdom
+  founded_year: 2016
+  primary_category: security_confidential_compute
+  secondary_categories: []
+  technology_tags:
+  - PUF
+  - IoT_security
+  - root_of_trust
+  one_line_summary: Semiconductor-rooted identity and IoT security management.
+  investor_summary: Crypto Quantique addresses a strategically important bottleneck in security and confidential
+    compute silicon. Its core investment case is combines a silicon physical-unclonable-function design with lifecycle
+    security software. The underwriting focus should be repeatable customer adoption, production readiness, software
+    integration, and capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in security and confidential compute silicon as incumbent platforms face scaling and cost constraints.
+  solution_summary: Crypto Quantique offers semiconductor-rooted identity and iot security management through QDID
+    and QuarkLink.
+  product_profile:
+    products:
+    - product_name: QDID and QuarkLink
+      product_type: Semiconductor-rooted identity and IoT security management
+      product_status: announced
+      target_workloads:
+      - PUF
+      - IoT_security
+      - root_of_trust
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Semiconductor-rooted identity and IoT security management
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: Combines a silicon physical-unclonable-function design with lifecycle security software.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Security and Confidential Compute Silicon
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: Combines a silicon physical-unclonable-function design with lifecycle security software.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: series_b
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Arm
+    - NXP
+    - Thales
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in security and confidential compute silicon.
+  sources:
+  - source_id: src_crypto_quantique_official
+    title: Crypto Quantique official website
+    url: https://www.cryptoquantique.com/
+    publisher: Crypto Quantique
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: xiphera_001
+  name: Xiphera
+  legal_name: null
+  status: private
+  website: https://xiphera.com/
+  hq:
+    city: Helsinki
+    state: null
+    country: Finland
+  founded_year: 2017
+  primary_category: security_confidential_compute
+  secondary_categories: []
+  technology_tags:
+  - cryptography
+  - processor_IP
+  - post_quantum
+  one_line_summary: Hardware cryptography and security IP.
+  investor_summary: Xiphera addresses a strategically important bottleneck in security and confidential compute
+    silicon. Its core investment case is in-house cryptographic implementations target auditable fpga and asic integration.
+    The underwriting focus should be repeatable customer adoption, production readiness, software integration, and
+    capital required to reach durable commercial scale.
+  problem_statement: Customers need better performance, power efficiency, deployment simplicity, or supply diversity
+    in security and confidential compute silicon as incumbent platforms face scaling and cost constraints.
+  solution_summary: Xiphera offers hardware cryptography and security ip through Cryptographic IP cores.
+  product_profile:
+    products:
+    - product_name: Cryptographic IP cores
+      product_type: Hardware cryptography and security IP
+      product_status: announced
+      target_workloads:
+      - cryptography
+      - processor_IP
+      - post_quantum
+      target_customers:
+      - hyperscaler
+      - enterprise
+      - OEM
+      - semiconductor_company
+      deployment_model: Silicon, systems, modules, software, or licensable IP depending on customer program
+  technical_profile:
+    architecture: Hardware cryptography and security IP
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided software, tools, or integration stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, substrate, or manufacturing partners
+    technical_differentiation: In-house cryptographic implementations target auditable FPGA and ASIC integration.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims may not map to customer production workloads
+    - Manufacturing, packaging, qualification, and software schedules can delay revenue
+  market_profile:
+    target_market: Security and Confidential Compute Silicon
+    market_timing: AI infrastructure demand is strong, but adoption timing depends on qualification and system integration.
+    market_tailwinds:
+    - AI compute growth
+    - Power and data-movement constraints
+    - Supply-chain diversification
+    market_headwinds:
+    - Incumbent roadmaps
+    - Long qualification cycles
+    - Customer platform concentration
+    customer_segments:
+    - hyperscaler
+    - neocloud
+    - enterprise
+    - automotive
+    - robotics
+    - edge_device
+    - defense
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pilot
+    customer_traction: Publicly described product activity exists; customer concentration and production revenue
+      require verification.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    - IP licensing
+    - software or services as applicable
+    go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: High-level assessment based on product scope; verify patents, tape-outs, and prior
+      execution.
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Intel
+    - Broadcom
+    - Marvell
+    - Arm
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source software optimization
+    - Hyperscaler internal development
+    differentiation: In-house cryptographic implementations target auditable FPGA and ASIC integration.
+    moat_assessment: Potential moat from architecture, implementation IP, software, qualification, and customer
+      integration.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing
+    - Standards or workload shifts
+  vc_investment_view:
+    investment_stage_fit: seed
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Synopsys
+    - Cadence
+    - Thales
+    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
+      urgent.
+    key_diligence_questions:
+    - What is shipping today, at what volume, and with which production customers?
+    - Which measured workload shows a durable advantage after software and system overhead?
+    - What capital and supply commitments are required before the next commercial proof point?
+    red_flags:
+    - Unverified benchmark comparability
+    - Concentration in a small number of customers or manufacturing partners
+    next_steps:
+    - Validate customer references
+    - Review architecture and software roadmap
+    - Reconstruct financing history
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: 5
+    founder_quality: 5
+    customer_pull: 3
+    business_model_quality: 5
+    capital_efficiency: 5
+    competitive_intensity: 4
+    exit_potential: 4
+    strategic_scarcity: 5
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - acquisition
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to strategic buyers seeking capability in security and confidential compute silicon.
+  sources:
+  - source_id: src_xiphera_official
+    title: Xiphera official website
+    url: https://xiphera.com/
+    publisher: Xiphera
+    date_published: null
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-06-10'
+    last_verified: '2026-06-10'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - process_node_or_manufacturing_details
+    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.

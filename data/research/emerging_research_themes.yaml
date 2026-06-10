@@ -1,14 +1,117 @@
-- theme_id: example_theme_001
-  name: Example Emerging Theme Placeholder
+- theme_id: theme_optical_io
+  name: In-package optical I/O
   categories:
-    - datacenter_ai_accelerators
-  technology_tags:
-    - TODO_research
-  maturity: unknown
-  investor_relevance: Replace during a source-backed research refresh.
-  commercialization_bottlenecks: []
-  startup_opportunities: []
-  related_papers: []
-  related_patents: []
-  researchers_to_track: []
-  last_updated: 2026-06-10
+  - optical_interconnect_photonics_dsp
+  - advanced_packaging_chiplets_substrates
+  maturity: early_commercial
+  investor_relevance: Electrical I/O power and reach constraints create a strategic transition point.
+  startup_opportunities:
+  - optical chiplets
+  - lasers
+  - packaging
+  - test and calibration
+- theme_id: theme_kv_cache
+  name: KV-cache memory hierarchy
+  categories:
+  - inference_acceleration
+  - memory_hbm_cxl_near_memory
+  maturity: early_commercial
+  investor_relevance: Inference economics increasingly depend on memory capacity, movement, and scheduling.
+  startup_opportunities:
+  - CXL memory
+  - cache orchestration
+  - near-memory compute
+- theme_id: theme_chiplet_io
+  name: Low-cost die-to-die connectivity
+  categories:
+  - custom_asic_chiplets
+  - advanced_packaging_chiplets_substrates
+  maturity: commercializing
+  investor_relevance: Chiplet adoption needs interoperable links that work beyond the most expensive packages.
+  startup_opportunities:
+  - PHY IP
+  - test
+  - organic-substrate links
+  - security
+- theme_id: theme_ai_ethernet
+  name: Ethernet scale-up and scale-out for AI
+  categories:
+  - networking_switching_nic_dpu
+  maturity: commercializing
+  investor_relevance: Open AI fabrics can challenge proprietary interconnects if congestion and collectives are
+    solved.
+  startup_opportunities:
+  - SuperNICs
+  - switch silicon
+  - telemetry
+  - collective offload
+- theme_id: theme_digital_imc
+  name: Digital in-memory compute
+  categories:
+  - inference_acceleration
+  - edge_ai_iot_wearables
+  maturity: sampling
+  investor_relevance: Digital approaches may capture memory-locality benefits with a more manufacturable risk profile
+    than analog.
+  startup_opportunities:
+  - inference ASICs
+  - memory chiplets
+  - compiler stacks
+- theme_id: theme_glass
+  name: Glass substrates and interposers
+  categories:
+  - advanced_packaging_chiplets_substrates
+  maturity: pilot
+  investor_relevance: Large package size and high-frequency links are stressing organic substrate capabilities.
+  startup_opportunities:
+  - glass processing
+  - vias
+  - metrology
+  - panel packaging
+- theme_id: theme_two_phase
+  name: Two-phase direct-to-chip cooling
+  categories:
+  - power_thermal_infrastructure
+  maturity: early_commercial
+  investor_relevance: AI rack densities are pulling liquid cooling into mainstream datacenter design.
+  startup_opportunities:
+  - cold plates
+  - dielectric fluids
+  - controls
+  - service
+- theme_id: theme_riscv_ai
+  name: RISC-V as the control plane for AI silicon
+  categories:
+  - riscv_processor_ip
+  - datacenter_ai_accelerators
+  maturity: commercializing
+  investor_relevance: RISC-V enables customizable control and vector processing around proprietary accelerators.
+  startup_opportunities:
+  - CPU chiplets
+  - vector IP
+  - verification
+  - software
+- theme_id: theme_ai_eda
+  name: AI-native semiconductor design workflows
+  categories:
+  - eda_compilers_runtimes_devtools
+  maturity: early_commercial
+  investor_relevance: Engineering scarcity and design complexity create demand for automation beyond incumbent point
+    tools.
+  startup_opportunities:
+  - design copilots
+  - verification
+  - analog automation
+  - collaboration
+- theme_id: theme_power_delivery
+  name: Vertical and package-level power delivery
+  categories:
+  - power_thermal_infrastructure
+  - advanced_packaging_chiplets_substrates
+  maturity: pilot
+  investor_relevance: Accelerator current density is making power delivery a package and silicon architecture problem.
+  startup_opportunities:
+  - integrated voltage regulation
+  - passives
+  - backside delivery
+  - telemetry

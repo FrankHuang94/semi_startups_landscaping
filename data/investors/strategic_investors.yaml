@@ -1,1 +1,190 @@
-[]
+- investor_id: nvidia
+  name: NVIDIA
+  investor_type: strategic
+  website: https://www.nvidia.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  semiconductor_thesis: Accelerated computing ecosystem
+  ai_infrastructure_thesis: AI compute, networking, software, and infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Strategic
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: NVIDIA has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_nvidia
+    title: NVIDIA official website
+    url: https://www.nvidia.com/
+    publisher: NVIDIA
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: amd
+  name: AMD
+  investor_type: strategic
+  website: https://www.amd.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  semiconductor_thesis: CPU, GPU, adaptive compute, and datacenter ecosystem
+  ai_infrastructure_thesis: AI accelerators, networking, software, and systems
+  relevant_partners: []
+  preferred_stage:
+  - Strategic
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: AMD has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_amd
+    title: AMD official website
+    url: https://www.amd.com/
+    publisher: AMD
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: marvell
+  name: Marvell Technology
+  investor_type: strategic
+  website: https://www.marvell.com/
+  hq:
+    city: Santa Clara
+    state: California
+    country: United States
+  semiconductor_thesis: Datacenter connectivity, custom silicon, storage, and networking
+  ai_infrastructure_thesis: AI interconnect, optics, custom compute, and CXL
+  relevant_partners: []
+  preferred_stage:
+  - Strategic
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Marvell Technology has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_marvell
+    title: Marvell Technology official website
+    url: https://www.marvell.com/
+    publisher: Marvell Technology
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: broadcom
+  name: Broadcom
+  investor_type: strategic
+  website: https://www.broadcom.com/
+  hq:
+    city: Palo Alto
+    state: California
+    country: United States
+  semiconductor_thesis: Networking, custom silicon, connectivity, and infrastructure software
+  ai_infrastructure_thesis: AI switching, custom accelerators, optics, and infrastructure
+  relevant_partners: []
+  preferred_stage:
+  - Strategic
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Broadcom has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_broadcom
+    title: Broadcom official website
+    url: https://www.broadcom.com/
+    publisher: Broadcom
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+- investor_id: arm
+  name: Arm
+  investor_type: strategic
+  website: https://www.arm.com/
+  hq:
+    city: Cambridge
+    state: null
+    country: United Kingdom
+  semiconductor_thesis: Processor IP and ecosystem development
+  ai_infrastructure_thesis: Cloud, edge AI, automotive, and chiplet compute
+  relevant_partners: []
+  preferred_stage:
+  - Strategic
+  - Growth
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: Relevant technical and operating network; specific partner references require deal diligence.
+    customer_network: Potential strategic and enterprise access varies by partner and fund.
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: 5
+    rationale: Arm has a publicly stated or demonstrated focus relevant to semiconductor and AI infrastructure.
+  notes: Portfolio and partner attribution should be refreshed from official deal pages before outreach.
+  sources:
+  - source_id: src_investor_arm
+    title: Arm official website
+    url: https://www.arm.com/
+    publisher: Arm
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'

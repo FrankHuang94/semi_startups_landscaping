@@ -1,8 +1,29 @@
 stages:
-  pre_seed: Team formation, research validation, or first prototype.
-  seed: Initial product development and early customer discovery.
-  series_a: Product validation, first pilots, or early design wins.
-  series_b: Repeatable commercialization and scaling.
-  growth: Meaningful revenue expansion and operational scaling.
-  late_stage: Mature private company approaching liquidity or broad expansion.
-  unknown: Insufficient source-backed information.
+  pre_seed:
+    operating_profile: Team formation, research validation, architecture selection, or first prototype.
+    expected_evidence: [founder references, technical thesis, initial simulation or FPGA result, customer discovery]
+    key_risk: Whether the technical idea can become manufacturable and commercially relevant.
+  seed:
+    operating_profile: Initial product development, IP creation, software bring-up, and early customer discovery.
+    expected_evidence: [architecture review, prototype, initial patents, foundry and packaging plan, design-partner interest]
+    key_risk: Whether the company can reach a credible tapeout or product milestone with available capital.
+  series_a:
+    operating_profile: Product validation, first tapeout or silicon, pilots, and early design wins.
+    expected_evidence: [working silicon, measured benchmarks, software integration, named or referenceable pilots]
+    key_risk: Whether technical differentiation survives real workloads and customer integration.
+  series_b:
+    operating_profile: Production qualification, repeatable commercialization, and initial scaling.
+    expected_evidence: [production release, design wins, supply commitments, repeat orders, gross-margin plan]
+    key_risk: Whether pilots convert to durable revenue before capital requirements accelerate.
+  growth:
+    operating_profile: Meaningful revenue expansion, product-family growth, and operational scaling.
+    expected_evidence: [auditable revenue, customer diversification, roadmap execution, manufacturing leverage]
+    key_risk: Whether the company can maintain differentiation and financing access against incumbent responses.
+  late_stage:
+    operating_profile: Mature private company approaching liquidity, strategic sale, or broad international expansion.
+    expected_evidence: [scaled revenue, financial controls, durable margins, credible IPO or acquisition pathway]
+    key_risk: Valuation, concentration, governance, and public-market readiness.
+  unknown:
+    operating_profile: Insufficient source-backed information.
+    expected_evidence: []
+    key_risk: Data quality is too low for stage-based underwriting.

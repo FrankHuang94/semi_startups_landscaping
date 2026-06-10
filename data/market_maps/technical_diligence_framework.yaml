@@ -8,9 +8,44 @@ default_questions:
   - What performance, power, cost, utilization, and reliability metrics matter to buyers?
   - What incumbent roadmap or internal customer alternative could erase the advantage?
 category_overlays:
+  datacenter_ai_accelerators:
+    - What percentage of measured advantage comes from silicon, memory, networking, compiler, or workload selection?
+    - What utilization is sustained at cluster scale after communication and fault-recovery overhead?
+  inference_acceleration:
+    - What are time-to-first-token, inter-token latency, throughput, batch size, context length, and accuracy?
+    - How are KV cache, speculative decoding, mixture-of-experts, and rapidly changing model operators handled?
+  custom_asic_chiplets:
+    - Which IP blocks are reusable, which standards are supported, and what customer NRE is required?
+    - How are known-good-die, test, thermal, security, and package ownership divided?
+  datacenter_cpu_server_soc:
+    - Which operating systems, hypervisors, compilers, and enterprise applications are production-ready?
+    - What is the qualification path with cloud operators and server OEMs?
   optical_interconnect_photonics_dsp:
     - What are coupling loss, laser strategy, thermal sensitivity, yield, and attach economics?
   memory_hbm_cxl_near_memory:
     - Which CXL generation, coherence model, latency envelope, and software changes are required?
+  networking_switching_nic_dpu:
+    - Which collectives, congestion-control algorithms, transports, and telemetry functions are implemented in hardware?
+    - How does performance behave under failures, incast, and mixed traffic?
+  pcie_cxl_retimers_connectivity:
+    - Which standards-generation compliance, interoperability, reach, latency, and error-rate evidence exists?
+  edge_ai_iot_wearables:
+    - What is measured energy per inference including memory and sensor I/O?
+    - How portable are models, and what engineering effort is required per customer?
+  automotive_robotics_ai_silicon:
+    - What are the functional-safety, deterministic-latency, redundancy, and qualification plans?
+    - Which design wins are nominated, awarded, or in production?
+  eda_compilers_runtimes_devtools:
+    - Does the product improve tapeout outcome or only engineer productivity?
+    - What proprietary data, workflow lock-in, and incumbent distribution risk exist?
+  advanced_packaging_chiplets_substrates:
+    - What are yield, warpage, thermal, reliability, known-good-die, test, and rework assumptions?
+    - Which pilot-line results transfer to production OSAT or foundry flows?
+  riscv_processor_ip:
+    - What verification collateral, safety packages, toolchains, and software ecosystems are production-ready?
+    - How are customization services converted into scalable license and royalty economics?
+  security_confidential_compute:
+    - What threat model, certification, key lifecycle, side-channel resistance, and update mechanism apply?
   power_thermal_infrastructure:
     - What rack density, coolant, facility retrofit, service, and reliability assumptions apply?
+    - Who owns leak, uptime, maintenance, and warranty risk across the deployment?

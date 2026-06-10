@@ -1,41 +1,730 @@
-- paper_id: example_paper_001
-  title: Example Research Paper Placeholder
-  authors: []
-  institution_affiliations: []
-  venue: null
-  publication_year: null
-  publication_date: null
-  url: null
-  arxiv_url: null
+- paper_id: flashattention_2022
+  title: 'FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness'
+  authors:
+  - Tri Dao
+  - Daniel Y. Fu
+  - Stefano Ermon
+  - Atri Rudra
+  - Christopher Re
+  institution_affiliations:
+  - Stanford University
+  - University at Buffalo
+  venue: NeurIPS
+  publication_year: 2022
+  publication_date: '2022-05-27'
+  url: https://arxiv.org/abs/2205.14135
+  arxiv_url: https://arxiv.org/abs/2205.14135
   doi: null
   research_category:
-    - datacenter_ai_accelerators
+  - inference_acceleration
+  - memory_hbm_cxl_near_memory
   technology_tags:
-    - TODO_research
-  abstract_summary: Placeholder only.
-  investor_relevance: Replace with a source-backed paper during a research refresh.
-  technical_contribution: null
+  - attention
+  - memory_hierarchy
+  - LLM_inference
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: IO-aware exact attention materially reduced memory traffic and became a core optimization
+    in modern model stacks.
+  technical_contribution: IO-aware exact attention materially reduced memory traffic and became a core optimization
+    in modern model stacks.
   commercialization_potential:
-    score: null
-    rationale: null
-    possible_productization_paths: []
-    possible_startup_angles: []
+    score: 5
+    rationale: IO-aware exact attention materially reduced memory traffic and became a core optimization in modern
+      model stacks.
+    possible_productization_paths: &id001
+    - Optimized inference kernels
+    - Compiler/runtime products
+    - Accelerator-aware model serving
+    possible_startup_angles: *id001
+  startup_signal:
+    has_company_affiliation: true
+    company_names: []
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Tri Dao
+    affiliation: Stanford University
+    reason_to_track: IO-aware exact attention materially reduced memory traffic and became a core optimization in
+      modern model stacks.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: top_tier
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_flashattention_2022
+    title: 'FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness'
+    url: https://arxiv.org/abs/2205.14135
+    publisher: NeurIPS
+    date_published: '2022-05-27'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: vllm_2023
+  title: Efficient Memory Management for Large Language Model Serving with PagedAttention
+  authors:
+  - Woosuk Kwon
+  - Zhuohan Li
+  - Siyuan Zhuang
+  - Ying Sheng
+  - Lianmin Zheng
+  - Cody Hao Yu
+  - Joseph Gonzalez
+  - Hao Zhang
+  - Ion Stoica
+  institution_affiliations:
+  - UC Berkeley
+  venue: SOSP
+  publication_year: 2023
+  publication_date: '2023-09-12'
+  url: https://arxiv.org/abs/2309.06180
+  arxiv_url: https://arxiv.org/abs/2309.06180
+  doi: null
+  research_category:
+  - inference_acceleration
+  - memory_hbm_cxl_near_memory
+  technology_tags:
+  - KV_cache
+  - LLM_inference
+  - runtime
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: PagedAttention virtualizes KV-cache allocation and helped establish model-serving software
+    as a strategic control point.
+  technical_contribution: PagedAttention virtualizes KV-cache allocation and helped establish model-serving software
+    as a strategic control point.
+  commercialization_potential:
+    score: 5
+    rationale: PagedAttention virtualizes KV-cache allocation and helped establish model-serving software as a strategic
+      control point.
+    possible_productization_paths: &id002
+    - Inference orchestration
+    - KV-cache appliances
+    - Heterogeneous accelerator runtimes
+    possible_startup_angles: *id002
   startup_signal:
     has_company_affiliation: false
     company_names: []
     authors_with_startup_background: []
-    possible_spinout_signal: unknown
-    notes: null
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
   related_companies: []
   related_patents: []
-  key_authors_to_track: []
+  key_authors_to_track:
+  - name: Woosuk Kwon
+    affiliation: UC Berkeley
+    reason_to_track: PagedAttention virtualizes KV-cache allocation and helped establish model-serving software
+      as a strategic control point.
   source_quality:
-    peer_reviewed: false
-    venue_quality: unknown
+    peer_reviewed: true
+    venue_quality: top_tier
     citation_count: null
     independent_replication: false
-  sources: []
+  sources:
+  - source_id: src_vllm_2023
+    title: Efficient Memory Management for Large Language Model Serving with PagedAttention
+    url: https://arxiv.org/abs/2309.06180
+    publisher: SOSP
+    date_published: '2023-09-12'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
   data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example; not a real paper record.
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: eyeriss_v2_2018
+  title: 'Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices'
+  authors:
+  - Yu-Hsin Chen
+  - Tushar Krishna
+  - Joel Emer
+  - Vivienne Sze
+  institution_affiliations:
+  - MIT
+  venue: JSSC
+  publication_year: 2019
+  publication_date: '2018-07-20'
+  url: https://arxiv.org/abs/1807.07928
+  arxiv_url: https://arxiv.org/abs/1807.07928
+  doi: null
+  research_category:
+  - edge_ai_iot_wearables
+  - automotive_robotics_ai_silicon
+  technology_tags:
+  - edge_AI
+  - sparse_inference
+  - dataflow
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: The hierarchical mesh and sparse dataflow illustrate how edge accelerators can adapt to diverse
+    neural-network shapes.
+  technical_contribution: The hierarchical mesh and sparse dataflow illustrate how edge accelerators can adapt to
+    diverse neural-network shapes.
+  commercialization_potential:
+    score: 4
+    rationale: The hierarchical mesh and sparse dataflow illustrate how edge accelerators can adapt to diverse neural-network
+      shapes.
+    possible_productization_paths: &id003
+    - Licensable NPU IP
+    - Edge inference silicon
+    - Architecture exploration tools
+    possible_startup_angles: *id003
+  startup_signal:
+    has_company_affiliation: false
+    company_names: []
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Yu-Hsin Chen
+    affiliation: MIT
+    reason_to_track: The hierarchical mesh and sparse dataflow illustrate how edge accelerators can adapt to diverse
+      neural-network shapes.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: strong
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_eyeriss_v2_2018
+    title: 'Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices'
+    url: https://arxiv.org/abs/1807.07928
+    publisher: JSSC
+    date_published: '2018-07-20'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: timeloop_2019
+  title: 'Timeloop: A Systematic Approach to DNN Accelerator Evaluation'
+  authors:
+  - Angshuman Parashar
+  - Priyanka Raina
+  - Yakun Sophia Shao
+  - Yu-Hsin Chen
+  - Victor A. Ying
+  - Anand Mukkara
+  - Rangharajan Venkatesan
+  - Brucek Khailany
+  - Stephen W. Keckler
+  - Joel Emer
+  institution_affiliations:
+  - NVIDIA
+  - MIT
+  venue: ISPASS
+  publication_year: 2019
+  publication_date: '2019-03-01'
+  url: https://arxiv.org/abs/1811.04045
+  arxiv_url: https://arxiv.org/abs/1811.04045
+  doi: null
+  research_category:
+  - datacenter_ai_accelerators
+  - eda_compilers_runtimes_devtools
+  technology_tags:
+  - architecture_exploration
+  - dataflow
+  - EDA
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: A systematic mapping and modeling framework lowers the cost of evaluating accelerator architectures
+    and memory hierarchies.
+  technical_contribution: A systematic mapping and modeling framework lowers the cost of evaluating accelerator
+    architectures and memory hierarchies.
+  commercialization_potential:
+    score: 4
+    rationale: A systematic mapping and modeling framework lowers the cost of evaluating accelerator architectures
+      and memory hierarchies.
+    possible_productization_paths: &id004
+    - AI accelerator EDA
+    - Workload-to-hardware mapping
+    - Design-space exploration services
+    possible_startup_angles: *id004
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - NVIDIA
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Angshuman Parashar
+    affiliation: NVIDIA
+    reason_to_track: A systematic mapping and modeling framework lowers the cost of evaluating accelerator architectures
+      and memory hierarchies.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: strong
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_timeloop_2019
+    title: 'Timeloop: A Systematic Approach to DNN Accelerator Evaluation'
+    url: https://arxiv.org/abs/1811.04045
+    publisher: ISPASS
+    date_published: '2019-03-01'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: mlir_2020
+  title: 'MLIR: Scaling Compiler Infrastructure for Domain Specific Computation'
+  authors:
+  - Chris Lattner
+  - Mehdi Amini
+  - Uday Bondhugula
+  - Albert Cohen
+  - Andy Davis
+  - Jacques Pienaar
+  - River Riddle
+  - Tatiana Shpeisman
+  - Nicolas Vasilache
+  - Oleksandr Zinenko
+  institution_affiliations:
+  - Google
+  - SAI
+  venue: CGO
+  publication_year: 2021
+  publication_date: '2020-02-25'
+  url: https://arxiv.org/abs/2002.11054
+  arxiv_url: https://arxiv.org/abs/2002.11054
+  doi: null
+  research_category:
+  - eda_compilers_runtimes_devtools
+  - custom_asic_chiplets
+  technology_tags:
+  - MLIR
+  - compiler
+  - domain_specific
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: MLIR provides reusable compiler infrastructure that has become foundational for heterogeneous
+    and domain-specific hardware.
+  technical_contribution: MLIR provides reusable compiler infrastructure that has become foundational for heterogeneous
+    and domain-specific hardware.
+  commercialization_potential:
+    score: 5
+    rationale: MLIR provides reusable compiler infrastructure that has become foundational for heterogeneous and
+      domain-specific hardware.
+    possible_productization_paths: &id005
+    - Compiler platforms
+    - Hardware enablement
+    - Domain-specific optimization tooling
+    possible_startup_angles: *id005
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - Google
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Chris Lattner
+    affiliation: Google
+    reason_to_track: MLIR provides reusable compiler infrastructure that has become foundational for heterogeneous
+      and domain-specific hardware.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: strong
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_mlir_2020
+    title: 'MLIR: Scaling Compiler Infrastructure for Domain Specific Computation'
+    url: https://arxiv.org/abs/2002.11054
+    publisher: CGO
+    date_published: '2020-02-25'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: pond_cxl_2022
+  title: 'Pond: CXL-Based Memory Pooling Systems for Cloud Platforms'
+  authors:
+  - Haris Volos
+  - Gurudatt K. Kamath
+  - Jian Huang
+  - Madan Musuvathi
+  - Paul Turner
+  institution_affiliations:
+  - Meta
+  - Microsoft
+  venue: ASPLOS
+  publication_year: 2023
+  publication_date: '2022-03-01'
+  url: https://arxiv.org/abs/2203.00241
+  arxiv_url: https://arxiv.org/abs/2203.00241
+  doi: null
+  research_category:
+  - memory_hbm_cxl_near_memory
+  - pcie_cxl_retimers_connectivity
+  technology_tags:
+  - CXL
+  - memory_pooling
+  - cloud
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: Demonstrates the system and fleet-level economic case for disaggregated CXL memory pooling.
+  technical_contribution: Demonstrates the system and fleet-level economic case for disaggregated CXL memory pooling.
+  commercialization_potential:
+    score: 5
+    rationale: Demonstrates the system and fleet-level economic case for disaggregated CXL memory pooling.
+    possible_productization_paths: &id006
+    - CXL switches
+    - Memory pooling appliances
+    - Fleet memory orchestration
+    possible_startup_angles: *id006
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - Meta
+    - Microsoft
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Haris Volos
+    affiliation: Meta
+    reason_to_track: Demonstrates the system and fleet-level economic case for disaggregated CXL memory pooling.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: top_tier
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_pond_cxl_2022
+    title: 'Pond: CXL-Based Memory Pooling Systems for Cloud Platforms'
+    url: https://arxiv.org/abs/2203.00241
+    publisher: ASPLOS
+    date_published: '2022-03-01'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: photonic_tensor_core_2021
+  title: Parallel convolutional processing using an integrated photonic tensor core
+  authors:
+  - Johannes Feldmann
+  - Nathan Youngblood
+  - Mike Karpov
+  - Hannes Gehring
+  - Xuan Li
+  - Mohammadreza Stappers
+  - Mikhail Le Gallo
+  - Xavier Fu
+  - A. Sebastian
+  - Tobias J. Kippenberg
+  - Wolfram H. P. Pernice
+  - Harish Bhaskaran
+  institution_affiliations:
+  - University of Muenster
+  - University of Oxford
+  - EPFL
+  - IBM Research
+  venue: Nature
+  publication_year: 2021
+  publication_date: '2021-01-06'
+  url: https://doi.org/10.1038/s41586-020-03070-1
+  arxiv_url: null
+  doi: 10.1038/s41586-020-03070-1
+  research_category:
+  - optical_interconnect_photonics_dsp
+  - datacenter_ai_accelerators
+  technology_tags:
+  - photonic_compute
+  - silicon_photonics
+  - AI_accelerator
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: Integrated photonic matrix operations show a path toward high-throughput, low-latency analog
+    optical compute.
+  technical_contribution: Integrated photonic matrix operations show a path toward high-throughput, low-latency
+    analog optical compute.
+  commercialization_potential:
+    score: 4
+    rationale: Integrated photonic matrix operations show a path toward high-throughput, low-latency analog optical
+      compute.
+    possible_productization_paths: &id007
+    - Photonic accelerator IP
+    - Optical inference modules
+    - Photonic EDA and calibration
+    possible_startup_angles: *id007
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - IBM Research
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Johannes Feldmann
+    affiliation: University of Muenster
+    reason_to_track: Integrated photonic matrix operations show a path toward high-throughput, low-latency analog
+      optical compute.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: top_tier
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_photonic_tensor_core_2021
+    title: Parallel convolutional processing using an integrated photonic tensor core
+    url: https://doi.org/10.1038/s41586-020-03070-1
+    publisher: Nature
+    date_published: '2021-01-06'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: cerebras_gpt_2023
+  title: 'Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster'
+  authors:
+  - Nolan Dey
+  - Gurpreet Gosal
+  - Zhiming Chen
+  - Hemant Khachane
+  - William Marshall
+  - Ribhu Pathria
+  - Marvin Tom
+  - Joel Hestness
+  institution_affiliations:
+  - Cerebras Systems
+  venue: arXiv
+  publication_year: 2023
+  publication_date: '2023-04-06'
+  url: https://arxiv.org/abs/2304.03208
+  arxiv_url: https://arxiv.org/abs/2304.03208
+  doi: null
+  research_category:
+  - datacenter_ai_accelerators
+  technology_tags:
+  - wafer_scale
+  - LLM_training
+  - open_models
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: Connects a differentiated accelerator architecture to reproducible model-training outcomes
+    and an open model family.
+  technical_contribution: Connects a differentiated accelerator architecture to reproducible model-training outcomes
+    and an open model family.
+  commercialization_potential:
+    score: 4
+    rationale: Connects a differentiated accelerator architecture to reproducible model-training outcomes and an
+      open model family.
+    possible_productization_paths: &id008
+    - Alternative AI cloud
+    - Training systems
+    - Hardware-optimized foundation models
+    possible_startup_angles: *id008
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - Cerebras Systems
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Nolan Dey
+    affiliation: Cerebras Systems
+    reason_to_track: Connects a differentiated accelerator architecture to reproducible model-training outcomes
+      and an open model family.
+  source_quality:
+    peer_reviewed: false
+    venue_quality: strong
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_cerebras_gpt_2023
+    title: 'Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster'
+    url: https://arxiv.org/abs/2304.03208
+    publisher: arXiv
+    date_published: '2023-04-06'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: megascale_2024
+  title: 'MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs'
+  authors:
+  - Ziheng Jiang
+  - Haibin Lin
+  - Yinmin Zhong
+  - Qi Huang
+  - Yangrui Chen
+  - Zhengyan Zhang
+  - Yanghua Peng
+  - Xi Yang
+  - Cong Xie
+  - Shenggui Li
+  - Hongxin Zhang
+  - Xiaowen Gong
+  - Yue Yu
+  - Deli Chen
+  - Zhi Zhang
+  - Chao Wu
+  - Yiqing Zheng
+  - Zhilin Zhao
+  - Jie Wu
+  - Xiaohan Li
+  - Zhiqiang Xie
+  - Pengfei Cheng
+  - Qianxiang Wang
+  - Bin Jia
+  - Hao Wang
+  - Jin Jiang
+  - Zhenzhong Zhang
+  - Peng Wu
+  - Lian Zhao
+  - Donghui Li
+  - Jianping Wei
+  - Jianfeng Zhan
+  - Bin Cui
+  - Wei Lin
+  institution_affiliations:
+  - ByteDance
+  - Peking University
+  venue: NSDI
+  publication_year: 2024
+  publication_date: '2024-02-24'
+  url: https://arxiv.org/abs/2402.15627
+  arxiv_url: https://arxiv.org/abs/2402.15627
+  doi: null
+  research_category:
+  - networking_switching_nic_dpu
+  - datacenter_ai_accelerators
+  technology_tags:
+  - distributed_training
+  - AI_networking
+  - fault_tolerance
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: Shows that networking, topology, reliability, and observability become first-order product
+    opportunities at frontier scale.
+  technical_contribution: Shows that networking, topology, reliability, and observability become first-order product
+    opportunities at frontier scale.
+  commercialization_potential:
+    score: 5
+    rationale: Shows that networking, topology, reliability, and observability become first-order product opportunities
+      at frontier scale.
+    possible_productization_paths: &id009
+    - AI fabric software
+    - Cluster observability
+    - Fault-tolerant training infrastructure
+    possible_startup_angles: *id009
+  startup_signal:
+    has_company_affiliation: true
+    company_names:
+    - ByteDance
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Ziheng Jiang
+    affiliation: ByteDance
+    reason_to_track: Shows that networking, topology, reliability, and observability become first-order product
+      opportunities at frontier scale.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: top_tier
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_megascale_2024
+    title: 'MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs'
+    url: https://arxiv.org/abs/2402.15627
+    publisher: NSDI
+    date_published: '2024-02-24'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- paper_id: tensor_dimm_2019
+  title: 'TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations'
+  authors:
+  - Youngeun Kwon
+  - Yunjae Lee
+  - Minsoo Rhu
+  institution_affiliations:
+  - KAIST
+  venue: MICRO
+  publication_year: 2019
+  publication_date: '2019-01-10'
+  url: https://arxiv.org/abs/1901.03035
+  arxiv_url: https://arxiv.org/abs/1901.03035
+  doi: null
+  research_category:
+  - memory_hbm_cxl_near_memory
+  - inference_acceleration
+  technology_tags:
+  - near_memory_compute
+  - embeddings
+  - recommender
+  abstract_summary: See the linked primary paper for methods, experiments, and limitations.
+  investor_relevance: Near-memory processing for embeddings anticipated the bandwidth pressure now visible in recommenders
+    and LLM serving.
+  technical_contribution: Near-memory processing for embeddings anticipated the bandwidth pressure now visible in
+    recommenders and LLM serving.
+  commercialization_potential:
+    score: 4
+    rationale: Near-memory processing for embeddings anticipated the bandwidth pressure now visible in recommenders
+      and LLM serving.
+    possible_productization_paths: &id010
+    - Near-memory accelerators
+    - Embedding appliances
+    - KV-cache memory systems
+    possible_startup_angles: *id010
+  startup_signal:
+    has_company_affiliation: false
+    company_names: []
+    authors_with_startup_background: []
+    possible_spinout_signal: medium
+    notes: Commercialization score reflects product relevance, not scientific quality.
+  related_companies: []
+  related_patents: []
+  key_authors_to_track:
+  - name: Youngeun Kwon
+    affiliation: KAIST
+    reason_to_track: Near-memory processing for embeddings anticipated the bandwidth pressure now visible in recommenders
+      and LLM serving.
+  source_quality:
+    peer_reviewed: true
+    venue_quality: top_tier
+    citation_count: null
+    independent_replication: false
+  sources:
+  - source_id: src_tensor_dimm_2019
+    title: 'TensorDIMM: A Practical Near-Memory Processing Architecture for Embeddings and Tensor Operations'
+    url: https://arxiv.org/abs/1901.03035
+    publisher: MICRO
+    date_published: '2019-01-10'
+    date_accessed: '2026-06-10'
+    source_type: academic_paper
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'

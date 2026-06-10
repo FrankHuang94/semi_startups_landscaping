@@ -1,14 +1,54 @@
 tags:
-  HBM: High-bandwidth memory.
-  CXL: Compute Express Link memory and device fabric.
-  UCIe: Universal Chiplet Interconnect Express.
+  HBM: High-bandwidth stacked memory used near accelerators.
+  CXL: Compute Express Link coherent memory and device fabric.
+  UCIe: Universal Chiplet Interconnect Express die-to-die standard.
+  RISC-V: Open instruction-set architecture.
+  AI_accelerator: Purpose-built compute for machine-learning workloads.
+  AI_interconnect: Connectivity optimized for accelerator clusters.
+  AI_networking: Scale-up or scale-out networking for AI systems.
+  LLM_inference: Large-language-model serving and token generation.
+  LLM_training: Large-language-model pretraining or fine-tuning.
+  KV_cache: Attention key/value cache capacity and movement.
+  wafer_scale: Processor implementation spanning most or all of a wafer.
   chiplet: Multi-die modular semiconductor architecture.
-  optical_io: Optical links integrated near or within compute packages.
-  silicon_photonics: Photonic devices implemented on silicon-compatible processes.
-  sparse_inference: Hardware or software optimized for sparse model execution.
-  low_precision: Reduced numerical precision for compute and memory efficiency.
+  die_to_die: Electrical or optical links between dies in a package.
+  advanced_packaging: 2.5D, 3D, fan-out, panel, or heterogeneous integration.
+  3D_integration: Vertical integration of dies, devices, or memory.
+  optical_io: Optical links integrated near or inside compute packages.
+  silicon_photonics: Photonic devices in silicon-compatible processes.
+  photonic_compute: Optical implementation of mathematical operations.
+  SerDes: Serializer/deserializer high-speed interface circuitry.
+  PCIe: Peripheral Component Interconnect Express.
+  retimer: Signal-conditioning device extending high-speed electrical links.
+  memory_pooling: Shared or disaggregated memory capacity across hosts.
+  near_memory_compute: Compute placed close to memory devices.
+  in_memory_compute: Computation performed within or tightly integrated with memory arrays.
+  memory_bandwidth: Rate at which data can be supplied to compute.
+  memory_hierarchy: Placement and movement across registers, SRAM, DRAM, and storage.
+  DPU: Infrastructure data-processing unit.
+  SuperNIC: High-performance NIC with accelerator-aware transport or offload.
+  SmartNIC: Programmable network interface with infrastructure offloads.
+  Ethernet: Standards-based packet networking.
+  edge_AI: Machine-learning execution outside centralized datacenters.
+  TinyML: Machine learning on highly constrained embedded devices.
+  NPU: Neural-processing unit.
+  MLSoC: System-on-chip centered on machine-learning execution.
+  ADAS: Advanced driver-assistance systems.
+  robotics: Compute and sensing for autonomous machines.
+  neuromorphic: Event-driven or brain-inspired compute architecture.
+  EDA: Electronic design automation.
   MLIR: Multi-Level Intermediate Representation compiler infrastructure.
-  RISC-V: Open instruction set architecture.
-  confidential_compute: Protection of data in use through trusted hardware.
-  liquid_cooling: Direct or indirect liquid-based thermal management.
-  TODO_research: Explicit marker for an unresearched placeholder record.
+  compiler: Software translating models or programs to hardware execution.
+  processor_IP: Licensable processor architecture or implementation.
+  custom_ASIC: Application-specific integrated circuit tailored to a customer or workload.
+  open_source: Software or hardware design distributed under an open license.
+  root_of_trust: Hardware anchor for platform identity and secure boot.
+  confidential_compute: Protection of data while in use.
+  post_quantum: Cryptography designed to resist quantum attacks.
+  PUF: Physical unclonable function for silicon identity.
+  liquid_cooling: Liquid-based datacenter thermal management.
+  two_phase: Cooling using phase change of a working fluid.
+  power_delivery: Conversion and distribution of electrical power to compute.
+  power_semiconductor: Device controlling or converting electrical power.
+  GaN: Gallium-nitride power semiconductor technology.
+  glass_substrate: Glass-based packaging substrate or interposer.

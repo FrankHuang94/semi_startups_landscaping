@@ -1,1 +1,260 @@
-[]
+- ticker: NVDA
+  company_name: NVIDIA
+  categories:
+  - datacenter_ai_accelerators
+  - networking_switching_nic_dpu
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Accelerated-computing platform leader and primary benchmark for AI silicon economics.
+  sources:
+  - source_id: src_public_comp_nvda
+    title: NVIDIA investor relations
+    url: https://investor.nvidia.com/
+    publisher: NVIDIA
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: AMD
+  company_name: Advanced Micro Devices
+  categories:
+  - datacenter_ai_accelerators
+  - datacenter_cpu_server_soc
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Public comparison for CPU/GPU platforms, adaptive compute, and datacenter share capture.
+  sources:
+  - source_id: src_public_comp_amd
+    title: Advanced Micro Devices investor relations
+    url: https://ir.amd.com/
+    publisher: Advanced Micro Devices
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: AVGO
+  company_name: Broadcom
+  categories:
+  - networking_switching_nic_dpu
+  - custom_asic_chiplets
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Public comparison for switching, connectivity, custom AI ASICs, and infrastructure scale.
+  sources:
+  - source_id: src_public_comp_avgo
+    title: Broadcom investor relations
+    url: https://investors.broadcom.com/
+    publisher: Broadcom
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: MRVL
+  company_name: Marvell Technology
+  categories:
+  - networking_switching_nic_dpu
+  - optical_interconnect_photonics_dsp
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Public comparison for custom silicon, electro-optics, switching, and datacenter connectivity.
+  sources:
+  - source_id: src_public_comp_mrvl
+    title: Marvell Technology investor relations
+    url: https://investor.marvell.com/
+    publisher: Marvell Technology
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: ARM
+  company_name: Arm Holdings
+  categories:
+  - riscv_processor_ip
+  - datacenter_cpu_server_soc
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Reference for processor-IP licensing, ecosystem economics, and strategic scarcity.
+  sources:
+  - source_id: src_public_comp_arm
+    title: Arm Holdings investor relations
+    url: https://investors.arm.com/
+    publisher: Arm Holdings
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: ALAB
+  company_name: Astera Labs
+  categories:
+  - pcie_cxl_retimers_connectivity
+  - memory_hbm_cxl_near_memory
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: High-relevance public comp for PCIe/CXL connectivity and rack-scale AI infrastructure.
+  sources:
+  - source_id: src_public_comp_alab
+    title: Astera Labs investor relations
+    url: https://ir.asteralabs.com/
+    publisher: Astera Labs
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: CRDO
+  company_name: Credo Technology Group
+  categories:
+  - pcie_cxl_retimers_connectivity
+  - networking_switching_nic_dpu
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Public comp for high-speed SerDes, DSP, and active electrical connectivity.
+  sources:
+  - source_id: src_public_comp_crdo
+    title: Credo Technology Group investor relations
+    url: https://investors.credosemi.com/
+    publisher: Credo Technology Group
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: SNPS
+  company_name: Synopsys
+  categories:
+  - eda_compilers_runtimes_devtools
+  - riscv_processor_ip
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: EDA and semiconductor-IP platform comp with strategic acquisition capacity.
+  sources:
+  - source_id: src_public_comp_snps
+    title: Synopsys investor relations
+    url: https://investor.synopsys.com/
+    publisher: Synopsys
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: CDNS
+  company_name: Cadence Design Systems
+  categories:
+  - eda_compilers_runtimes_devtools
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: EDA platform comp spanning chip, package, board, and system analysis.
+  sources:
+  - source_id: src_public_comp_cdns
+    title: Cadence Design Systems investor relations
+    url: https://investor.cadence.com/
+    publisher: Cadence Design Systems
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: COHR
+  company_name: Coherent
+  categories:
+  - optical_interconnect_photonics_dsp
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Optical component and materials comp relevant to datacenter photonics adoption.
+  sources:
+  - source_id: src_public_comp_cohr
+    title: Coherent investor relations
+    url: https://investors.coherent.com/
+    publisher: Coherent
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: VRT
+  company_name: Vertiv
+  categories:
+  - power_thermal_infrastructure
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Datacenter power and thermal infrastructure comp with direct AI rack-density exposure.
+  sources:
+  - source_id: src_public_comp_vrt
+    title: Vertiv investor relations
+    url: https://investors.vertiv.com/
+    publisher: Vertiv
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: MPWR
+  company_name: Monolithic Power Systems
+  categories:
+  - power_thermal_infrastructure
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: Power-management semiconductor comp relevant to accelerator and datacenter power delivery.
+  sources:
+  - source_id: src_public_comp_mpwr
+    title: Monolithic Power Systems investor relations
+    url: https://ir.monolithicpower.com/
+    publisher: Monolithic Power Systems
+    date_accessed: '2026-06-10'
+    source_type: filing
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-06-10'
+    notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.

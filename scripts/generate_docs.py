@@ -62,11 +62,30 @@ def generate_category_pages() -> None:
         profiles = []
         sources = []
         for company in companies:
+            scoring = company.get("strategic_scoring", {})
+            score_items = [
+                f"{key.replace('_', ' ')} {value}/5"
+                for key, value in scoring.items()
+                if key != "overall_vc_priority" and isinstance(value, (int, float))
+            ]
+            investment = company.get("vc_investment_view", {})
+            technical = company.get("technical_profile", {})
+            commercial = company.get("commercial_profile", {})
             profiles.append(
                 f"### {company['name']}\n\n"
                 f"**Summary:** {company.get('investor_summary') or 'Research required.'}\n\n"
-                f"**Differentiation:** {company.get('technical_profile', {}).get('technical_differentiation') or 'Research required.'}\n\n"
-                f"**Key diligence:** {', '.join(company.get('vc_investment_view', {}).get('key_diligence_questions', [])) or 'Not yet recorded.'}"
+                f"**Product / architecture:** {company.get('one_line_summary') or 'Research required.'}\n\n"
+                f"**Differentiation:** {technical.get('technical_differentiation') or 'Research required.'}\n\n"
+                f"**Commercial status:** {commercial.get('revenue_stage', 'unknown')}; "
+                f"{commercial.get('customer_traction') or 'customer evidence not recorded.'}\n\n"
+                f"**VC view:** {scoring.get('overall_vc_priority', 'unscored')} at "
+                f"{investment.get('investment_stage_fit', 'unknown')} stage fit. "
+                f"Why now: {investment.get('why_now') or 'Not recorded.'}\n\n"
+                f"**Scorecard:** {', '.join(score_items) or 'Not scored.'}\n\n"
+                f"**Potential acquirers:** {', '.join(investment.get('likely_acquirers', [])) or 'Not recorded.'}\n\n"
+                f"**Key diligence:** {'; '.join(investment.get('key_diligence_questions', [])) or 'Not yet recorded.'}\n\n"
+                f"**Risks:** {'; '.join(investment.get('red_flags', []) + technical.get('technical_risks', [])) or 'Not recorded.'}\n\n"
+                f"**Data gaps:** {', '.join(company.get('data_quality', {}).get('missing_fields', [])) or 'None recorded.'}"
             )
             sources.extend(company.get("sources", []))
         body = f"""Last refreshed: {meta['last_refreshed']}  
@@ -87,6 +106,14 @@ Number of companies: {len(companies)}
 ## Top Watchlist Names
 
 {chr(10).join(f"{index}. {company['name']}" for index, company in enumerate(companies[:10], 1)) or "No scored companies yet."}
+
+## Category Underwriting
+
+- **Timing:** {category.get('vc_summary')}
+- **Primary proof point:** Production workload advantage that survives software, system, and integration overhead.
+- **Commercial proof point:** Referenceable deployment, repeat order, or awarded design win with an economic path to scale.
+- **Financing risk:** Semiconductor milestones often require capital before revenue evidence; model downside dilution explicitly.
+- **Exit test:** Identify the strategic roadmap gap and likely buyer before underwriting M&A as a base case.
 
 ## Company Profiles
 
@@ -122,6 +149,27 @@ def generate_dashboard() -> None:
         key=lambda row: row[1],
         reverse=True,
     )
+    priority_counts = Counter(
+        company.get("strategic_scoring", {}).get("overall_vc_priority") or "unscored"
+        for company in companies
+    )
+    added = []
+    for metadata in refresh.values():
+        for company_id in metadata.get("companies_added", []):
+            match = next((company for company in companies if company["company_id"] == company_id), None)
+            if match:
+                added.append(match)
+    transactions = load_yaml(TRANSACTION_DIR / "ma_transactions.yaml", [])
+    papers = sorted(
+        load_yaml(RESEARCH_DIR / "papers.yaml", []),
+        key=lambda item: item.get("commercialization_potential", {}).get("score") or 0,
+        reverse=True,
+    )
+    patents = sorted(
+        load_yaml(RESEARCH_DIR / "patents.yaml", []),
+        key=lambda item: item.get("commercialization_signal", {}).get("score") or 0,
+        reverse=True,
+    )
     write(
         DOCS / "vc_dashboard.md",
         "VC Dashboard",
@@ -137,6 +185,18 @@ def generate_dashboard() -> None:
 
 {markdown_table(["Category", "Average Score", "Scored Companies"], category_rows)}
 
+## Pipeline Composition
+
+{markdown_table(["Priority", "Companies"], sorted(priority_counts.items()))}
+
+## New Additions in This Refresh
+
+{markdown_table(
+    ["Company", "Category", "Priority", "Why It Matters"],
+    [[c["name"], c["primary_category"], c.get("strategic_scoring", {}).get("overall_vc_priority"),
+      c.get("one_line_summary")] for c in added],
+)}
+
 ## Stale Categories Needing Refresh
 
 {chr(10).join(f"- {item}" for item in stale) or "No sections are currently flagged stale."}
@@ -145,15 +205,27 @@ def generate_dashboard() -> None:
 
 {chr(10).join(f"- {c['name']}" for c in companies if c.get('strategic_scoring', {}).get('overall_vc_priority') == 'active_diligence') or "None."}
 
-## Recent Changes
+## Strategic M&A Signals
 
-See [CHANGELOG](../CHANGELOG.md) and [refresh status](refresh_status.md).
+{markdown_table(
+    ["Target", "Acquirer", "Value USDm", "Categories", "Read-Through"],
+    [[t.get("target_company"), t.get("acquirer"), t.get("transaction_value_usd_m"),
+      t.get("target_categories"), t.get("exit_readthrough_for_vc")] for t in transactions[-8:]],
+)}
 
 ## Research and Patent Signals
 
-- [Research radar](research_radar.md)
-- [Patent radar](patent_radar.md)
-- [Founder radar](founder_radar.md)
+{markdown_table(
+    ["Signal", "Type", "Score", "Investor Relevance"],
+    [[p.get("title"), "paper", p.get("commercialization_potential", {}).get("score"),
+      p.get("investor_relevance")] for p in papers[:5]]
+    + [[p.get("title"), "patent", p.get("commercialization_signal", {}).get("score"),
+        p.get("investor_relevance")] for p in patents[:5]],
+)}
+
+## Recent Changes
+
+See [CHANGELOG](../CHANGELOG.md) and [refresh status](refresh_status.md).
 """,
     )
 
@@ -196,6 +268,13 @@ def generate_research_docs() -> None:
 ## Startup Formation Signals
 
 See [hot research opportunities](views/hot_research_to_startup_opportunities.md).
+
+## Research Workflow
+
+1. Track repeated publication clusters, not isolated papers.
+2. Separate scientific novelty from manufacturability and customer integration.
+3. Link authors to patents, open-source adoption, grants, and industry collaborations.
+4. Record a startup thesis only when a product wedge and buyer are identifiable.
 """,
     )
     assignees = Counter(p.get("assignee") for p in patents if p.get("assignee"))
@@ -215,11 +294,20 @@ See [hot research opportunities](views/hot_research_to_startup_opportunities.md)
 
 ## Inventors and Patent Clusters
 
-Use `technology_tags`, `related_researchers`, and `related_papers` in the source YAML to build clusters.
+{markdown_table(
+    ["Patent", "Inventors", "Technology Tags", "Strength Estimate"],
+    [[p.get("patent_number"), p.get("inventors"), p.get("technology_tags"),
+      p.get("patent_strength_estimate", {}).get("relevance")] for p in patents],
+)}
 
 ## Patent White Spaces
 
-Record identified white spaces in `data/research/emerging_research_themes.yaml`; do not infer freedom to operate from this database.
+- Optical attach, laser reliability, and photonic test automation.
+- Chiplet security, lifecycle management, and known-good-die validation.
+- CXL fleet orchestration, failure isolation, and workload-aware memory placement.
+- Package-level power delivery and thermal telemetry.
+
+This is a technology-signal database, not a legal opinion or freedom-to-operate analysis.
 """,
     )
     write(
@@ -235,12 +323,21 @@ Record identified white spaces in `data/research/emerging_research_themes.yaml`;
 ## Suggested Monitoring Priority
 
 Prioritize repeated top-tier publication, meaningful patent activity, open-source adoption, industry collaboration, and evidence of customer discovery. Verify all outreach and employment restrictions separately.
+
+## Outreach Preparation
+
+- Confirm current affiliation and publication recency.
+- Map co-authors, former students, grant partners, and prior founders.
+- Identify a concrete product wedge and customer problem before outreach.
+- Treat commercialization score as a sourcing heuristic, not a judgment of founder intent.
 """,
     )
 
 
 def generate_market_docs() -> None:
     transactions = load_yaml(TRANSACTION_DIR / "ma_transactions.yaml", [])
+    public_comps = load_yaml(TRANSACTION_DIR / "ipo_public_comps.yaml", [])
+    partnerships = load_yaml(TRANSACTION_DIR / "strategic_partnerships.yaml", [])
     investors = all_investors()
     write(
         DOCS / "ma_exit_landscape.md", "M&A and Exit Landscape",
@@ -256,6 +353,29 @@ def generate_market_docs() -> None:
 ## Strategic Acquirers
 
 See [strategic acquirer watchlist](views/strategic_acquirer_watchlist.md).
+
+## Public Comparables
+
+{markdown_table(
+    ["Ticker", "Company", "Categories", "Investor Read-Through", "Metrics Date"],
+    [[c.get("ticker"), c.get("company_name"), c.get("categories"), c.get("investor_readthrough"),
+      c.get("valuation_date")] for c in public_comps],
+)}
+
+## Strategic Partnerships and Standards
+
+{markdown_table(
+    ["Partnership", "Participants", "Categories", "VC Read-Through"],
+    [[p.get("name"), p.get("participants"), p.get("categories"), p.get("vc_readthrough")]
+     for p in partnerships],
+)}
+
+## Exit Underwriting Rules
+
+- Do not use headline transaction value without normalizing revenue, funding, consideration, and market conditions.
+- Distinguish platform acquisitions from talent/IP acquisitions.
+- Map each startup to a specific buyer roadmap gap and internal build alternative.
+- Treat IPO as credible only with customer diversification, durable gross margin, and multi-generation execution.
 """,
     )
     write(
@@ -263,15 +383,23 @@ See [strategic acquirer watchlist](views/strategic_acquirer_watchlist.md).
         f"""## Active Investors
 
 {markdown_table(
-    ["Investor", "Type", "Preferred Stage", "Relevant Partners", "Portfolio", "Sourcing Score"],
-    [[i.get("name"), i.get("investor_type"), i.get("preferred_stage"), i.get("relevant_partners"),
-      i.get("relevant_portfolio_companies"), i.get("relevance_for_deal_sourcing", {}).get("score")]
+    ["Investor", "Type", "Preferred Stage", "Semiconductor Thesis", "AI Infrastructure Thesis", "Sourcing Score"],
+    [[i.get("name"), i.get("investor_type"), i.get("preferred_stage"), i.get("semiconductor_thesis"),
+      i.get("ai_infrastructure_thesis"), i.get("relevance_for_deal_sourcing", {}).get("score")]
      for i in investors],
 )}
 
 ## Co-Investor Network
 
 The structured network is maintained in `data/investors/co_investor_network.yaml`.
+
+## Sourcing Workflow
+
+- Start with investors scoring 5 for relevant stage and category.
+- Identify the individual partner who led the closest comparable investment.
+- Map repeated syndicates before requesting introductions.
+- Separate strategic investor interest from independent financial validation.
+- Refresh portfolio evidence before outreach because investor teams and theses change.
 """,
     )
 
@@ -309,12 +437,22 @@ def generate_index() -> None:
 """,
     )
     categories = category_map()
+    companies = all_companies()
+    counts = Counter(company["primary_category"] for company in companies)
     write(
         DOCS / "company_landscape.md", "Company Landscape",
-        "\n".join(
-            f"- [{item['display_name']}](category_landscape/{category_id}.md)"
-            for category_id, item in categories.items()
-        ),
+        f"""The baseline contains **{len(companies)} company profiles** across **{len(categories)} primary categories**.
+
+{markdown_table(
+    ["Category", "Companies", "Landscape"],
+    [[item["display_name"], counts.get(category_id, 0),
+      f"[Open category page](category_landscape/{category_id}.md)"]
+     for category_id, item in categories.items()],
+)}
+
+Company records are source-backed screening profiles, not completed investment memos. Funding, customer,
+benchmark, and manufacturing fields remain null where primary evidence has not yet been captured.
+""",
     )
 
 

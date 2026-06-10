@@ -2,244 +2,419 @@ sections:
   datacenter_ai_accelerators:
     display_name: Datacenter AI Accelerators
     file_path: data/companies/datacenter_ai_accelerators.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial schema and placeholder seed.
-    companies_added: [example_ai_accelerator_001]
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - cerebras_001
+    - sambanova_001
+    - tenstorrent_001
+    - matx_001
     companies_updated: []
-    companies_removed: []
-    major_changes: []
-    open_questions: [Replace placeholder with source-backed market map.]
-    next_refresh_recommendation: 2026-07-10
+    companies_removed:
+    - example_ai_accelerator_001
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   inference_acceleration:
     display_name: Inference Acceleration
     file_path: data/companies/inference_acceleration.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - groq_001
+    - dmatrix_001
+    - etched_001
+    - positron_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   custom_asic_chiplets:
     display_name: Custom ASIC and Chiplet Platforms
     file_path: data/companies/custom_asic_chiplets.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - eliyan_001
+    - chipletz_001
+    - blue_cheetah_001
+    - zero_asic_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   datacenter_cpu_server_soc:
     display_name: Datacenter CPU and Server SoC
     file_path: data/companies/datacenter_cpu_server_soc.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - ampere_001
+    - rivos_001
+    - ventana_001
+    - tachyum_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   memory_hbm_cxl_near_memory:
     display_name: Memory, HBM, CXL, and Near-Memory Compute
     file_path: data/companies/memory_hbm_cxl_near_memory.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - memverge_001
+    - xconn_001
+    - panmnesia_001
+    - neuroblade_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   networking_switching_nic_dpu:
     display_name: Networking, Switching, NIC, and DPU
     file_path: data/companies/networking_switching_nic_dpu.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - enfabrica_001
+    - cornelis_001
+    - asterfusion_001
+    - nextsilicon_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   optical_interconnect_photonics_dsp:
     display_name: Optical Interconnect, Silicon Photonics, and Optical DSP
     file_path: data/companies/optical_interconnect_photonics_dsp.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - ayar_labs_001
+    - lightmatter_001
+    - xscape_001
+    - scintil_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   pcie_cxl_retimers_connectivity:
     display_name: PCIe, CXL, Retimers, and Connectivity
     file_path: data/companies/pcie_cxl_retimers_connectivity.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - astera_labs_001
+    - kandou_001
+    - point2_001
+    - credo_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   edge_ai_iot_wearables:
     display_name: Edge AI, IoT, Wearables, and Consumer AI Chips
     file_path: data/companies/edge_ai_iot_wearables.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - hailo_001
+    - axelera_001
+    - sima_ai_001
+    - syntiant_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   automotive_robotics_ai_silicon:
     display_name: Automotive and Robotics AI Silicon
     file_path: data/companies/automotive_robotics_ai_silicon.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - recogni_001
+    - quadric_001
+    - expedera_001
+    - innatera_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   eda_compilers_runtimes_devtools:
     display_name: EDA, Compiler, Runtime, and Developer Tools
     file_path: data/companies/eda_compilers_runtimes_devtools.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - celus_001
+    - circuit_mind_001
+    - chipflow_001
+    - silimate_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   advanced_packaging_chiplets_substrates:
     display_name: Advanced Packaging, Chiplets, and Substrates
     file_path: data/companies/advanced_packaging_chiplets_substrates.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - silicon_box_001
+    - saras_micro_001
+    - nhanced_001
+    - mosaic_microsystems_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   riscv_processor_ip:
     display_name: RISC-V and Processor IP
     file_path: data/companies/riscv_processor_ip.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - sifive_001
+    - codasip_001
+    - mips_001
+    - semidynamics_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   security_confidential_compute:
     display_name: Security and Confidential Compute Silicon
     file_path: data/companies/security_confidential_compute.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - axiado_001
+    - cornami_001
+    - crypto_quantique_001
+    - xiphera_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-09-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   power_thermal_infrastructure:
     display_name: Power and Thermal Infrastructure
     file_path: data/companies/power_thermal_infrastructure.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
     refresh_scope: full
-    refresh_summary: Initial empty section.
-    companies_added: []
+    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    companies_added:
+    - frore_001
+    - zutacore_001
+    - accelsius_001
+    - cgd_001
     companies_updated: []
     companies_removed: []
-    major_changes: []
-    open_questions: []
-    next_refresh_recommendation: 2026-07-10
+    major_changes:
+    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    open_questions:
+    - Reconstruct financing history and validate production customer references.
+    next_refresh_recommendation: '2026-07-10'
   research_papers:
     display_name: Research Paper Radar
     file_path: data/research/papers.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
-    refresh_scope: targeted
-    refresh_summary: Initial placeholder seed.
-    papers_added: [example_paper_001]
+    refresh_scope: full
+    refresh_summary: Replaced placeholder with ten commercialization-relevant papers.
+    papers_added:
+    - flashattention_2022
+    - vllm_2023
+    - eyeriss_v2_2018
+    - timeloop_2019
+    - mlir_2020
+    - pond_cxl_2022
+    - photonic_tensor_core_2021
+    - cerebras_gpt_2023
+    - megascale_2024
+    - tensor_dimm_2019
     papers_updated: []
-    researchers_added: []
-    major_themes_added: []
-    open_questions: [Replace placeholder with source-backed papers.]
-    next_refresh_recommendation: 2026-07-10
+    researchers_added:
+    - song_han
+    - vivienne_sze
+    - onur_mutlu
+    - david_patterson
+    - ramin_farjadrad
+    - vladimir_stojanovic
+    - nicholas_harris
+    - kunle_olukotun
+    - naveen_verma
+    - priyanka_raina
+    - boris_murmann
+    - subhasish_mitra
+    major_themes_added:
+    - theme_optical_io
+    - theme_kv_cache
+    - theme_chiplet_io
+    - theme_ai_ethernet
+    - theme_digital_imc
+    - theme_glass
+    - theme_two_phase
+    - theme_riscv_ai
+    - theme_ai_eda
+    - theme_power_delivery
+    open_questions:
+    - Add citation and replication metrics.
+    next_refresh_recommendation: '2026-07-10'
   patents:
     display_name: Patent Radar
     file_path: data/research/patents.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
-    refresh_scope: targeted
-    refresh_summary: Initial placeholder seed.
-    patents_added: [example_patent_001]
+    refresh_scope: full
+    refresh_summary: Replaced placeholder with eight high-signal accelerator, chiplet, and photonics patents.
+    patents_added:
+    - patent_cerebras_descriptors
+    - patent_cerebras_redundancy
+    - patent_ayar_polarization
+    - patent_ayar_vertical
+    - patent_eliyan_usr
+    - patent_eliyan_gearbox
+    - patent_lightmatter_linear
+    - patent_lightmatter_matmul
     patents_updated: []
-    inventors_added: []
-    major_themes_added: []
-    open_questions: [Replace placeholder with source-backed patents.]
-    next_refresh_recommendation: 2026-07-10
+    inventors_added:
+    - Chong Zhang
+    - Darius Bunandar
+    - Mohsen F. Rad
+    - Nicholas C. Harris
+    - Pavan Bhargava
+    - Ramin Farjadrad
+    - Sean Lie
+    major_themes_added:
+    - wafer-scale yield
+    - optical chiplets
+    - die-to-die links
+    - photonic compute
+    open_questions:
+    - Add family, assignment, prosecution, and forward-citation analysis.
+    next_refresh_recommendation: '2026-07-10'
   ma_transactions:
     display_name: M&A Transactions
     file_path: data/transactions/ma_transactions.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
-    refresh_scope: targeted
-    refresh_summary: Initial placeholder seed.
-    transactions_added: [example_txn_001]
+    refresh_scope: full
+    refresh_summary: Replaced placeholder with twelve strategic semiconductor and infrastructure transactions.
+    transactions_added:
+    - txn_amd_seamicro
+    - txn_intel_habana
+    - txn_nvidia_mellanox
+    - txn_amd_xilinx
+    - txn_qualcomm_nuvia
+    - txn_marvell_innovium
+    - txn_amd_pensando
+    - txn_softbank_graphcore
+    - txn_synopsys_ansys
+    - txn_renesas_altium
+    - txn_qualcomm_kandou
+    - txn_softbank_ampere
     transactions_updated: []
-    open_questions: [Replace placeholder with source-backed transactions.]
-    next_refresh_recommendation: 2026-09-10
+    open_questions:
+    - Normalize target revenue and funding at acquisition.
+    next_refresh_recommendation: '2026-09-10'
   vc_investors:
     display_name: VC Investor Landscape
     file_path: data/investors/vc_investors.yaml
-    last_refreshed: 2026-06-10
+    last_refreshed: '2026-06-10'
     refreshed_by: Frank / Codex
-    refresh_scope: targeted
-    refresh_summary: Initial placeholder seed.
-    investors_added: [example_vc_001]
+    refresh_scope: full
+    refresh_summary: Replaced placeholder with VC, CVC, and strategic investor baseline maps.
+    investors_added:
+    - eclipse
+    - playground
+    - walden_catalyst
+    - celesta
+    - dcvc
+    - lux
+    - mayfield
+    - sutter_hill
+    - intel_capital
+    - qualcomm_ventures
+    - samsung_catalyst
+    - applied_ventures
+    - nvidia
+    - amd
+    - marvell
+    - broadcom
+    - arm
     investors_updated: []
     portfolio_updates: []
-    open_questions: [Replace placeholder with source-backed investors.]
-    next_refresh_recommendation: 2026-09-10
+    open_questions:
+    - Add partner-level sourcing maps and dated portfolio evidence.
+    next_refresh_recommendation: '2026-08-10'

@@ -1,17 +1,117 @@
-- lab_id: example_lab_001
-  name: Example Lab Placeholder
-  institution: null
-  location: null
-  focus_areas: []
-  related_categories:
-    - datacenter_ai_accelerators
-  leading_researchers: []
-  notable_papers: []
-  notable_patents: []
-  open_source_projects: []
-  startup_signals: []
-  sources: []
-  data_quality:
-    confidence_level: low
-    last_verified: 2026-06-10
-    notes: Explicit placeholder example.
+- lab_id: mit_han_lab
+  name: HAN Lab
+  institution: MIT
+  focus_areas:
+  - efficient AI
+  - model compression
+  - AI systems
+  startup_signals:
+  - open-source adoption
+  - industry collaboration
+  - alumni company formation
+  url: https://hanlab.mit.edu/
+- lab_id: mit_eems
+  name: Energy-Efficient Multimedia Systems Group
+  institution: MIT
+  focus_areas:
+  - edge AI
+  - accelerators
+  - energy-efficient computing
+  startup_signals:
+  - top-tier publications
+  - industry collaboration
+  url: https://www.rle.mit.edu/eems/
+- lab_id: berkeley_baid
+  name: Berkeley AI Research and architecture ecosystem
+  institution: UC Berkeley
+  focus_areas:
+  - RISC-V
+  - AI systems
+  - silicon photonics
+  startup_signals:
+  - RISC-V
+  - Ayar Labs
+  - open-source systems
+  url: https://bair.berkeley.edu/
+- lab_id: stanford_rsg
+  name: Raina Systems Group
+  institution: Stanford University
+  focus_areas:
+  - domain-specific architecture
+  - accelerator design
+  - EDA
+  startup_signals:
+  - industry collaboration
+  - architecture tooling
+  url: https://rsg.stanford.edu/
+- lab_id: stanford_multiscale
+  name: Mitra Group
+  institution: Stanford University
+  focus_areas:
+  - 3D integration
+  - nano systems
+  - reliability
+  startup_signals:
+  - patent activity
+  - DARPA programs
+  - commercializable integration
+  url: https://subhasish.stanford.edu/
+- lab_id: princeton_verma
+  name: Verma Lab
+  institution: Princeton University
+  focus_areas:
+  - in-memory compute
+  - mixed-signal AI
+  - sensing
+  startup_signals:
+  - EnCharge AI spinout
+  - patents
+  - industry collaboration
+  url: https://verma.princeton.edu/
+- lab_id: eth_safari
+  name: SAFARI Research Group
+  institution: ETH Zurich
+  focus_areas:
+  - memory systems
+  - processing-in-memory
+  - reliability
+  startup_signals:
+  - open-source tools
+  - patents
+  - industry collaboration
+  url: https://safari.ethz.ch/
+- lab_id: imec
+  name: imec
+  institution: imec
+  focus_areas:
+  - advanced nodes
+  - 3D integration
+  - silicon photonics
+  startup_signals:
+  - venture spinouts
+  - pilot lines
+  - strategic partnerships
+  url: https://www.imec-int.com/
+- lab_id: cea_leti
+  name: CEA-Leti
+  institution: CEA
+  focus_areas:
+  - chiplets
+  - photonics
+  - advanced packaging
+  startup_signals:
+  - spinouts
+  - patents
+  - industrial transfer
+  url: https://www.leti-cea.com/
+- lab_id: albany_nanotech
+  name: Albany NanoTech Complex
+  institution: NY CREATES
+  focus_areas:
+  - advanced semiconductor R&D
+  - packaging
+  - process integration
+  startup_signals:
+  - pilot infrastructure
+  - industry consortia
+  url: https://ny-creates.org/
