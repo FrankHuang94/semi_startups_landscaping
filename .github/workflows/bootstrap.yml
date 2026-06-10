@@ -20,9 +20,13 @@ jobs:
         shell: bash
         run: |
           test -f .bootstrap/READY
+          cp .github/workflows/bootstrap.yml /tmp/bootstrap.yml
           cat .bootstrap/chunk-* | base64 --decode > /tmp/repo.tar.gz
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           tar -xzf /tmp/repo.tar.gz -C .
+          rm -rf .github/workflows
+          mkdir -p .github/workflows
+          cp /tmp/bootstrap.yml .github/workflows/bootstrap.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
