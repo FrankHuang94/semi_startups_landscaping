@@ -1,0 +1,33 @@
+scoring_dimensions:
+  market_size:
+    description: How large and venture-scale the end market can become.
+  timing:
+    description: Whether the market is ready now or likely to become ready soon.
+  technical_differentiation:
+    description: Strength of architecture, IP, performance, software, or manufacturing differentiation.
+  founder_quality:
+    description: Founder-market fit, technical credibility, prior execution, and recruiting ability.
+  customer_pull:
+    description: Evidence of real customer urgency, design wins, pilots, or strategic interest.
+  business_model_quality:
+    description: Ability to generate attractive gross margin, recurring revenue, licensing, or platform value.
+  capital_efficiency:
+    description: How much capital is required before commercial proof points.
+  competitive_intensity:
+    description: Severity of competition from incumbents, internal silicon, and other startups.
+    interpretation: 5 means favorable or manageable competition; 1 means severe competition.
+  exit_potential:
+    description: Credible IPO or strategic M&A exit path.
+  strategic_scarcity:
+    description: Whether the asset is scarce and hard to replicate.
+  overall_vc_priority:
+    allowed_values:
+      - pass
+      - monitor
+      - watchlist
+      - active_diligence
+      - high_conviction
+scoring_policy:
+  null_means: Not yet scored; never infer a score without evidence.
+  minimum_dimensions_for_ranking: 6
+  review_requirement: Scores should include source-backed rationale in the company profile.

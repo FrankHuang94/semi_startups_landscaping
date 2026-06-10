@@ -1,0 +1,17 @@
+- lab_id: example_lab_001
+  name: Example Lab Placeholder
+  institution: null
+  location: null
+  focus_areas: []
+  related_categories:
+    - datacenter_ai_accelerators
+  leading_researchers: []
+  notable_papers: []
+  notable_patents: []
+  open_source_projects: []
+  startup_signals: []
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example.

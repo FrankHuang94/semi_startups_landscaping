@@ -1,0 +1,2 @@
+patent_id,title,patent_number,application_number,jurisdiction,filing_date,publication_date,grant_date,assignee,inventors,research_category,technology_tags,investor_relevance,commercialization_signal
+example_patent_001,Example Patent Placeholder,,,,,,,,[],"[""optical_interconnect_photonics_dsp""]","[""TODO_research""]",Replace with a source-backed patent during a patent refresh.,"{""possible_product_areas"": [], ""rationale"": null, ""score"": null}"

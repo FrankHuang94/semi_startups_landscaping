@@ -1,0 +1,106 @@
+categories:
+  - id: datacenter_ai_accelerators
+    display_name: Datacenter AI Accelerators
+    group: AI Datacenter Compute
+    description: Training, inference, wafer-scale, and domain-specific datacenter accelerators.
+    vc_summary: >
+      Large and strategically important market with strong demand, high capital requirements,
+      difficult software adoption, and intense incumbent and hyperscaler competition.
+  - id: inference_acceleration
+    display_name: Inference Acceleration
+    group: AI Datacenter Compute
+    description: Chips and systems optimized for efficient model serving and token generation.
+    vc_summary: >
+      Rapid workload growth creates opportunity around latency, throughput, memory efficiency,
+      and cost per token, but benchmark comparability and software integration are critical.
+  - id: custom_asic_chiplets
+    display_name: Custom ASIC and Chiplet Platforms
+    group: AI Datacenter Compute
+    description: Semi-custom silicon, chiplet compute, die-to-die, and UCIe platforms.
+    vc_summary: >
+      Customers seek workload-specific economics and faster design cycles. Winning platforms
+      require reusable IP, strong design execution, packaging access, and anchor customers.
+  - id: datacenter_cpu_server_soc
+    display_name: Datacenter CPU and Server SoC
+    group: AI Datacenter Compute
+    description: Arm, RISC-V, cloud-native CPUs, and AI-adjacent server SoCs.
+    vc_summary: >
+      CPU platforms can create durable value but face long qualification cycles, ecosystem
+      lock-in, substantial capital needs, and powerful incumbent roadmaps.
+  - id: memory_hbm_cxl_near_memory
+    display_name: Memory, HBM, CXL, and Near-Memory Compute
+    group: Memory and Data Movement
+    description: Memory expansion, pooling, HBM, near-memory, PIM, and KV-cache systems.
+    vc_summary: >
+      Memory capacity, bandwidth, and movement increasingly constrain AI systems. Opportunities
+      exist at controllers, fabrics, systems, and software layers, subject to standards timing.
+  - id: networking_switching_nic_dpu
+    display_name: Networking, Switching, NIC, and DPU
+    group: Memory and Data Movement
+    description: AI fabrics, switching, SmartNICs, DPUs, telemetry, and congestion control.
+    vc_summary: >
+      Scale-out networking is a core AI bottleneck. Differentiation must survive incumbent
+      roadmaps, standards evolution, software integration, and demanding cloud qualification.
+  - id: optical_interconnect_photonics_dsp
+    display_name: Optical Interconnect, Silicon Photonics, and Optical DSP
+    group: Memory and Data Movement
+    description: Optical I/O, CPO, LPO, DSP, driver, TIA, and datacenter optics silicon.
+    vc_summary: >
+      Electrical reach and power limits create a strong long-term optical transition, while
+      packaging yield, reliability, attach economics, and customer timing remain major risks.
+  - id: pcie_cxl_retimers_connectivity
+    display_name: PCIe, CXL, Retimers, and Connectivity
+    group: Memory and Data Movement
+    description: Retimers, CXL switches, SerDes, memory fabrics, and composable infrastructure.
+    vc_summary: >
+      Faster interfaces and rack composability create focused silicon opportunities. Standards,
+      qualification, channel concentration, and incumbent bundling drive investment risk.
+  - id: edge_ai_iot_wearables
+    display_name: Edge AI, IoT, Wearables, and Consumer AI Chips
+    group: Edge and Vertical AI Silicon
+    description: Low-power AI MCUs, NPUs, smart-glasses silicon, wearables, and TinyML.
+    vc_summary: >
+      On-device AI demand is broad but fragmented. Power efficiency, developer usability,
+      attach volume, and customer concentration determine whether outcomes become venture-scale.
+  - id: automotive_robotics_ai_silicon
+    display_name: Automotive and Robotics AI Silicon
+    group: Edge and Vertical AI Silicon
+    description: ADAS, robotics, sensor fusion, vision, and embodied AI compute.
+    vc_summary: >
+      Large future demand and high switching costs are balanced by long design cycles,
+      safety requirements, customer concentration, and difficult working-capital profiles.
+  - id: eda_compilers_runtimes_devtools
+    display_name: EDA, Compiler, Runtime, and Developer Tools
+    group: Semiconductor Infrastructure
+    description: Design automation, verification, compilers, runtimes, and model optimization.
+    vc_summary: >
+      Software can offer better capital efficiency and recurring revenue, but distribution,
+      incumbent bundling, open source, and narrow initial markets require careful diligence.
+  - id: advanced_packaging_chiplets_substrates
+    display_name: Advanced Packaging, Chiplets, and Substrates
+    group: Semiconductor Infrastructure
+    description: 2.5D, 3D, interposers, substrates, chiplet integration, and thermal packaging.
+    vc_summary: >
+      Packaging is strategically scarce and increasingly determines system performance.
+      Opportunities may be capital intensive and dependent on foundry or OSAT partnerships.
+  - id: riscv_processor_ip
+    display_name: RISC-V and Processor IP
+    group: Semiconductor Infrastructure
+    description: Configurable cores, vectors, AI extensions, and domain-specific processor IP.
+    vc_summary: >
+      Open instruction sets expand design activity, while defensibility depends on verified IP,
+      tools, ecosystem support, customer wins, and a scalable licensing model.
+  - id: security_confidential_compute
+    display_name: Security and Confidential Compute Silicon
+    group: Semiconductor Infrastructure
+    description: Hardware roots of trust, trusted execution, enclaves, and confidential compute.
+    vc_summary: >
+      Security requirements are durable, but stand-alone monetization and platform integration
+      vary. Strategic scarcity and standards position often matter more than raw market size.
+  - id: power_thermal_infrastructure
+    display_name: Power and Thermal Infrastructure
+    group: Semiconductor Infrastructure
+    description: Power delivery, regulation, thermal control, cooling, and rack energy systems.
+    vc_summary: >
+      AI rack density makes power and thermal constraints immediate. Attractive investments
+      need differentiated control, reliability, deployment economics, and credible channels.

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "display_name": {
+      "title": "Display Name",
+      "type": "string"
+    },
+    "file_path": {
+      "title": "File Path",
+      "type": "string"
+    },
+    "last_refreshed": {
+      "format": "date",
+      "title": "Last Refreshed",
+      "type": "string"
+    },
+    "next_refresh_recommendation": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Next Refresh Recommendation"
+    },
+    "open_questions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Open Questions",
+      "type": "array"
+    },
+    "refresh_scope": {
+      "enum": [
+        "full",
+        "partial",
+        "targeted",
+        "source_check_only"
+      ],
+      "title": "Refresh Scope",
+      "type": "string"
+    },
+    "refresh_summary": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Refresh Summary"
+    },
+    "refreshed_by": {
+      "title": "Refreshed By",
+      "type": "string"
+    }
+  },
+  "required": [
+    "display_name",
+    "file_path",
+    "last_refreshed",
+    "refreshed_by",
+    "refresh_scope"
+  ],
+  "title": "RefreshLog",
+  "type": "object"
+}

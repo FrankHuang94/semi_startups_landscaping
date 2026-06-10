@@ -1,0 +1,2 @@
+investor_id,name,investor_type,website,hq,preferred_stage,semiconductor_thesis,ai_infrastructure_thesis,relevant_partners,relevant_portfolio_companies,co_investors,notable_exits
+example_vc_001,Example VC Placeholder,VC,,"{""city"": null, ""country"": null, ""state"": null}",[],,,[],[],[],[]

@@ -1,0 +1,30 @@
+- investor_id: example_vc_001
+  name: Example VC Placeholder
+  investor_type: VC
+  website: null
+  hq:
+    city: null
+    state: null
+    country: null
+  semiconductor_thesis: null
+  ai_infrastructure_thesis: null
+  relevant_partners: []
+  preferred_stage: []
+  relevant_portfolio_companies: []
+  co_investors: []
+  notable_exits: []
+  investor_value_add:
+    technical_network: null
+    customer_network: null
+    recruiting_support: null
+    capital_markets_support: null
+    strategic_relationships: []
+  relevance_for_deal_sourcing:
+    score: null
+    rationale: null
+  notes: Replace with source-backed investor data.
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example; not a real investor.

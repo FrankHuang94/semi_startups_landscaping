@@ -1,0 +1,4 @@
+edges: []
+methodology: >
+  Add one edge per observed co-investment. Include round, date, company, and source IDs.
+  Network strength should be based on observed deals, not inferred relationships.

@@ -1,0 +1,24 @@
+- researcher_id: example_researcher_001
+  name: Example Researcher Placeholder
+  current_affiliation: null
+  prior_affiliations: []
+  location: null
+  research_areas:
+    - TODO research
+  related_categories:
+    - datacenter_ai_accelerators
+  notable_papers: []
+  notable_patents: []
+  related_companies: []
+  commercialization_signal:
+    score: null
+    rationale: null
+    evidence: []
+  possible_startup_angle: null
+  investor_notes: Replace with a source-backed researcher profile.
+  contact_or_network_notes: null
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example; not a real person.

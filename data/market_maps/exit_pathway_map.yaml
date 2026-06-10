@@ -1,0 +1,25 @@
+pathways:
+  IPO:
+    requirements:
+      - Large durable market
+      - Defensible platform position
+      - Scalable revenue and gross margin
+  strategic_M&A:
+    likely_buyers:
+      - semiconductor vendors
+      - hyperscalers
+      - systems companies
+      - EDA vendors
+      - automotive suppliers
+    common_rationales:
+      - product gap
+      - talent and IP
+      - customer access
+      - roadmap acceleration
+  licensing:
+    requirements:
+      - Defensible IP
+      - Integration support
+      - Repeatable royalty or license economics
+  acquihire:
+    caution: Usually not a venture-scale base case.

@@ -1,0 +1,8 @@
+stages:
+  pre_seed: Team formation, research validation, or first prototype.
+  seed: Initial product development and early customer discovery.
+  series_a: Product validation, first pilots, or early design wins.
+  series_b: Repeatable commercialization and scaling.
+  growth: Meaningful revenue expansion and operational scaling.
+  late_stage: Mature private company approaching liquidity or broad expansion.
+  unknown: Insufficient source-backed information.

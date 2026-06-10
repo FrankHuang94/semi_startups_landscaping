@@ -1,0 +1,40 @@
+source_types:
+  primary: Company, lab, acquirer, or investor primary source.
+  filing: Regulatory or securities filing.
+  patent: Official patent office or patent publication.
+  academic_paper: Publisher, proceedings, DOI, or recognized preprint repository.
+  news: Reputable financial or technology press.
+  analyst: Attributed analyst research.
+  database: Structured third-party database.
+  interview: Direct attributed interview.
+  estimate: Explicitly labeled estimate with methodology.
+research_sources:
+  - arXiv
+  - IEEE
+  - ACM Digital Library
+  - USENIX
+  - ISCA
+  - MICRO
+  - Hot Chips
+  - ISSCC
+  - VLSI Symposium
+  - DAC
+  - ICCAD
+  - ASPLOS
+  - OSDI
+  - SOSP
+  - NSDI
+  - SIGCOMM
+  - SC
+  - NeurIPS
+  - ICML
+  - MLSys
+  - ICLR
+  - CVPR
+  - ICCV
+  - ECCV
+patent_sources:
+  - Google Patents
+  - USPTO
+  - WIPO Patentscope
+  - EPO Espacenet

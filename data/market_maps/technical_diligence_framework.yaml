@@ -1,0 +1,16 @@
+default_questions:
+  - What system bottleneck is measured, and under which production workload?
+  - Which claims are independently verified versus company-reported?
+  - What are the architecture, node, packaging, memory, and interconnect dependencies?
+  - How mature are the compiler, runtime, frameworks, debugging, and observability tools?
+  - What changes are required in the customer's application or infrastructure?
+  - What are tapeout, yield, qualification, supply-chain, and second-source risks?
+  - What performance, power, cost, utilization, and reliability metrics matter to buyers?
+  - What incumbent roadmap or internal customer alternative could erase the advantage?
+category_overlays:
+  optical_interconnect_photonics_dsp:
+    - What are coupling loss, laser strategy, thermal sensitivity, yield, and attach economics?
+  memory_hbm_cxl_near_memory:
+    - Which CXL generation, coherence model, latency envelope, and software changes are required?
+  power_thermal_infrastructure:
+    - What rack density, coolant, facility retrofit, service, and reliability assumptions apply?

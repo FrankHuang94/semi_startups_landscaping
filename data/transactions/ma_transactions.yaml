@@ -1,0 +1,31 @@
+- transaction_id: example_txn_001
+  target_company: Example Transaction Placeholder
+  target_company_id: null
+  acquirer: null
+  acquirer_type: unknown
+  target_categories:
+    - datacenter_ai_accelerators
+  announcement_date: null
+  close_date: null
+  transaction_status: unknown
+  transaction_value_usd_m: null
+  consideration_type: unknown
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: null
+  technology_rationale: null
+  buyer_gap_filled: null
+  exit_readthrough_for_vc: null
+  valuation_readthrough: null
+  likely_comparable_for:
+    - datacenter_ai_accelerators
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example; not a real transaction.

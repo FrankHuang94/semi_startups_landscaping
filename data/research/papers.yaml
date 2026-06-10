@@ -1,0 +1,41 @@
+- paper_id: example_paper_001
+  title: Example Research Paper Placeholder
+  authors: []
+  institution_affiliations: []
+  venue: null
+  publication_year: null
+  publication_date: null
+  url: null
+  arxiv_url: null
+  doi: null
+  research_category:
+    - datacenter_ai_accelerators
+  technology_tags:
+    - TODO_research
+  abstract_summary: Placeholder only.
+  investor_relevance: Replace with a source-backed paper during a research refresh.
+  technical_contribution: null
+  commercialization_potential:
+    score: null
+    rationale: null
+    possible_productization_paths: []
+    possible_startup_angles: []
+  startup_signal:
+    has_company_affiliation: false
+    company_names: []
+    authors_with_startup_background: []
+    possible_spinout_signal: unknown
+    notes: null
+  related_companies: []
+  related_patents: []
+  key_authors_to_track: []
+  source_quality:
+    peer_reviewed: false
+    venue_quality: unknown
+    citation_count: null
+    independent_replication: false
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example; not a real paper record.

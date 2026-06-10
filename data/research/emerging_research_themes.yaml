@@ -1,0 +1,14 @@
+- theme_id: example_theme_001
+  name: Example Emerging Theme Placeholder
+  categories:
+    - datacenter_ai_accelerators
+  technology_tags:
+    - TODO_research
+  maturity: unknown
+  investor_relevance: Replace during a source-backed research refresh.
+  commercialization_bottlenecks: []
+  startup_opportunities: []
+  related_papers: []
+  related_patents: []
+  researchers_to_track: []
+  last_updated: 2026-06-10

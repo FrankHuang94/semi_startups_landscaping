@@ -1,0 +1,14 @@
+tags:
+  HBM: High-bandwidth memory.
+  CXL: Compute Express Link memory and device fabric.
+  UCIe: Universal Chiplet Interconnect Express.
+  chiplet: Multi-die modular semiconductor architecture.
+  optical_io: Optical links integrated near or within compute packages.
+  silicon_photonics: Photonic devices implemented on silicon-compatible processes.
+  sparse_inference: Hardware or software optimized for sparse model execution.
+  low_precision: Reduced numerical precision for compute and memory efficiency.
+  MLIR: Multi-Level Intermediate Representation compiler infrastructure.
+  RISC-V: Open instruction set architecture.
+  confidential_compute: Protection of data in use through trusted hardware.
+  liquid_cooling: Direct or indirect liquid-based thermal management.
+  TODO_research: Explicit marker for an unresearched placeholder record.

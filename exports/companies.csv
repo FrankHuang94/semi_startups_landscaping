@@ -1,0 +1,2 @@
+company_id,name,status,website,hq,founded_year,primary_category,secondary_categories,technology_tags,one_line_summary,vc_priority,average_score,last_verified
+example_ai_accelerator_001,Example AI Accelerator Placeholder,unknown,,"{""city"": null, ""country"": null, ""state"": null}",,datacenter_ai_accelerators,[],"[""TODO_research""]",Placeholder record demonstrating the company schema.,monitor,,2026-06-10

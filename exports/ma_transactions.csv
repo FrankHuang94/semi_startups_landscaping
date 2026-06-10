@@ -1,0 +1,2 @@
+transaction_id,target_company,target_company_id,acquirer,acquirer_type,target_categories,announcement_date,close_date,transaction_status,transaction_value_usd_m,consideration_type,strategic_rationale
+example_txn_001,Example Transaction Placeholder,,,unknown,"[""datacenter_ai_accelerators""]",,,unknown,,unknown,

@@ -1,0 +1,35 @@
+- patent_id: example_patent_001
+  title: Example Patent Placeholder
+  patent_number: null
+  application_number: null
+  jurisdiction: null
+  filing_date: null
+  publication_date: null
+  grant_date: null
+  assignee: null
+  inventors: []
+  research_category:
+    - optical_interconnect_photonics_dsp
+  technology_tags:
+    - TODO_research
+  patent_summary: Placeholder only.
+  claimed_invention_summary: null
+  investor_relevance: Replace with a source-backed patent during a patent refresh.
+  possible_company_relationship:
+    company_id: null
+    relationship_type: unknown
+  commercialization_signal:
+    score: null
+    rationale: null
+    possible_product_areas: []
+  patent_strength_estimate:
+    breadth: unknown
+    relevance: unknown
+    notes: null
+  related_papers: []
+  related_researchers: []
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_verified: 2026-06-10
+    notes: Explicit placeholder example; not a real patent record.

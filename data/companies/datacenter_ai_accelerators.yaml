@@ -1,0 +1,118 @@
+- company_id: example_ai_accelerator_001
+  name: Example AI Accelerator Placeholder
+  legal_name: null
+  status: unknown
+  website: null
+  hq:
+    city: null
+    state: null
+    country: null
+  founded_year: null
+  primary_category: datacenter_ai_accelerators
+  secondary_categories: []
+  technology_tags:
+    - TODO_research
+  one_line_summary: Placeholder record demonstrating the company schema.
+  investor_summary: >
+    Example only. Replace this record with a source-backed company profile during
+    the first datacenter accelerator category refresh.
+  problem_statement: null
+  solution_summary: null
+  product_profile:
+    products:
+      - product_name: null
+        product_type: null
+        product_status: unknown
+        target_workloads: []
+        target_customers: []
+        deployment_model: null
+  technical_profile:
+    architecture: null
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: null
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies: []
+    technical_differentiation: null
+    benchmark_claims: []
+    technical_risks: []
+  market_profile:
+    target_market: null
+    market_timing: null
+    market_tailwinds: []
+    market_headwinds: []
+    customer_segments: []
+    estimated_tam_relevance: unknown
+    comments_on_tam: null
+  commercial_profile:
+    revenue_stage: unknown
+    customer_traction: null
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model: []
+    go_to_market_motion: null
+    sales_cycle_complexity: null
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: null
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: null
+    founder_technical_depth: null
+  competitive_landscape:
+    direct_competitors: []
+    incumbent_competitors: []
+    open_source_or_internal_customer_alternatives: []
+    differentiation: null
+    moat_assessment: null
+    competitive_risks: []
+  vc_investment_view:
+    investment_stage_fit: unknown
+    venture_scale_potential: unknown
+    capital_intensity: unknown
+    likely_exit_path:
+      - unknown
+    likely_acquirers: []
+    why_now: null
+    key_diligence_questions:
+      - Replace placeholder with a source-backed company record.
+    red_flags: []
+    next_steps:
+      - TODO first category refresh
+  strategic_scoring:
+    market_size: null
+    timing: null
+    technical_differentiation: null
+    founder_quality: null
+    customer_pull: null
+    business_model_quality: null
+    capital_efficiency: null
+    competitive_intensity: null
+    exit_potential: null
+    strategic_scarcity: null
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: unknown
+    possible_strategic_angles:
+      - competitive_monitoring
+    notes: null
+  sources: []
+  data_quality:
+    confidence_level: low
+    last_company_update: 2026-06-10
+    last_verified: 2026-06-10
+    missing_fields:
+      - all_research_fields
+    notes: Explicit placeholder example; not a real company or investment candidate.
