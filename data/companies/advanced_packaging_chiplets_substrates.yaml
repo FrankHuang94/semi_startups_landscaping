@@ -77,11 +77,12 @@
     estimated_tam_relevance: high
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
-    revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    revenue_stage: scaling
+    customer_traction: Reports more than 250 million units shipped from its Singapore facility as of Q1 2026 and
+      automotive revenue growing at a stated 436% annualized rate in the quarter. Customer names are not disclosed.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - imec Automotive Chiplet Program member (April 2026)
     design_wins: []
     business_model:
     - silicon
@@ -92,13 +93,18 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Debt facility (SGD 100M)
+    latest_round_date: '2026-06-09'
+    latest_round_amount_usd_m: 78.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Ares Management
+    - InnoVen Capital
+    - January Capital Growth Credit
+    - Abound Capital
+    insider_quality: Credit funds rather than equity investors, which suits a capacity build but adds fixed obligations.
+    likely_fundraising_status: Debt facility with an option to upsize by a further USD 75M, following a completed
+      $150M Series B2 equity round earlier in 2026.
   team_profile:
     founders: []
     notable_executives: []
@@ -180,15 +186,30 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_silicon_box_debt_2026
+    title: Silicon Box Secures SGD 100M Financing to Accelerate Growth in Advanced Packaging
+    url: https://www.silicon-box.com/silicon-box-secures-sgd-100m-financing-to-accelerate-growth-in-advanced-packaging
+    publisher: Silicon Box
+    date_published: '2026-06-09'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  - source_id: src_silicon_box_imec
+    title: Silicon Box Announces It Joins Imec Automotive Chiplet Program
+    url: https://www.silicon-box.com/silicon-box-announces-it-joins-imec-automotive-chiplet-program-to-strengthen-chip-supply-chains-for-next-generation-vehicles
+    publisher: Silicon Box
+    date_published: '2026-04-01'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - equity_round_terms
+    notes: Debt facility and programme membership confirmed by primary sources; growth rates are company-stated.
 - company_id: saras_micro_001
   name: Saras Micro Devices
   legal_name: null

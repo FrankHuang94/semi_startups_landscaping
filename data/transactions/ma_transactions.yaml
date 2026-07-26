@@ -37,51 +37,12 @@
   data_quality:
     confidence_level: high
     last_verified: '2026-06-10'
-- transaction_id: txn_intel_habana
-  target_company: Habana Labs
-  target_company_id: null
-  acquirer: Intel
-  acquirer_type: strategic
-  target_categories: &id002
-  - datacenter_ai_accelerators
-  announcement_date: '2019-12-16'
-  close_date: '2019-12-16'
-  transaction_status: closed
-  transaction_value_usd_m: 2000.0
-  consideration_type: cash
-  target_profile_at_acquisition:
-    stage: null
-    estimated_revenue: null
-    disclosed_customers: []
-    employee_count: null
-    funding_raised_usd_m: null
-    key_investors: []
-  strategic_rationale: Added dedicated training and inference accelerator silicon and software.
-  technology_rationale: Added dedicated training and inference accelerator silicon and software.
-  buyer_gap_filled: Added dedicated training and inference accelerator silicon and software.
-  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
-    platforms.
-  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
-    analysis.
-  likely_comparable_for: *id002
-  sources:
-  - source_id: src_txn_intel_habana
-    title: Intel transaction announcement for Habana Labs
-    url: https://www.intel.com/content/www/us/en/newsroom/news/intel-acquires-habana-labs.html
-    publisher: Intel
-    date_published: '2019-12-16'
-    date_accessed: '2026-06-10'
-    source_type: primary
-    reliability: high
-  data_quality:
-    confidence_level: high
-    last_verified: '2026-06-10'
 - transaction_id: txn_nvidia_mellanox
   target_company: Mellanox Technologies
   target_company_id: null
   acquirer: NVIDIA
   acquirer_type: strategic
-  target_categories: &id003
+  target_categories: &id002
   - networking_switching_nic_dpu
   announcement_date: '2019-03-11'
   close_date: '2020-04-27'
@@ -102,13 +63,52 @@
     platforms.
   valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
     analysis.
-  likely_comparable_for: *id003
+  likely_comparable_for: *id002
   sources:
   - source_id: src_txn_nvidia_mellanox
     title: NVIDIA transaction announcement for Mellanox Technologies
     url: https://nvidianews.nvidia.com/news/nvidia-to-acquire-mellanox-for-6-9-billion
     publisher: NVIDIA
     date_published: '2019-03-11'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_intel_habana
+  target_company: Habana Labs
+  target_company_id: null
+  acquirer: Intel
+  acquirer_type: strategic
+  target_categories: &id003
+  - datacenter_ai_accelerators
+  announcement_date: '2019-12-16'
+  close_date: '2019-12-16'
+  transaction_status: closed
+  transaction_value_usd_m: 2000.0
+  consideration_type: cash
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added dedicated training and inference accelerator silicon and software.
+  technology_rationale: Added dedicated training and inference accelerator silicon and software.
+  buyer_gap_filled: Added dedicated training and inference accelerator silicon and software.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id003
+  sources:
+  - source_id: src_txn_intel_habana
+    title: Intel transaction announcement for Habana Labs
+    url: https://www.intel.com/content/www/us/en/newsroom/news/intel-acquires-habana-labs.html
+    publisher: Intel
+    date_published: '2019-12-16'
     date_accessed: '2026-06-10'
     source_type: primary
     reliability: high
@@ -272,51 +272,12 @@
   data_quality:
     confidence_level: high
     last_verified: '2026-06-10'
-- transaction_id: txn_softbank_graphcore
-  target_company: Graphcore
-  target_company_id: null
-  acquirer: SoftBank Group
-  acquirer_type: strategic
-  target_categories: &id008
-  - datacenter_ai_accelerators
-  announcement_date: '2024-07-11'
-  close_date: '2024-07-11'
-  transaction_status: closed
-  transaction_value_usd_m: null
-  consideration_type: undisclosed
-  target_profile_at_acquisition:
-    stage: null
-    estimated_revenue: null
-    disclosed_customers: []
-    employee_count: null
-    funding_raised_usd_m: null
-    key_investors: []
-  strategic_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
-  technology_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
-  buyer_gap_filled: Preserved and added a differentiated AI accelerator team and IP portfolio.
-  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
-    platforms.
-  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
-    analysis.
-  likely_comparable_for: *id008
-  sources:
-  - source_id: src_txn_softbank_graphcore
-    title: SoftBank Group transaction announcement for Graphcore
-    url: https://group.softbank/en/news/press/20240711
-    publisher: SoftBank Group
-    date_published: '2024-07-11'
-    date_accessed: '2026-06-10'
-    source_type: primary
-    reliability: high
-  data_quality:
-    confidence_level: high
-    last_verified: '2026-06-10'
 - transaction_id: txn_synopsys_ansys
   target_company: Ansys
   target_company_id: null
   acquirer: Synopsys
   acquirer_type: strategic
-  target_categories: &id009
+  target_categories: &id008
   - eda_compilers_runtimes_devtools
   announcement_date: '2024-01-16'
   close_date: '2025-07-17'
@@ -337,7 +298,7 @@
     platforms.
   valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
     analysis.
-  likely_comparable_for: *id009
+  likely_comparable_for: *id008
   sources:
   - source_id: src_txn_synopsys_ansys
     title: Synopsys transaction announcement for Ansys
@@ -355,7 +316,7 @@
   target_company_id: null
   acquirer: Renesas Electronics
   acquirer_type: strategic
-  target_categories: &id010
+  target_categories: &id009
   - eda_compilers_runtimes_devtools
   announcement_date: '2024-02-15'
   close_date: '2024-08-01'
@@ -376,7 +337,7 @@
     platforms.
   valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
     analysis.
-  likely_comparable_for: *id010
+  likely_comparable_for: *id009
   sources:
   - source_id: src_txn_renesas_altium
     title: Renesas Electronics transaction announcement for Altium
@@ -394,7 +355,7 @@
   target_company_id: kandou_001
   acquirer: Qualcomm
   acquirer_type: strategic
-  target_categories: &id011
+  target_categories: &id010
   - pcie_cxl_retimers_connectivity
   announcement_date: '2024-06-13'
   close_date: '2024-11-14'
@@ -415,13 +376,52 @@
     platforms.
   valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
     analysis.
-  likely_comparable_for: *id011
+  likely_comparable_for: *id010
   sources:
   - source_id: src_txn_qualcomm_kandou
     title: Qualcomm transaction announcement for Kandou
     url: https://www.qualcomm.com/news/releases/2024/11/qualcomm-completes-acquisition-of-kandou
     publisher: Qualcomm
     date_published: '2024-06-13'
+    date_accessed: '2026-06-10'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-06-10'
+- transaction_id: txn_softbank_graphcore
+  target_company: Graphcore
+  target_company_id: null
+  acquirer: SoftBank Group
+  acquirer_type: strategic
+  target_categories: &id011
+  - datacenter_ai_accelerators
+  announcement_date: '2024-07-11'
+  close_date: '2024-07-11'
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  technology_rationale: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  buyer_gap_filled: Preserved and added a differentiated AI accelerator team and IP portfolio.
+  exit_readthrough_for_vc: Demonstrates strategic willingness to buy scarce teams, IP, software, and qualified silicon
+    platforms.
+  valuation_readthrough: Headline value is not directly comparable without revenue, margin, IP, and consideration
+    analysis.
+  likely_comparable_for: *id011
+  sources:
+  - source_id: src_txn_softbank_graphcore
+    title: SoftBank Group transaction announcement for Graphcore
+    url: https://group.softbank/en/news/press/20240711
+    publisher: SoftBank Group
+    date_published: '2024-07-11'
     date_accessed: '2026-06-10'
     source_type: primary
     reliability: high
@@ -467,3 +467,364 @@
   data_quality:
     confidence_level: high
     last_verified: '2026-06-10'
+- transaction_id: txn_tenstorrent_blue_cheetah
+  target_company: Blue Cheetah Analog Design
+  target_company_id: blue_cheetah_001
+  acquirer: Tenstorrent
+  acquirer_type: strategic
+  target_categories: &id013
+  - custom_asic_chiplets
+  announcement_date: '2025-07-01'
+  close_date: '2025-07-01'
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Internalized die-to-die interconnect IP that Tenstorrent had already been licensing.
+  technology_rationale: Added customized analog mixed-signal and die-to-die interconnect design capability.
+  buyer_gap_filled: Removed dependence on an external supplier for a core chiplet building block.
+  exit_readthrough_for_vc: A licensing relationship converting into an acquisition is a repeatable path for interconnect
+    IP teams.
+  valuation_readthrough: Consideration was not disclosed, so no valuation inference is available.
+  likely_comparable_for: *id013
+  sources:
+  - source_id: src_txn_tenstorrent_blue_cheetah
+    title: Tenstorrent Acquires Blue Cheetah Analog Design
+    url: https://tenstorrent.com/newsroom/tenstorrent-acquires-blue-cheetah-analog-design
+    publisher: Tenstorrent
+    date_published: '2025-07-01'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+    notes: Acquisition confirmed by the acquirer; terms undisclosed.
+- transaction_id: txn_globalfoundries_mips
+  target_company: MIPS
+  target_company_id: mips_001
+  acquirer: GlobalFoundries
+  acquirer_type: strategic
+  target_categories: &id014
+  - riscv_processor_ip
+  announcement_date: '2025-07-08'
+  close_date: '2025-08-14'
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added processor IP and compute capability to a foundry platform.
+  technology_rationale: Acquired RISC-V and legacy processor IP portfolios and the associated engineering team.
+  buyer_gap_filled: Gave a foundry a differentiated IP offering to attach to its process technology.
+  exit_readthrough_for_vc: Foundries, not only chip vendors, are credible acquirers of processor IP assets.
+  valuation_readthrough: Consideration was not disclosed, so no valuation inference is available.
+  likely_comparable_for: *id014
+  sources:
+  - source_id: src_txn_gf_mips
+    title: GlobalFoundries Completes Acquisition of MIPS
+    url: https://investors.gf.com/news-releases/news-release-details/globalfoundries-completes-acquisition-mips
+    publisher: GlobalFoundries
+    date_published: '2025-08-14'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+    notes: Announcement and completion confirmed by the acquirer; terms undisclosed.
+- transaction_id: txn_nvidia_enfabrica
+  target_company: Enfabrica
+  target_company_id: enfabrica_001
+  acquirer: NVIDIA
+  acquirer_type: strategic
+  target_categories: &id015
+  - networking_switching_nic_dpu
+  announcement_date: '2025-09-18'
+  close_date: null
+  transaction_status: closed
+  transaction_value_usd_m: 900.0
+  consideration_type: cash_stock
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Secured a scarce networking and memory fabric team without a full corporate acquisition.
+  technology_rationale: Licensed high-bandwidth server fabric technology able to connect very large GPU counts.
+  buyer_gap_filled: Reinforced scale-out and scale-up fabric capability against competing interconnect roadmaps.
+  exit_readthrough_for_vc: Licence-plus-talent structures can return capital to a cap table without a conventional
+    exit, but they leave residual entity value ambiguous.
+  valuation_readthrough: The reported figure exceeds $900M but covers a licence and hiring package rather than equity
+    in a whole company, so it is not directly comparable to an acquisition multiple.
+  likely_comparable_for: *id015
+  sources:
+  - source_id: src_txn_nvidia_enfabrica
+    title: Nvidia just spent over $900 million to hire Enfabrica CEO, license AI startup's technology
+    url: https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html
+    publisher: CNBC
+    date_published: '2025-09-18'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-07-26'
+    notes: Structure and value reported by reputable press; neither party published full terms.
+- transaction_id: txn_meta_rivos
+  target_company: Rivos
+  target_company_id: rivos_001
+  acquirer: Meta
+  acquirer_type: strategic
+  target_categories: &id016
+  - datacenter_cpu_server_soc
+  - riscv_processor_ip
+  announcement_date: '2025-09-30'
+  close_date: null
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Accelerated Meta's internal MTIA accelerator roadmap and reduced reliance on merchant GPUs.
+  technology_rationale: Added a datacenter-class RISC-V CPU and accelerator engineering organization.
+  buyer_gap_filled: Filled a gap in in-house high-performance CPU and accelerator design capability.
+  exit_readthrough_for_vc: Hyperscalers will buy pre-revenue silicon teams outright when the alternative is multi-year
+    internal hiring.
+  valuation_readthrough: Terms were not disclosed. Press referenced a figure of roughly $2B, which is unconfirmed
+    and should not be used as a comparable without verification.
+  likely_comparable_for: *id016
+  sources:
+  - source_id: src_txn_meta_rivos
+    title: Meta acquires RISC-V chip startup Rivos
+    url: https://www.datacenterdynamics.com/en/news/meta-acquires-risc-v-chip-startup-rivos-report/
+    publisher: Data Center Dynamics
+    date_published: '2025-09-30'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-07-26'
+    notes: Acquisition reported by reputable press; value unconfirmed and left null.
+- transaction_id: txn_aws_neuroblade
+  target_company: NeuroBlade
+  target_company_id: neuroblade_001
+  acquirer: Amazon Web Services
+  acquirer_type: strategic
+  target_categories: &id017
+  - memory_hbm_cxl_near_memory
+  announcement_date: '2025-10-23'
+  close_date: null
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added analytics-acceleration engineering talent to Annapurna Labs in Israel.
+  technology_rationale: Absorbed SQL processing unit expertise following prior integration with EC2 F2 instances.
+  buyer_gap_filled: Strengthened in-house data and analytics infrastructure design capability.
+  exit_readthrough_for_vc: A talent-led outcome below total capital raised is the realistic downside case for specialized
+    acceleration silicon that does not reach volume.
+  valuation_readthrough: Press described consideration in the tens of millions of dollars against roughly $110M
+    raised, which implies a loss to later investors.
+  likely_comparable_for: *id017
+  sources:
+  - source_id: src_txn_aws_neuroblade
+    title: After raising $110M, NeuroBlade's engineers join Amazon's Annapurna Labs in quiet exit
+    url: https://www.calcalistech.com/ctechnews/article/hkmfcvb6ll
+    publisher: Calcalist
+    date_published: '2025-10-23'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-07-26'
+    notes: Outcome reported by reputable press; no primary confirmation of terms.
+- transaction_id: txn_marvell_celestial_ai
+  target_company: Celestial AI
+  target_company_id: null
+  acquirer: Marvell Technology
+  acquirer_type: strategic
+  target_categories: &id018
+  - optical_interconnect_photonics_dsp
+  announcement_date: '2025-12-02'
+  close_date: '2026-02-02'
+  transaction_status: closed
+  transaction_value_usd_m: 5500.0
+  consideration_type: cash_stock
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Added optical scale-up connectivity to Marvell's datacenter portfolio.
+  technology_rationale: Acquired the Photonic Fabric optical interconnect technology for high-bandwidth, low-latency
+    links.
+  buyer_gap_filled: Filled the optical scale-up gap alongside Marvell's electrical connectivity portfolio.
+  exit_readthrough_for_vc: The largest disclosed exit to date for a venture-backed optical interconnect company
+    and the key comparable for the category.
+  valuation_readthrough: At least $3.25B in cash and stock at close, rising to $5.5B on revenue milestones. The
+    headline figure is earn-out dependent and should not be treated as the closing price.
+  likely_comparable_for: *id018
+  sources:
+  - source_id: src_txn_marvell_celestial
+    title: Marvell Completes Acquisition of Celestial AI
+    url: https://investor.marvell.com/news-events/press-releases/detail/1005/marvell-completes-acquisition-of-celestial-ai
+    publisher: Marvell Technology
+    date_published: '2026-02-02'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+    notes: Announcement and completion confirmed by the acquirer; headline value includes earn-outs.
+- transaction_id: txn_qualcomm_ventana
+  target_company: Ventana Micro Systems
+  target_company_id: ventana_001
+  acquirer: Qualcomm
+  acquirer_type: strategic
+  target_categories: &id019
+  - datacenter_cpu_server_soc
+  - riscv_processor_ip
+  announcement_date: '2025-12-10'
+  close_date: null
+  transaction_status: closed
+  transaction_value_usd_m: null
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Deepened Qualcomm's CPU capability with datacenter-class RISC-V expertise.
+  technology_rationale: Added RISC-V ISA development capability complementing the custom Oryon CPU line.
+  buyer_gap_filled: Filled a gap in server-class RISC-V CPU design as an architectural hedge alongside Arm.
+  exit_readthrough_for_vc: Confirms that mobile and edge incumbents will pay for datacenter CPU teams even where
+    the target's products have not reached market.
+  valuation_readthrough: Consideration was not disclosed, so no valuation inference is available.
+  likely_comparable_for: *id019
+  sources:
+  - source_id: src_txn_qualcomm_ventana
+    title: Qualcomm Acquires Ventana Micro Systems, Deepening RISC-V CPU Expertise
+    url: https://www.qualcomm.com/news/releases/2025/12/qualcomm-acquires-ventana-micro-systems--deepening-risc-v-cpu-ex
+    publisher: Qualcomm
+    date_published: '2025-12-10'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+    notes: Acquisition confirmed by the acquirer; terms undisclosed.
+- transaction_id: txn_nvidia_groq
+  target_company: Groq (inference technology licence)
+  target_company_id: groq_001
+  acquirer: NVIDIA
+  acquirer_type: strategic
+  target_categories: &id020
+  - inference_acceleration
+  announcement_date: '2025-12-24'
+  close_date: null
+  transaction_status: closed
+  transaction_value_usd_m: 20000.0
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Neutralized the most visible non-GPU inference architecture while adding deterministic serving
+    expertise.
+  technology_rationale: Licensed the language processing unit inference architecture on a non-exclusive basis.
+  buyer_gap_filled: Extended NVIDIA's position from training into purpose-built low-latency inference.
+  exit_readthrough_for_vc: Shows that a licence-and-hire structure can produce a headline outcome far above the
+    last private mark while the target continues to operate independently.
+  valuation_readthrough: The reported figure is roughly three times Groq's last private valuation, but it covers
+    a licence and hiring package rather than an equity purchase, so it is not an acquisition multiple.
+  likely_comparable_for: *id020
+  sources:
+  - source_id: src_txn_nvidia_groq
+    title: Nvidia buying AI chip startup Groq's assets for about $20 billion in its largest deal on record
+    url: https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html
+    publisher: CNBC
+    date_published: '2025-12-24'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-07-26'
+    notes: Structure and value reported by reputable press; the parties have not published full terms.
+- transaction_id: txn_marvell_xconn
+  target_company: XConn Technologies
+  target_company_id: xconn_001
+  acquirer: Marvell Technology
+  acquirer_type: strategic
+  target_categories: &id021
+  - memory_hbm_cxl_near_memory
+  - pcie_cxl_retimers_connectivity
+  announcement_date: '2026-01-06'
+  close_date: '2026-02-10'
+  transaction_status: closed
+  transaction_value_usd_m: 540.0
+  consideration_type: undisclosed
+  target_profile_at_acquisition:
+    stage: null
+    estimated_revenue: null
+    disclosed_customers: []
+    employee_count: null
+    funding_raised_usd_m: null
+    key_investors: []
+  strategic_rationale: Expanded Marvell's switching portfolio and augmented its UALink scale-up switch team.
+  technology_rationale: Added production PCIe 5 and CXL 2.0 switches with PCIe 6 and CXL 3.1 parts sampling.
+  buyer_gap_filled: Completed a CXL portfolio spanning memory-expansion controllers and switching silicon.
+  exit_readthrough_for_vc: The clearest disclosed price for a CXL and PCIe switch silicon team, and a useful floor
+    for connectivity startups with parts in production.
+  valuation_readthrough: $540M for a company with production switches and more than 20 customer engagements. Revenue
+    was not disclosed, so no multiple can be derived.
+  likely_comparable_for: *id021
+  sources:
+  - source_id: src_txn_marvell_xconn
+    title: Marvell Completes Acquisition of XConn Technologies
+    url: https://investor.marvell.com/news-events/press-releases/detail/1007/marvell-completes-acquisition-of-xconn-technologies
+    publisher: Marvell Technology
+    date_published: '2026-02-10'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+    notes: Announcement, completion, and consideration confirmed by the acquirer.

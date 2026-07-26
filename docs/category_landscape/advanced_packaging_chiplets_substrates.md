@@ -1,7 +1,7 @@
 # Advanced Packaging, Chiplets, and Substrates
 
-Last refreshed: 2026-06-10  
-Refresh scope: full  
+Last refreshed: 2026-07-26  
+Refresh scope: partial  
 Number of companies: 4
 
 ## VC Summary
@@ -13,7 +13,7 @@ Packaging is strategically scarce and increasingly determines system performance
 
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Silicon Box | growth | Singapore, Singapore | Advanced semiconductor integration and panel-level packaging. | - |  | active_diligence | 2026-06-10 |
+| Silicon Box | growth | Singapore, Singapore | Advanced semiconductor integration and panel-level packaging. | - | Ares Management, InnoVen Capital, January Capital Growth Credit, Abound Capital | active_diligence | 2026-07-26 |
 | Saras Micro Devices | series_b | Chandler, Arizona, United States | Integrated passive devices and advanced power-delivery packaging. | - |  | watchlist | 2026-06-10 |
 | Mosaic Microsystems | series_a | Rochester, New York, United States | Thin-glass substrates and through-glass-via packaging. | - |  | watchlist | 2026-06-10 |
 | NHanced Semiconductors | growth | Odon, Indiana, United States | Advanced packaging foundry focused on chiplets and 3D integration. | - |  | watchlist | 2026-06-10 |
@@ -44,7 +44,7 @@ Packaging is strategically scarce and increasingly determines system performance
 
 **Differentiation:** Large-format panel manufacturing is designed to improve cost and scale for chiplet integration.
 
-**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** scaling; Reports more than 250 million units shipped from its Singapore facility as of Q1 2026 and automotive revenue growing at a stated 436% annualized rate in the quarter. Customer names are not disclosed.
 
 **VC view:** active_diligence at growth stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -56,7 +56,7 @@ Packaging is strategically scarce and increasingly determines system performance
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, equity_round_terms
 ### Saras Micro Devices
 
 **Summary:** Saras Micro Devices addresses a strategically important bottleneck in advanced packaging, chiplets, and substrates. Its core investment case is packaging-level power delivery can reduce losses and free board area in high-performance systems. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -135,10 +135,12 @@ Packaging is strategically scarce and increasingly determines system performance
 ## Key Sources
 
 - [Silicon Box official website](https://silicon-box.com/)
+- [Silicon Box Secures SGD 100M Financing to Accelerate Growth in Advanced Packaging](https://www.silicon-box.com/silicon-box-secures-sgd-100m-financing-to-accelerate-growth-in-advanced-packaging)
+- [Silicon Box Announces It Joins Imec Automotive Chiplet Program](https://www.silicon-box.com/silicon-box-announces-it-joins-imec-automotive-chiplet-program-to-strengthen-chip-supply-chains-for-next-generation-vehicles)
 - [Saras Micro Devices official website](https://sarasmicro.com/)
 - [Mosaic Microsystems official website](https://www.mosaicmicro.com/)
 - [NHanced Semiconductors official website](https://nhanced-semi.com/)
 
 ## Refresh Notes
 
-Replaced empty scaffold with 4 source-backed baseline profiles.
+Recorded the Silicon Box debt facility, equity round, and unit shipment milestones.

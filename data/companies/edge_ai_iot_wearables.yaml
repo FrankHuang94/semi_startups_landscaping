@@ -77,8 +77,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Refocused on robotics after cutting roughly 10% of headcount in January 2026. Shipment volumes
+      and design-win retention are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -91,13 +91,15 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Debt facility
+    latest_round_date: '2026-01-15'
+    latest_round_amount_usd_m: 9.0
     disclosed_valuation_usd_m: null
     key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    insider_quality: No new equity syndicate disclosed; the company took on debt rather than priced equity.
+    likely_fundraising_status: Distressed. Press reports describe a valuation cut to under $500M from $1.2B in 2024,
+      a non-binding SPAC memorandum signed in March 2026, and subsequent reports that the SPAC merger collapsed.
+      Treat the current state as unresolved.
   team_profile:
     founders: []
     notable_executives: []
@@ -144,12 +146,12 @@
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Valuation reported down more than half from the 2024 mark
+    - Reported liquidity pressure and a listing route that has not closed
+    - Workforce reductions alongside a strategic refocus
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Establish current cash runway and the status of any listing process
+    - Assess whether edge design wins survived the robotics refocus
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -157,11 +159,11 @@
     founder_quality: 5
     customer_pull: 4
     business_model_quality: 4
-    capital_efficiency: 3
+    capital_efficiency: 2
     competitive_intensity: 5
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: active_diligence
+    overall_vc_priority: monitor
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
@@ -180,15 +182,23 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_hailo_spac
+    title: 'Report: Edge AI chip startup Hailo to go public via SPAC merger'
+    url: https://siliconangle.com/2026/04/03/report-edge-ai-chip-startup-hailo-go-public-via-spac-merger/
+    publisher: SiliconANGLE
+    date_published: '2026-04-03'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: low
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - cash_position
+    - listing_status
+    - current_valuation
+    notes: All financing and listing detail comes from press reports; the company has not confirmed terms.
 - company_id: axelera_001
   name: Axelera AI
   legal_name: null
@@ -268,8 +278,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Europa, announced in October 2025, targets high-performance edge workloads at up to 629 INT8
+      TOPS. Volume customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -281,14 +291,24 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 450.0
+    latest_round: Growth round
+    latest_round_date: '2026-02-24'
+    latest_round_amount_usd_m: 250.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Innovation Industries
+    - BlackRock
+    - SiteGround Capital
+    - Bitfury
+    - CDP Venture Capital
+    - EIC Fund
+    - SFPIM
+    - Invest-NL
+    - Samsung Catalyst Fund
+    insider_quality: Described as the largest investment in an EU AI semiconductor company, with heavy European
+      public and quasi-public participation.
+    likely_fundraising_status: Recently financed to scale manufacturing, customer success, and software tooling.
   team_profile:
     founders: []
     notable_executives: []
@@ -371,15 +391,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_axelera_2026
+    title: Axelera AI Secures More Than $250 Million Funding on Global Commercial Growth
+    url: https://axelera.ai/news/axelera-ai-secures-more-than-250-million-funding-on-global-commercial-growth
+    publisher: Axelera AI
+    date_published: '2026-02-24'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing confirmed by company primary source; customer detail remains open.
 - company_id: sima_ai_001
   name: SiMa.ai
   legal_name: null
@@ -459,8 +486,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Modalix MLSoC system-on-module won a 2026 Edge AI and Vision product award. Production volumes
+      and named customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -472,14 +499,19 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 355.0
+    latest_round: Series C
+    latest_round_date: '2024-04-30'
+    latest_round_amount_usd_m: 70.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Maverick Capital
+    - Point72
+    - Dell Technologies Capital
+    - Fidelity
+    insider_quality: Crossover investors alongside an OEM-affiliated strategic.
+    likely_fundraising_status: Press reports in May 2026 described a new round in progress at a reported $1.4B valuation.
+      The round is unconfirmed and the reported mark should not be treated as set.
   team_profile:
     founders: []
     notable_executives: []
@@ -562,15 +594,24 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_sima_modalix_award
+    title: 2026 Edge AI and Vision Product of the Year Award winners
+    url: https://www.edge-ai-vision.com/companies/sima-ai/
+    publisher: Edge AI and Vision Alliance
+    date_published: '2026-05-01'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+    notes: Modalix MLSoC system-on-module named 2026 Edge AI Computers and Boards product of the year.
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: low
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - current_round_terms
+    notes: The in-progress round is sourced from press reporting only and is explicitly unconfirmed.
 - company_id: syntiant_001
   name: Syntiant
   legal_name: null
@@ -650,9 +691,10 @@
     estimated_tam_relevance: medium
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
-    revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    revenue_stage: scaling
+    customer_traction: Reported $270M of revenue for the twelve months ended 31 March 2026, and $64.5M of revenue
+      with a $20.9M net loss in the first quarter of 2026. The platform spans neural decision processors, SiSonic
+      MEMS microphones, and vibration sensors.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -665,13 +707,17 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
+    latest_round: Pre-IPO (S-1 filed)
+    latest_round_date: '2026-07-06'
     latest_round_amount_usd_m: null
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Intel Capital
+    - Microsoft
+    - Knowles Corporation
+    insider_quality: Strategic holders above 5% include Intel, Microsoft, and Knowles.
+    likely_fundraising_status: Publicly filed a Form S-1 on 6 July 2026 for a proposed Nasdaq listing under SYTN.
+      Share count and price range are not yet set.
   team_profile:
     founders: []
     notable_executives: []
@@ -706,7 +752,6 @@
     capital_intensity: high
     likely_exit_path:
     - IPO
-    - strategic_M&A
     likely_acquirers:
     - Knowles
     - NXP
@@ -721,9 +766,8 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Read the S-1 for gross margin split between silicon and sensors
+    - Use eventual pricing as the edge-AI IPO comparable
   strategic_scoring:
     market_size: 4
     timing: 5
@@ -735,7 +779,7 @@
     competitive_intensity: 5
     exit_potential: 4
     strategic_scarcity: 5
-    overall_vc_priority: watchlist
+    overall_vc_priority: monitor
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -754,12 +798,19 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_syntiant_s1
+    title: Syntiant Publicly Files Registration Statement for Proposed Initial Public Offering
+    url: https://www.syntiant.com/press-release/syntiant-publicly-files-registration-statement-for-proposed-initial-public-offering/
+    publisher: Syntiant
+    date_published: '2026-07-06'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - offering_size
+    - price_range
+    notes: Registration and financial figures sourced from the company's IPO announcement.

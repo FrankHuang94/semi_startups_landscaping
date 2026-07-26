@@ -1,6 +1,6 @@
 # Power and Thermal Infrastructure
 
-Last refreshed: 2026-06-10  
+Last refreshed: 2026-07-26  
 Refresh scope: full  
 Number of companies: 4
 
@@ -13,10 +13,10 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ZutaCore | growth | San Jose, California, United States | Direct-on-chip two-phase liquid cooling. | - |  | active_diligence | 2026-06-10 |
-| Frore Systems | series_c | San Jose, California, United States | Solid-state active cooling chips. | - |  | active_diligence | 2026-06-10 |
-| Cambridge GaN Devices | series_c | Cambridge, United Kingdom | Enhancement-mode gallium-nitride power devices. | - |  | watchlist | 2026-06-10 |
-| Accelsius | series_a | Austin, Texas, United States | Two-phase direct-to-chip cooling systems. | - |  | watchlist | 2026-06-10 |
+| ZutaCore | growth | San Jose, California, United States | Direct-on-chip two-phase liquid cooling. | - | Mitsubishi Electric, Carrier Ventures, Samsung Electronics | active_diligence | 2026-07-26 |
+| Frore Systems | series_c | San Jose, California, United States | Solid-state active cooling chips. | - | MVP Ventures, Fidelity Management & Research | active_diligence | 2026-07-26 |
+| Cambridge GaN Devices | series_c | Cambridge, United Kingdom | Enhancement-mode gallium-nitride power devices. | 60.0 | British Patient Capital, Parkwalk Advisors, BGF, Cambridge Innovation Capital, Foresight Group, IQ Capital | watchlist | 2026-07-26 |
+| Accelsius | series_a | Austin, Texas, United States | Two-phase direct-to-chip cooling systems. | - | Johnson Controls, Legrand | watchlist | 2026-07-26 |
 
 ## Top Watchlist Names
 
@@ -44,7 +44,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Differentiation:** Waterless dielectric two-phase cooling targets high heat flux and retrofit-friendly datacenter deployment.
 
-**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** growth; Company describes rapidly growing bookings and deployments driven by AI and HPC demand. Named end customers are not disclosed.
 
 **VC view:** active_diligence at growth stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -56,7 +56,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Frore Systems
 
 **Summary:** Frore Systems addresses a strategically important bottleneck in power and thermal infrastructure. Its core investment case is piezoelectric cooling modules remove heat in thin form factors where conventional fans are constrained. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -65,7 +65,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Differentiation:** Piezoelectric cooling modules remove heat in thin form factors where conventional fans are constrained.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Ships AirJet solid-state cooling for edge devices and LiquidJet direct-to-chip liquid cooling for datacenters. Named production customers are not disclosed.
 
 **VC view:** active_diligence at series_c stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -77,7 +77,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Cambridge GaN Devices
 
 **Summary:** Cambridge GaN Devices addresses a strategically important bottleneck in power and thermal infrastructure. Its core investment case is integrated interface circuitry aims to make gan transistors easier to use in high-efficiency power conversion. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -98,7 +98,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Accelsius
 
 **Summary:** Accelsius addresses a strategically important bottleneck in power and thermal infrastructure. Its core investment case is modular thermal platform targets high-density ai racks with serviceable, dielectric two-phase cooling. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -107,7 +107,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Differentiation:** Modular thermal platform targets high-density AI racks with serviceable, dielectric two-phase cooling.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Announced an agreement to deploy NeuCool two-phase technology at a 300MW datacenter campus under construction by DarkNX in Ontario, Canada. Revenue recognition timing is not disclosed.
 
 **VC view:** watchlist at series_a stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -119,7 +119,7 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 
 ## Diligence Questions
 
@@ -135,10 +135,14 @@ AI rack density makes power and thermal constraints immediate. Attractive invest
 ## Key Sources
 
 - [ZutaCore official website](https://zutacore.com/)
+- [ZutaCore Secures $100M+ Series C Funding to Accelerate AI Data Center Cooling Innovation](https://blog.zutacore.com/press-releases/zutacore-100m-series-c-funding-ai-data-center-cooling)
 - [Frore Systems official website](https://www.froresystems.com/)
+- [Fidelity-Backed AI Chip Cooling Company Frore Valued at $1.64 Billion in New Funding](https://www.bloomberg.com/news/articles/2026-03-16/fidelity-backed-ai-chip-cooling-company-frore-valued-at-1-64-billion-in-new-funding)
 - [Cambridge GaN Devices official website](https://camgandevices.com/)
+- [Cambridge GaN Devices Secures $32M to Drive Global Growth in Power Semiconductor Industry](https://camgandevices.com/p/cambridge-gan-devices-secures-$32m-to-drive-global-growth-in-power-semiconductor-industry/)
 - [Accelsius official website](https://accelsius.com/)
+- [Accelsius is Building for a Two-Phase Future](https://datacenterrichness.substack.com/p/accelsius-is-building-for-a-two-phase)
 
 ## Refresh Notes
 
-Replaced empty scaffold with 4 source-backed baseline profiles.
+Rebuilt financing across the cooling and power set, which saw the heaviest 2026 activity.

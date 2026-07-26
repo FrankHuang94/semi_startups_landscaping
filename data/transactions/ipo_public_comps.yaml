@@ -258,3 +258,36 @@
     confidence_level: medium
     last_verified: '2026-06-10'
     notes: Valuation and financial metrics intentionally left null until a dated market-data refresh.
+- ticker: CBRS
+  company_name: Cerebras Systems
+  categories:
+  - datacenter_ai_accelerators
+  - inference_acceleration
+  market_cap_usd_m: null
+  revenue_usd_m: null
+  gross_margin_pct: null
+  valuation_date: null
+  investor_readthrough: The reference AI-silicon IPO of 2026. Listed on Nasdaq on 14 May 2026 at $185 per share
+    and reported Q1 2026 core revenue of $191.3M, up 92% year over year, with guided core gross margin of 36% to
+    38% for Q2. Sets the public benchmark for how the market prices concentrated inference contracts.
+  sources:
+  - source_id: src_public_comp_cbrs
+    title: Cerebras Systems investor relations
+    url: https://investors.cerebras.ai/
+    publisher: Cerebras Systems
+    date_published: null
+    date_accessed: '2026-07-26'
+    source_type: filing
+    reliability: high
+  - source_id: src_public_comp_cbrs_q1
+    title: Cerebras Systems Announces Strong First Quarter 2026 Results
+    url: https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results
+    publisher: Cerebras Systems
+    date_published: '2026-06-23'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_verified: '2026-07-26'
+    notes: Market metrics intentionally left null until a dated market-data refresh.

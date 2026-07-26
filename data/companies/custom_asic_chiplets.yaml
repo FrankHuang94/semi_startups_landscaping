@@ -77,8 +77,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Strategic investment from AMD, Arm, Coherent, and Meta is a meaningful adoption signal, but
+      production design wins are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -91,13 +91,20 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Strategic round
+    latest_round_date: '2026-01-13'
+    latest_round_amount_usd_m: 50.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - AMD
+    - Arm
+    - Coherent
+    - Meta
+    - Samsung Catalyst Fund
+    - Intel Capital
+    insider_quality: 'Unusually strong strategic register: two merchant silicon vendors, an optics supplier, and
+      a hyperscaler in the same round.'
+    likely_fundraising_status: Recently financed for NuLink PHY and NuGear chiplet qualification.
   team_profile:
     founders: []
     notable_executives: []
@@ -180,15 +187,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_eliyan_strategic_2026
+    title: Eliyan Secures $50 Million in Strategic Investments from Leading Hyperscalers and AI Infrastructure Providers
+    url: https://eliyan.com/press-release/eliyan-secures-50-million-in-strategic-investments/
+    publisher: Eliyan
+    date_published: '2026-01-13'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - production_design_wins
+    - royalty_model_detail
+    notes: Financing confirmed by primary source; design-win diligence remains open.
 - company_id: chipletz_001
   name: Chipletz
   legal_name: null
@@ -383,7 +397,7 @@
 - company_id: blue_cheetah_001
   name: Blue Cheetah Analog Design
   legal_name: null
-  status: private
+  status: acquired
   website: https://www.bluecheetah.com/
   hq:
     city: Sunnyvale
@@ -459,8 +473,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Acquired by Tenstorrent on 1 July 2025 after a 2024 interconnect IP licensing agreement.
+      Terms were not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -512,8 +526,7 @@
     venture_scale_potential: medium
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Cadence
     - Synopsys
@@ -528,9 +541,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Track whether NuLink-class merchant IP remains available to third parties post-acquisition
   strategic_scoring:
     market_size: 4
     timing: 4
@@ -542,7 +553,7 @@
     competitive_intensity: 4
     exit_potential: 4
     strategic_scarcity: 5
-    overall_vc_priority: watchlist
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -550,7 +561,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in custom asic and chiplet platforms.
+    notes: No longer independently investable; retained as an exit comparable for die-to-die IP teams.
   sources:
   - source_id: src_blue_cheetah_official
     title: Blue Cheetah Analog Design official website
@@ -561,15 +572,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_blue_cheetah_tenstorrent
+    title: Tenstorrent Acquires Blue Cheetah Analog Design
+    url: https://tenstorrent.com/newsroom/tenstorrent-acquires-blue-cheetah-analog-design
+    publisher: Tenstorrent
+    date_published: '2025-07-01'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_value
+    notes: Acquisition confirmed by acquirer primary source; consideration undisclosed.
 - company_id: zero_asic_001
   name: Zero ASIC
   legal_name: null
@@ -649,8 +666,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: 'Shipped a sequence of 2026 product releases: PackageCompiler (June 2026), general availability
+      of the Platypus Z1015 12nm eFPGA IP core (June 2026), and the Tardigrade synthesis engine (July 2026). Revenue
+      scale is not disclosed.'
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -752,12 +770,205 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_zero_asic_2026
+    title: Zero ASIC News
+    url: https://www.zeroasic.com/blog
+    publisher: Zero ASIC
+    date_published: '2026-07-09'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+    notes: Product releases through July 2026 including PackageCompiler, Platypus Z1015 eFPGA IP, and the Tardigrade
+      synthesis engine.
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Product cadence confirmed from the company newsroom; commercial traction unverified.
+- company_id: tylsemi_001
+  name: TYLsemi
+  legal_name: null
+  status: private
+  website: https://www.tylsemi.ai/
+  hq:
+    city: null
+    state: null
+    country: United States
+  founded_year: null
+  primary_category: custom_asic_chiplets
+  secondary_categories: []
+  technology_tags:
+  - chiplet
+  - die_to_die
+  - power_delivery
+  - custom_silicon
+  one_line_summary: Full-portfolio chiplet platform spanning IO, power delivery, and memory chiplets.
+  investor_summary: TYLsemi emerged from stealth in July 2026 with a portfolio approach to chiplets rather than
+    a single interface IP. Its core investment case is that custom silicon programmes need IO, power delivery, and
+    memory chiplets from one supplier to compress schedule. The underwriting focus should be first tape-outs, whether
+    the breadth claim survives contact with real programmes, and the capital required to qualify multiple chiplet
+    classes at once.
+  problem_statement: Custom silicon teams assemble chiplet subsystems from several vendors, which lengthens schedules
+    and pushes integration risk onto the customer.
+  solution_summary: TYLsemi offers a chiplet portfolio across IO, power delivery, and memory paired with chiplet-based
+    custom silicon design services.
+  product_profile:
+    products:
+    - product_name: TYLsemi chiplet portfolio
+      product_type: IO, power delivery, and memory chiplets with custom silicon design
+      product_status: announced
+      target_workloads:
+      - custom_AI_silicon
+      target_customers:
+      - semiconductor_company
+      - hyperscaler
+      - systems_OEM
+      deployment_model: Chiplets plus design engagement for custom silicon programmes
+  technical_profile:
+    architecture: Chiplet portfolio for custom AI silicon
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: null
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry, packaging, and substrate partners
+    technical_differentiation: Company positions breadth across IO, power delivery, and memory chiplets as the differentiator
+      rather than a single best-in-class interface.
+    benchmark_claims: []
+    technical_risks:
+    - No silicon results are public at this stage
+    - Qualifying several chiplet classes in parallel is capital and schedule intensive
+  market_profile:
+    target_market: Custom ASIC and Chiplet Platforms
+    market_timing: Custom AI silicon programmes are proliferating while chiplet supply remains fragmented.
+    market_tailwinds:
+    - Custom accelerator programmes
+    - Chiplet standardization
+    - Power delivery constraints at the package
+    market_headwinds:
+    - Incumbent IP vendors
+    - Customer preference for proven interface IP
+    - Long qualification cycles
+    customer_segments:
+    - semiconductor_company
+    - hyperscaler
+    - systems_OEM
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: pre_revenue
+    customer_traction: Emerged from stealth on 14 July 2026. No design wins or customers have been disclosed.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - chiplets
+    - IP licensing
+    - design services
+    go_to_market_motion: Direct engagement with custom silicon programme owners
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: 43.0
+    latest_round: Early-stage round
+    latest_round_date: '2026-07-14'
+    latest_round_amount_usd_m: 43.0
+    disclosed_valuation_usd_m: null
+    key_investors:
+    - Matter Venture Partners
+    - Viola Ventures
+    - GHOVC
+    - Egis Technology
+    insider_quality: Hardware-specialist lead with strategic participation from the semiconductor ecosystem.
+    likely_fundraising_status: Recently financed at emergence from stealth.
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Unverified; founder backgrounds should be checked directly.
+    founder_technical_depth: Unverified at this stage.
+  competitive_landscape:
+    direct_competitors:
+    - Eliyan
+    - Blue Cheetah
+    - Alphawave
+    - Credo
+    incumbent_competitors:
+    - Synopsys
+    - Cadence
+    - Broadcom
+    - Marvell
+    open_source_or_internal_customer_alternatives:
+    - Internal PHY development
+    - Open chiplet interface specifications
+    differentiation: Breadth of chiplet classes offered from a single supplier.
+    moat_assessment: No demonstrated moat yet; the claim rests on portfolio breadth and execution.
+    competitive_risks:
+    - Established interface IP vendors
+    - Customer insourcing
+    - Standards consolidation
+  vc_investment_view:
+    investment_stage_fit: early_stage
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - strategic_M&A
+    likely_acquirers:
+    - Marvell
+    - Broadcom
+    - Synopsys
+    - Cadence
+    why_now: Custom silicon programmes are multiplying faster than the chiplet supply base can qualify parts.
+    key_diligence_questions:
+    - Which chiplet class tapes out first and on what schedule?
+    - Is the portfolio claim backed by silicon or by roadmap?
+    - What capital is required to qualify IO, power, and memory chiplets in parallel?
+    red_flags:
+    - No public silicon or customers
+    - Breadth strategy is capital intensive for a seed-stage team
+    next_steps:
+    - Verify founder backgrounds and tape-out plan
+    - Track first silicon results
+    - Compare against incumbent interface IP roadmaps
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: null
+    founder_quality: null
+    customer_pull: null
+    business_model_quality: 3
+    capital_efficiency: 2
+    competitive_intensity: 2
+    exit_potential: 4
+    strategic_scarcity: 3
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - investment
+    - competitive_monitoring
+    notes: Early-stage entrant worth tracking for chiplet supply-base consolidation.
+  sources:
+  - source_id: src_tylsemi_launch
+    title: TYLsemi Raises $43 Million to Launch First Full-Stack Chiplet Platform for Custom AI Silicon
+    url: https://www.tylsemi.ai/press-releases/tylsemi-raises-43-million-to-launch-first-full-stack-chipletplatform-for-custom-ai-silicon/
+    publisher: TYLsemi
+    date_published: '2026-07-14'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields:
+    - founders
+    - silicon_status
+    - customer_references
+    - hq_city
+    notes: New profile added at the July 2026 refresh from the company launch announcement only.

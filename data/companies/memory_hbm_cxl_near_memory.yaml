@@ -80,7 +80,8 @@
     customer_traction: Publicly described product activity exists; customer concentration and production revenue
       require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - XConn Technologies CXL memory pooling for KV-cache offload and prefill/decode disaggregation
     design_wins: []
     business_model:
     - silicon
@@ -147,9 +148,8 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Reassess the partner roadmap now that XConn sits inside Marvell
+    - Validate KV-cache offload economics against local HBM and NVMe tiering
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -180,19 +180,27 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_memverge_xconn_kvcache
+    title: XConn Technologies and MemVerge to Deliver Breakthrough Scalable CXL Memory Solution to Offload KV Cache
+    url: https://www.prweb.com/releases/xconn-technologies-and-memverge-to-deliver-breakthrough-scalable-cxl-memory-solution-to-offload-kv-cache-and-prefilldecode-disaggregation-in-ai-inference-workloads-302616566.html
+    publisher: MemVerge
+    date_published: '2025-11-21'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - current_financing
+    notes: Partnership confirmed; no financing event identified since the baseline.
 - company_id: xconn_001
   name: XConn Technologies
   legal_name: null
-  status: private
+  status: acquired
   website: https://www.xconn-tech.com/
   hq:
     city: San Jose
@@ -267,8 +275,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Acquired by Marvell for $540M, announced 6 January 2026 and completed 10 February 2026. At
+      announcement Marvell described more than 20 customer engagements, PCIe 5 and CXL 2.0 switches in production,
+      and PCIe 6 and CXL 3.1 switches sampling.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -320,8 +329,7 @@
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Broadcom
     - Marvell
@@ -336,9 +344,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use $540M as the reference price for a production CXL/PCIe switch silicon team
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -350,7 +356,7 @@
     competitive_intensity: 4
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: active_diligence
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
@@ -358,7 +364,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in memory, hbm, cxl, and near-memory compute.
+    notes: Retained as an exit comparable; the clearest disclosed valuation for CXL switch silicon.
   sources:
   - source_id: src_xconn_official
     title: XConn Technologies official website
@@ -369,15 +375,20 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_xconn_marvell
+    title: Marvell Completes Acquisition of XConn Technologies
+    url: https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-xconn-technologies.html
+    publisher: Marvell Technology
+    date_published: '2026-02-10'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: []
+    notes: Acquisition and consideration confirmed by acquirer primary sources.
 - company_id: panmnesia_001
   name: Panmnesia
   legal_name: null
@@ -458,8 +469,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: CXL 3.2 switch samples are expected to be available for 2026 evaluation and a PCIe 7.0 /
+      CXL 4.0 combo IP has been presented publicly. Production customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -471,14 +482,18 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    total_raised_usd_m: 80.0
+    latest_round: Series A
+    latest_round_date: '2024-11-18'
+    latest_round_amount_usd_m: 60.0
+    disclosed_valuation_usd_m: 250.0
+    key_investors:
+    - Daekyo Investment
+    - SL Investment
+    - Time Works Investment
+    insider_quality: Korean institutional syndicate; no global strategic anchor disclosed.
+    likely_fundraising_status: Capitalized through CXL 3.1 switch silicon manufacturing; further capital likely
+      required.
   team_profile:
     founders: []
     notable_executives: []
@@ -561,19 +576,26 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_panmnesia_series_a
+    title: CXL Fabless Startup Panmnesia Secures Over $60M in Series A Funding
+    url: https://panmnesia.com/news/en/2024-11-18-series-a-funding/
+    publisher: Panmnesia
+    date_published: '2024-11-18'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing confirmed by company primary source; roadmap claims not independently verified.
 - company_id: neuroblade_001
   name: NeuroBlade
   legal_name: null
-  status: private
+  status: acquired
   website: https://www.neuroblade.com/
   hq:
     city: Tel Aviv
@@ -648,8 +670,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Core engineering team joined AWS Annapurna Labs in Israel in late 2025 following an earlier
+      integration with Amazon EC2 F2 instances. Press reports describe consideration in the tens of millions of
+      dollars against roughly $110M raised.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -701,8 +724,7 @@
     venture_scale_potential: medium
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_acquihire
     likely_acquirers:
     - AMD
     - Intel
@@ -717,9 +739,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use as a downside comparable for analytics-acceleration silicon that never reached scale
   strategic_scoring:
     market_size: 4
     timing: 4
@@ -731,7 +751,7 @@
     competitive_intensity: 4
     exit_potential: 4
     strategic_scarcity: 4
-    overall_vc_priority: monitor
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -739,7 +759,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in memory, hbm, cxl, and near-memory compute.
+    notes: 'Retained as a cautionary exit comparable: a talent outcome below total capital raised.'
   sources:
   - source_id: src_neuroblade_official
     title: NeuroBlade official website
@@ -750,12 +770,18 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_neuroblade_aws
+    title: After raising $110M, NeuroBlade's engineers join Amazon's Annapurna Labs in quiet exit
+    url: https://www.calcalistech.com/ctechnews/article/hkmfcvb6ll
+    publisher: Calcalist
+    date_published: '2025-10-23'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_value
+    notes: Outcome reported by reputable press; neither party published transaction terms.

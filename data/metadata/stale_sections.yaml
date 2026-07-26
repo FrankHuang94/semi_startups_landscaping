@@ -1,2 +1,5 @@
-stale_sections: []
-generated_on: '2026-06-10'
+stale_sections:
+- 'research_papers: last refreshed 2026-06-10; due for a targeted sweep of 2026 publications'
+- 'patents: last refreshed 2026-06-10; due for a targeted publication sweep'
+- 'vc_investors: last refreshed 2026-06-10; several 2026 lead investors are not yet profiled'
+generated_on: '2026-07-26'

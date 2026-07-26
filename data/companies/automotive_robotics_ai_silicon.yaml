@@ -270,8 +270,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Company states product revenue more than tripled in 2025 versus 2024 with accelerating design
+      wins across edge LLM, automotive, and enterprise vision. Licensee names are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -283,14 +283,18 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 90.0
+    latest_round: Series C (second close)
+    latest_round_date: '2026-01-13'
+    latest_round_amount_usd_m: 46.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - International Finance Corporation
+    - MegaChips
+    - Denso
+    - Mitsubishi Electric
+    insider_quality: Automotive and Japanese industrial strategics alongside a development-finance lead.
+    likely_fundraising_status: Series C extended to $46M across two closes; total capital raised reported at $90M.
   team_profile:
     founders: []
     notable_executives: []
@@ -373,15 +377,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_quadric_series_c
+    title: Quadric, Inference Engine for On-Device AI Chips, Raises $30M Series C as Design Wins Accelerate
+    url: https://quadric.ai/press-release/quadric-raises-30m-series-c-funding
+    publisher: Quadric
+    date_published: '2026-01-13'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: &id001
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing confirmed by company primary source; growth claims are company-stated.
 - company_id: expedera_001
   name: Expedera
   legal_name: null
@@ -462,8 +473,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Origin Evolution NPU IP was named best edge AI processor IP in the 2026 Edge AI and Vision
+      awards. Licensee names and royalty volumes are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -565,15 +576,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_expedera_award_2026
+    title: Expedera's Origin Evolution NPU IP Named Best Edge AI Processor IP in 2026 Edge AI and Vision Product
+      of the Year Awards
+    url: https://www.expedera.com/blog/2026/04/21/expederas-origin-evolution-npu-ip-named-best-edge-ai-processor-ip-in-2026-edge-ai-and-vision-product-of-the-year-awards/
+    publisher: Expedera
+    date_published: '2026-04-21'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Product recognition confirmed by company primary source; no financing event identified.
 - company_id: innatera_001
   name: Innatera
   legal_name: null
@@ -654,8 +671,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Pulsar neuromorphic microcontroller moved into volume production and was demonstrated publicly
+      at CES 2026. Confirmed purchase orders are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -668,13 +685,17 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Series A extension
+    latest_round_date: '2026-06-01'
+    latest_round_amount_usd_m: 19.8
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - InvestNL
+    - EIC Fund
+    - MIG Capital
+    - Matterwave Ventures
+    insider_quality: European deep-tech and public-backed syndicate; no large strategic anchor disclosed.
+    likely_fundraising_status: Series A extended to a stated $19.8M oversubscribed round to fund mass production.
   team_profile:
     founders: []
     notable_executives: []
@@ -756,12 +777,20 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_innatera_2026
+    title: 'Redefining the Cutting Edge: Innatera Debuts Real-World Neuromorphic Edge AI at CES 2026'
+    url: https://www.innatera.com/newsroom/redefining-the-cutting-edge-innatera-debuts-real-world-neuromorphic-edge-ai-at-ces-2026/
+    publisher: Innatera
+    date_published: '2026-01-07'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - purchase_order_confirmation
+    notes: Production status confirmed by company newsroom; round extension reported by trade press.

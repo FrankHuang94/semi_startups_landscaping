@@ -1,7 +1,7 @@
 # Automotive and Robotics AI Silicon
 
-Last refreshed: 2026-06-10  
-Refresh scope: full  
+Last refreshed: 2026-07-26  
+Refresh scope: partial  
 Number of companies: 4
 
 ## VC Summary
@@ -14,9 +14,9 @@ Large future demand and high switching costs are balanced by long design cycles,
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Recogni | series_c | San Jose, California, United States | High-efficiency AI inference for automotive and datacenter applications. | - |  | active_diligence | 2026-06-10 |
-| Quadric | series_b | Burlingame, California, United States | Unified processor IP for machine learning and signal processing. | - |  | watchlist | 2026-06-10 |
-| Expedera | series_b | Santa Clara, California, United States | Scalable neural-processing-unit IP for edge and automotive SoCs. | - |  | watchlist | 2026-06-10 |
-| Innatera | series_a | Rijswijk, Netherlands | Neuromorphic processors for sensor-edge intelligence. | - |  | watchlist | 2026-06-10 |
+| Quadric | series_b | Burlingame, California, United States | Unified processor IP for machine learning and signal processing. | 90.0 | International Finance Corporation, MegaChips, Denso, Mitsubishi Electric | watchlist | 2026-07-26 |
+| Expedera | series_b | Santa Clara, California, United States | Scalable neural-processing-unit IP for edge and automotive SoCs. | - |  | watchlist | 2026-07-26 |
+| Innatera | series_a | Rijswijk, Netherlands | Neuromorphic processors for sensor-edge intelligence. | - | InvestNL, EIC Fund, MIG Capital, Matterwave Ventures | watchlist | 2026-07-26 |
 
 ## Top Watchlist Names
 
@@ -65,7 +65,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Differentiation:** A licensable GPNPU architecture combines scalar, vector, and matrix processing for embedded systems.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Company states product revenue more than tripled in 2025 versus 2024 with accelerating design wins across edge LLM, automotive, and enterprise vision. Licensee names are not disclosed.
 
 **VC view:** watchlist at series_b stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -77,7 +77,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Expedera
 
 **Summary:** Expedera addresses a strategically important bottleneck in automotive and robotics ai silicon. Its core investment case is licensable npu architecture targets predictable utilization, power, and integration across soc designs. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -86,7 +86,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Differentiation:** Licensable NPU architecture targets predictable utilization, power, and integration across SoC designs.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Origin Evolution NPU IP was named best edge AI processor IP in the 2026 Edge AI and Vision awards. Licensee names and royalty volumes are not disclosed.
 
 **VC view:** watchlist at series_b stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -98,7 +98,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Innatera
 
 **Summary:** Innatera addresses a strategically important bottleneck in automotive and robotics ai silicon. Its core investment case is event-driven spiking compute targets always-on sensing with very low latency and power. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -107,7 +107,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Differentiation:** Event-driven spiking compute targets always-on sensing with very low latency and power.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Pulsar neuromorphic microcontroller moved into volume production and was demonstrated publicly at CES 2026. Confirmed purchase orders are not disclosed.
 
 **VC view:** watchlist at series_a stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -119,7 +119,7 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details, purchase_order_confirmation
 
 ## Diligence Questions
 
@@ -136,9 +136,12 @@ Large future demand and high switching costs are balanced by long design cycles,
 
 - [Recogni official website](https://recogni.com/)
 - [Quadric official website](https://quadric.io/)
+- [Quadric, Inference Engine for On-Device AI Chips, Raises $30M Series C as Design Wins Accelerate](https://quadric.ai/press-release/quadric-raises-30m-series-c-funding)
 - [Expedera official website](https://www.expedera.com/)
+- [Expedera's Origin Evolution NPU IP Named Best Edge AI Processor IP in 2026 Edge AI and Vision Product of the Year Awards](https://www.expedera.com/blog/2026/04/21/expederas-origin-evolution-npu-ip-named-best-edge-ai-processor-ip-in-2026-edge-ai-and-vision-product-of-the-year-awards/)
 - [Innatera official website](https://innatera.com/)
+- [Redefining the Cutting Edge: Innatera Debuts Real-World Neuromorphic Edge AI at CES 2026](https://www.innatera.com/newsroom/redefining-the-cutting-edge-innatera-debuts-real-world-neuromorphic-edge-ai-at-ces-2026/)
 
 ## Refresh Notes
 
-Replaced empty scaffold with 4 source-backed baseline profiles.
+Recorded 2026 financing and product milestones for the NPU IP and neuromorphic profiles.

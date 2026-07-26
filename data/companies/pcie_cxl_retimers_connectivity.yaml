@@ -77,9 +77,10 @@
     estimated_tam_relevance: high
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
-    revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    revenue_stage: scaling
+    customer_traction: Q1 2026 revenue of $308.4M, up 93% year over year, with Q2 2026 guidance of $355M to $365M.
+      Scorpio X Series fabric switches began initial shipments with broader hyperscaler deployment expected in the
+      second half of 2026.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -148,9 +149,8 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use ALAB as the primary public comparable for connectivity silicon startups
+    - Track Scorpio X switch attach rates as a proxy for scale-up fabric share
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -181,15 +181,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_astera_q1_2026
+    title: Astera Labs news releases and quarterly results
+    url: https://ir.asteralabs.com/news-events/news-releases
+    publisher: Astera Labs
+    date_published: '2026-05-05'
+    date_accessed: '2026-07-26'
+    source_type: filing
+    reliability: high
+    notes: Q1 2026 revenue of $308.4M, up 93% year over year; Q2 2026 guidance of $355M to $365M.
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - customer_concentration_detail
+    notes: Financial detail sourced from the company's investor relations disclosures.
 - company_id: kandou_001
   name: Kandou
   legal_name: null
@@ -322,8 +329,7 @@
     venture_scale_potential: medium
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Qualcomm
     - Synopsys
@@ -352,7 +358,7 @@
     competitive_intensity: 5
     exit_potential: 4
     strategic_scarcity: 4
-    overall_vc_priority: monitor
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -360,7 +366,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in pcie, cxl, retimers, and connectivity.
+    notes: Retained as an exit comparable; no longer independently investable following the Qualcomm acquisition.
   sources:
   - source_id: src_kandou_official
     title: Kandou official website
@@ -374,7 +380,7 @@
   data_quality:
     confidence_level: medium
     last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_verified: '2026-07-26'
     missing_fields:
     - funding_history
     - customer_references
@@ -463,7 +469,8 @@
     customer_traction: Publicly described product activity exists; customer concentration and production revenue
       require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - Keysight collaboration to validate multi-terabit scale-up interconnects (January 2026)
     design_wins: []
     business_model:
     - silicon
@@ -474,13 +481,17 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
+    latest_round: Series B extension
+    latest_round_date: '2026-04-14'
     latest_round_amount_usd_m: null
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Maverick Silicon
+    - NVentures
+    - UMC Capital
+    insider_quality: NVIDIA's venture arm and a foundry investor joined, which is a supply-chain relevant signal
+      for e-Tube.
+    likely_fundraising_status: Series B extended to a stated total of $76M across the round.
   team_profile:
     founders: []
     notable_executives: []
@@ -562,15 +573,31 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_point2_series_b_ext
+    title: Point2 Secures Investment from Maverick Silicon, with Participation from NVentures and UMC
+    url: https://point2tech.com/point2-secures-investment-from-maverick-silicon-with-participation-from-nventures-and-umc/
+    publisher: Point2 Technology
+    date_published: '2026-04-14'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  - source_id: src_point2_keysight
+    title: Keysight and Point2 Technology Collaborate to Advance Next-Generation AI Scale-Up Interconnects
+    url: https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0129_pr26-021-keysight-and-point2-technology-collaborate-to-advance-next-generation-ai-scale-up-interconnects.html
+    publisher: Keysight Technologies
+    date_published: '2026-01-29'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - extension_amount
+    notes: Financing and partnership confirmed by primary sources; the extension amount alone is not broken out.
 - company_id: credo_001
   name: Credo Technology Group
   legal_name: null

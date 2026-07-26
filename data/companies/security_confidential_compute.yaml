@@ -77,8 +77,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Capital is directed at OEM and ODM go-to-market motion for AI datacenter platform security
+      and system management. Named design wins are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -91,13 +91,18 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Series C+
+    latest_round_date: '2025-12-09'
+    latest_round_amount_usd_m: 100.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Maverick Silicon
+    - Prosperity7 Ventures
+    - Orbit Venture Partners
+    - Crosslink Capital
+    - Nosterra Ventures
+    insider_quality: Growth syndicate with sovereign-linked participation.
+    likely_fundraising_status: Financed for OEM and ODM go-to-market expansion.
   team_profile:
     founders: []
     notable_executives: []
@@ -179,15 +184,23 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_axiado_series_c_plus
+    title: Axiado Corporation Raises $100M in Series C+ Funding to Advance Platform Security and System Management
+      Solutions for AI Data Centers
+    url: https://axiado.com/axiado-corporation-raises-100m-in-series-c-funding-to-advance-platform-security-and-system-management-solutions-for-ai-data-centers/
+    publisher: Axiado
+    date_published: '2025-12-09'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing confirmed by company primary source; design-win diligence remains open.
 - company_id: cornami_001
   name: Cornami
   legal_name: null

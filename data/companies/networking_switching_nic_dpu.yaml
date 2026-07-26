@@ -1,7 +1,7 @@
 - company_id: enfabrica_001
   name: Enfabrica
   legal_name: null
-  status: private
+  status: acquired
   website: https://enfabrica.net/
   hq:
     city: Mountain View
@@ -78,8 +78,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: In September 2025 NVIDIA paid a reported figure above $900M to license Enfabrica's technology
+      and hire the chief executive and a substantial part of the team. The corporate entity was not acquired outright,
+      so residual independent activity is unclear.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -131,8 +132,7 @@
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_license_and_acquihire
     likely_acquirers:
     - NVIDIA
     - Broadcom
@@ -147,9 +147,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use as the reference comparable for licence-plus-talent structures in AI networking
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -161,7 +159,7 @@
     competitive_intensity: 5
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: high_conviction
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
@@ -169,7 +167,8 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in networking, switching, nic, and dpu.
+    notes: Retained as an exit comparable. The structure shows incumbents buying scarce fabric teams without a full
+      acquisition.
   sources:
   - source_id: src_enfabrica_official
     title: Enfabrica official website
@@ -180,15 +179,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_enfabrica_nvidia
+    title: Nvidia just spent over $900 million to hire Enfabrica CEO, license AI startup's technology
+    url: https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html
+    publisher: CNBC
+    date_published: '2025-09-18'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_structure_detail
+    - residual_entity_status
+    notes: Transaction reported by reputable press; neither party published complete terms.
 - company_id: cornelis_001
   name: Cornelis Networks
   legal_name: null
@@ -271,7 +277,8 @@
     customer_traction: Publicly described product activity exists; customer concentration and production revenue
       require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - NextSilicon joint AI and HPC reference architectures pairing CN5000 fabric with Maverick-2
     design_wins: []
     business_model:
     - silicon
@@ -370,15 +377,23 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_cornelis_nextsilicon
+    title: Cornelis and NextSilicon to Build Joint Reference Architectures for AI and HPC
+    url: https://www.businesswire.com/news/home/20260622687428/en/Cornelis-and-NextSilicon-to-Build-Joint-Reference-Architectures-for-AI-and-HPC
+    publisher: Cornelis Networks
+    date_published: '2026-06-22'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - current_financing
+    notes: Partnership confirmed by primary source; no financing event identified since the baseline.
 - company_id: asterfusion_001
   name: Asterfusion
   legal_name: null
@@ -652,7 +667,8 @@
     customer_traction: Publicly described product activity exists; customer concentration and production revenue
       require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - Cornelis Networks joint AI and HPC reference architectures for Maverick-2
     design_wins: []
     business_model:
     - silicon
@@ -751,12 +767,19 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_nextsilicon_cornelis
+    title: Cornelis and NextSilicon to Build Joint Reference Architectures for AI and HPC
+    url: https://www.nextsilicon.com/insights/cornelis-nextSilicon-to-build-joint-reference-architectures-for-ai-and-hpc/
+    publisher: NextSilicon
+    date_published: '2026-06-22'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Partnership confirmed by primary source; financing and customer detail remain open.

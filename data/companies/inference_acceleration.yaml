@@ -14,7 +14,7 @@
   - LLM_inference
   - low_latency
   - compiler
-  one_line_summary: Statically scheduled tensor-streaming processor.
+  one_line_summary: Inference cloud built on a statically scheduled tensor-streaming processor.
   investor_summary: Groq addresses a strategically important bottleneck in inference acceleration. Its core investment
     case is deterministic execution and a vertically integrated compiler/cloud service target low-latency token
     generation. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
@@ -76,28 +76,30 @@
     estimated_tam_relevance: high
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
-    revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    revenue_stage: scaling
+    customer_traction: Operates 13 datacenters across North America, Europe, the Middle East and APAC and reports
+      more than five million developers on its inference cloud. Revenue quality and per-token margins remain unverified.
     disclosed_customers: []
     partnerships: []
     design_wins: []
     business_model:
-    - silicon
+    - inference cloud services
     - systems
     - IP licensing
-    - software or services as applicable
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Growth round
+    latest_round_date: '2026-06-22'
+    latest_round_amount_usd_m: 650.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Disruptive
+    - Infinitum
+    insider_quality: Growth syndicate financing capacity build-out rather than first-silicon risk.
+    likely_fundraising_status: Recently financed. Capital is directed at inference-cloud capacity, targeting roughly
+      200MW by the end of 2027.
   team_profile:
     founders: []
     notable_executives: []
@@ -137,30 +139,31 @@
     - NVIDIA
     - AMD
     - Oracle
-    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
-      urgent.
+    why_now: In December 2025 NVIDIA licensed Groq's inference technology on a non-exclusive basis in a deal reported
+      at roughly $20B and hired Groq's founder and senior leadership. Groq continues independently as an inference
+      cloud operator, which changes both the competitive position and the exit analysis.
     key_diligence_questions:
     - What is shipping today, at what volume, and with which production customers?
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Core silicon technology is now licensed to NVIDIA and the founding leadership has departed
+    - Cloud capacity build-out is capital intensive and competes with hyperscaler pricing
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Determine what the NVIDIA license leaves Groq exclusive rights to
+    - Assess post-departure engineering and go-to-market leadership depth
+    - Model inference-cloud unit economics at the stated 200MW target
   strategic_scoring:
     market_size: 5
     timing: 5
-    technical_differentiation: 5
+    technical_differentiation: 4
     founder_quality: 5
     customer_pull: 5
     business_model_quality: 4
     capital_efficiency: 3
     competitive_intensity: 5
     exit_potential: 5
-    strategic_scarcity: 5
+    strategic_scarcity: 3
     overall_vc_priority: active_diligence
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
@@ -180,15 +183,30 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_groq_650m_2026
+    title: Groq Raises $650M to Scale Its AI Inference Cloud Business
+    url: https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business
+    publisher: Groq
+    date_published: '2026-06-22'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  - source_id: src_nvidia_groq_license
+    title: Nvidia buying AI chip startup Groq's assets for about $20 billion
+    url: https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html
+    publisher: CNBC
+    date_published: '2025-12-24'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - revenue_disclosure
+    - license_scope_detail
+    notes: Financing confirmed by primary source; NVIDIA licensing terms sourced from reputable press.
 - company_id: dmatrix_001
   name: d-Matrix
   legal_name: null
@@ -281,14 +299,22 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    total_raised_usd_m: 450.0
+    latest_round: Series C
+    latest_round_date: '2025-11-12'
+    latest_round_amount_usd_m: 275.0
+    disclosed_valuation_usd_m: 2000.0
+    key_investors:
+    - BullhoundCapital
+    - Triatomic Capital
+    - Temasek
+    - Qatar Investment Authority
+    - EDBI
+    - M12
+    - Microsoft's Venture Fund
+    - Mirae Asset
+    insider_quality: Sovereign and strategic capital alongside a Microsoft venture position.
+    likely_fundraising_status: Financed through the Corsair ramp; a further round would likely fund volume supply.
   team_profile:
     founders: []
     notable_executives: []
@@ -371,15 +397,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_dmatrix_series_c
+    title: d-Matrix Raises $275 Million to Power the Age of AI Inference
+    url: https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/
+    publisher: d-Matrix
+    date_published: '2025-11-12'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: &id001
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing confirmed by primary source; customer and benchmark diligence remain open.
 - company_id: etched_001
   name: Etched
   legal_name: null
@@ -459,8 +492,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Company reports opening an 80,000 square foot, 10MW facility near its San Jose headquarters
+      to expand production and prototyping. Shipping volume and named customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -473,15 +506,37 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series C
+    latest_round_date: '2026-07-23'
+    latest_round_amount_usd_m: 300.0
+    disclosed_valuation_usd_m: 10300.0
+    key_investors:
+    - Sequoia Capital
+    - Andreessen Horowitz
+    - Jane Street
+    - Argo
+    - SK hynix
+    insider_quality: Top-tier venture syndicate plus an HBM supplier, which is strategically relevant for a memory-bound
+      inference part.
+    likely_fundraising_status: Recently financed. The valuation roughly doubled from the reported $5B mark set in
+      a December 2025 round.
   team_profile:
-    founders: []
+    founders:
+    - name: Gavin Uberti
+      role: co-founder
+      background: null
+      prior_company_or_lab: null
+      technical_relevance: null
+    - name: Robert Wachen
+      role: co-founder
+      background: null
+      prior_company_or_lab: null
+      technical_relevance: null
+    - name: Chris Zhu
+      role: co-founder
+      background: null
+      prior_company_or_lab: null
+      technical_relevance: null
     notable_executives: []
     estimated_employee_count: null
     founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
@@ -526,12 +581,11 @@
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Valuation doubled in roughly seven months ahead of disclosed production revenue
+    - Transformer-specific silicon carries architecture-obsolescence risk if model shapes shift
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Verify Sohu silicon status, yield, and cluster-level deployments
+    - Test the durability of the transformer-only bet against emerging model architectures
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -562,15 +616,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_etched_series_c
+    title: Etched raises $300M at a $10.3B Valuation to Scale Production of Frontier Scale Inference Hardware
+    url: https://www.globenewswire.com/news-release/2026/07/23/3332366/0/en/Etched-raises-300M-at-a-10-3B-Valuation-to-Scale-Production-of-Frontier-Scale-Inference-Hardware.html
+    publisher: Etched
+    date_published: '2026-07-23'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - silicon_production_status
+    notes: Financing confirmed by primary source; product and customer claims remain unverified.
 - company_id: positron_001
   name: Positron
   legal_name: null
@@ -650,8 +711,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Next-generation custom silicon, Asimov, is targeted for tape-out toward the end of 2026 with
+      production in early 2027. Current revenue is generated by FPGA-based systems.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -664,13 +725,21 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series B
+    latest_round_date: '2026-02-04'
+    latest_round_amount_usd_m: 230.0
+    disclosed_valuation_usd_m: 1000.0
+    key_investors:
+    - ARENA Private Wealth
+    - Jump Trading
+    - Unless
+    - Qatar Investment Authority
+    - Arm
+    - Valor Equity Partners
+    - Atreides Management
+    - DFJ Growth
+    insider_quality: Strategic participation from Arm alongside trading and growth capital.
+    likely_fundraising_status: Financed through the Asimov development cycle.
   team_profile:
     founders: []
     notable_executives: []
@@ -753,12 +822,401 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_positron_series_b
+    title: Positron AI Raises $230 Million Series B at Over $1 Billion Valuation to Scale Energy-Efficient AI Inference
+    url: https://www.businesswire.com/news/home/20260204250472/en/Positron-AI-Raises-$230-Million-Series-B-at-Over-$1-Billion-Valuation-to-Scale-Energy-Efficient-AI-Inference
+    publisher: Positron AI
+    date_published: '2026-02-04'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Financing and roadmap confirmed by primary source; customer references remain open.
+- company_id: furiosa_ai_001
+  name: FuriosaAI
+  legal_name: null
+  status: private
+  website: https://furiosa.ai/
+  hq:
+    city: Seoul
+    state: null
+    country: South Korea
+  founded_year: 2017
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - AI_accelerator
+  - LLM_inference
+  - HBM
+  - power_efficiency
+  one_line_summary: Tensor contraction inference accelerators for datacenter LLM serving.
+  investor_summary: FuriosaAI is one of two Korean inference-silicon companies now moving from national-champion
+    status to international deployment. Its core investment case is a power-envelope-constrained accelerator that
+    can be racked in existing colocation facilities without liquid cooling. The underwriting focus should be European
+    and Korean deployment conversion, sustained supply of HBM, and whether revenue can scale before better-capitalized
+    competitors reach the same power efficiency.
+  problem_statement: Datacenter operators outside the largest hyperscalers need inference capacity that fits existing
+    power and cooling envelopes and is not gated by GPU allocation.
+  solution_summary: FuriosaAI supplies the RNGD accelerator and supporting software for LLM and multimodal inference
+    in standard colocation racks.
+  product_profile:
+    products:
+    - product_name: RNGD
+      product_type: Datacenter inference accelerator
+      product_status: shipping
+      target_workloads:
+      - LLM_inference
+      - multimodal_inference
+      target_customers:
+      - neocloud
+      - enterprise
+      - sovereign
+      deployment_model: PCIe cards and racked systems through colocation and OEM partners
+  technical_profile:
+    architecture: Tensor contraction processor for inference
+    process_node: TSMC 5nm
+    packaging: null
+    memory_interface: 48GB HBM3 at a stated 1.5 TB/s
+    interconnect: null
+    software_stack: Company-provided compiler and serving stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - TSMC
+    - HBM supplier
+    - advanced packaging partner
+    technical_differentiation: Stated 512 dense FP8 TFLOPS within an air-coolable power envelope, which targets
+      deployment in existing colocation facilities rather than purpose-built AI datacenters.
+    benchmark_claims: []
+    technical_risks:
+    - Published throughput figures are company-stated and not independently verified
+    - HBM allocation is a supply constraint for a company of this scale
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: Sovereign and European capacity buildouts are actively seeking non-NVIDIA inference supply.
+    market_tailwinds:
+    - AI inference demand
+    - Power-constrained datacenter estates
+    - Sovereign compute programmes
+    market_headwinds:
+    - Incumbent software gravity
+    - HBM supply competition
+    - Limited balance sheet versus US competitors
+    customer_segments:
+    - neocloud
+    - enterprise
+    - sovereign
+    - hyperscaler
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: early_revenue
+    customer_traction: Began fielding RNGD at an Equinix datacenter in Lisbon in 2026 and established a Portuguese
+      subsidiary. Reported revenue remains small; Korean press placed 2025 revenue at 5.7bn won.
+    disclosed_customers: []
+    partnerships:
+    - Equinix LS2 Lisbon deployment
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    go_to_market_motion: Direct and colocation-partner selling into European and Korean capacity
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: Named as a candidate for South Korea's government-backed National Growth Fund. Round
+      terms are not disclosed and financing history has not been reconstructed.
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: Verify tape-out history and HBM integration experience directly.
+  competitive_landscape:
+    direct_competitors:
+    - Rebellions
+    - d-Matrix
+    - Groq
+    - Positron
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Broadcom
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source serving stacks
+    - Hyperscaler internal development
+    differentiation: Air-coolable power envelope combined with HBM capacity aimed at existing colocation estates.
+    moat_assessment: Potential moat from power efficiency, sovereign procurement preference, and Korean supply-chain
+      proximity; software remains the principal gap.
+    competitive_risks:
+    - Incumbent bundling
+    - Software ecosystem lock-in
+    - Better-funded inference competitors
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: high
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Samsung
+    - SK hynix
+    - Korean industrial groups
+    why_now: European deployment and Korean state backing arrive at the same moment that inference capacity is the
+      binding constraint in AI infrastructure.
+    key_diligence_questions:
+    - What is contracted versus deployed capacity at Equinix Lisbon and elsewhere?
+    - How is HBM supply secured, and at what cost position?
+    - What is the serving-software gap against CUDA-based alternatives?
+    red_flags:
+    - Revenue base remains very small relative to category peers
+    - Company-stated performance figures are not independently verified
+    next_steps:
+    - Validate European deployment scope
+    - Reconstruct financing history
+    - Benchmark serving software against open-source stacks
+  strategic_scoring:
+    market_size: 5
+    timing: 5
+    technical_differentiation: 4
+    founder_quality: 4
+    customer_pull: 3
+    business_model_quality: 3
+    capital_efficiency: 3
+    competitive_intensity: 2
+    exit_potential: 4
+    strategic_scarcity: 4
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - partnership
+    - competitive_monitoring
+    notes: Relevant as a non-US inference supply option and as a read on sovereign AI procurement.
+  sources:
+  - source_id: src_furiosa_official
+    title: FuriosaAI official website
+    url: https://furiosa.ai/
+    publisher: FuriosaAI
+    date_published: null
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing detail intentionally not inferred.
+  - source_id: src_furiosa_europe_2026
+    title: South Korean chip startup FuriosaAI invades European datacenters
+    url: https://www.theregister.com/ai-and-ml/2026/07/07/south_korean_chip_startup_furiosaai_invades_european_datacenters/5267884
+    publisher: The Register
+    date_published: '2026-07-07'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
     - funding_history
     - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - independent_benchmarks
+    notes: New profile added at the July 2026 refresh; financing history not yet reconstructed.
+- company_id: rebellions_001
+  name: Rebellions
+  legal_name: null
+  status: private
+  website: https://rebellions.ai/
+  hq:
+    city: Seongnam
+    state: null
+    country: South Korea
+  founded_year: 2020
+  primary_category: inference_acceleration
+  secondary_categories: []
+  technology_tags:
+  - AI_accelerator
+  - LLM_inference
+  - power_efficiency
+  one_line_summary: Korean inference NPUs for datacenter and sovereign AI deployments.
+  investor_summary: Rebellions is the more commercially advanced of the two Korean inference-silicon companies by
+    reported revenue. Its core investment case is domestic telecom and industrial demand backed by national industrial
+    policy. The underwriting focus should be whether Korean anchor demand converts into exportable product volume
+    before the category consolidates.
+  problem_statement: Korean and other non-US operators need inference silicon that is not subject to allocation
+    by incumbent GPU vendors.
+  solution_summary: Rebellions supplies inference NPUs and supporting software for datacenter and sovereign AI deployments.
+  product_profile:
+    products:
+    - product_name: Rebellions inference NPU family
+      product_type: Datacenter inference accelerator
+      product_status: shipping
+      target_workloads:
+      - LLM_inference
+      target_customers:
+      - enterprise
+      - sovereign
+      - telecom
+      deployment_model: Silicon and systems through domestic industrial partners
+  technical_profile:
+    architecture: Inference NPU
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Company-provided compiler and serving stack; depth requires diligence
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies:
+    - External foundry
+    - HBM supplier
+    technical_differentiation: Positioned on energy efficiency for LLM serving with domestic supply-chain proximity.
+    benchmark_claims: []
+    technical_risks:
+    - Public performance claims are not independently verified
+    - Software maturity relative to CUDA-based deployment remains unproven outside Korea
+  market_profile:
+    target_market: Inference Acceleration
+    market_timing: Korean industrial policy is actively funding domestic NPU champions while inference demand grows.
+    market_tailwinds:
+    - Sovereign AI programmes
+    - Domestic telecom and industrial demand
+    - Inference cost pressure
+    market_headwinds:
+    - Export competition from far better-capitalized US vendors
+    - Software ecosystem lock-in
+    customer_segments:
+    - enterprise
+    - sovereign
+    - neocloud
+    estimated_tam_relevance: high
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: early_revenue
+    customer_traction: Korean press reported 2025 revenue of roughly 32bn won, materially ahead of its closest domestic
+      peer. Customer names and contract structure are not disclosed.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - silicon
+    - systems
+    go_to_market_motion: Domestic industrial and telecom channels with early export ambition
+    sales_cycle_complexity: High
+  funding_profile:
+    total_raised_usd_m: null
+    latest_round: null
+    latest_round_date: null
+    latest_round_amount_usd_m: null
+    disclosed_valuation_usd_m: null
+    key_investors: []
+    insider_quality: null
+    likely_fundraising_status: Named as a candidate for South Korea's government-backed National Growth Fund. Round
+      terms are not disclosed and financing history has not been reconstructed.
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: Technical leadership appears category-relevant; individual references remain required.
+    founder_technical_depth: Verify tape-out history and serving-software depth directly.
+  competitive_landscape:
+    direct_competitors:
+    - FuriosaAI
+    - d-Matrix
+    - Groq
+    - Positron
+    incumbent_competitors:
+    - NVIDIA
+    - AMD
+    - Broadcom
+    - internal customer silicon
+    open_source_or_internal_customer_alternatives:
+    - Open-source serving stacks
+    - Hyperscaler internal development
+    differentiation: Domestic supply-chain proximity and reported revenue lead among Korean NPU vendors.
+    moat_assessment: Potential moat from national procurement preference and industrial relationships rather than
+      architecture alone.
+    competitive_risks:
+    - Incumbent bundling
+    - Export market access
+    - Software ecosystem lock-in
+  vc_investment_view:
+    investment_stage_fit: growth
+    venture_scale_potential: medium
+    capital_intensity: high
+    likely_exit_path:
+    - IPO
+    - strategic_M&A
+    likely_acquirers:
+    - Korean industrial groups
+    - SK Group
+    - Samsung
+    why_now: National growth-fund selection creates a financing floor at the same time that inference demand is
+      expanding beyond hyperscaler allocation.
+    key_diligence_questions:
+    - How much of reported revenue is recurring commercial volume versus programme funding?
+    - What is the export pipeline outside Korea?
+    - How does serving software compare with open-source alternatives on real workloads?
+    red_flags:
+    - Revenue concentration in domestic policy-driven demand
+    - Limited public technical disclosure
+    next_steps:
+    - Reconstruct financing history
+    - Validate revenue composition
+    - Assess export design-win pipeline
+  strategic_scoring:
+    market_size: 5
+    timing: 4
+    technical_differentiation: 3
+    founder_quality: 4
+    customer_pull: 3
+    business_model_quality: 3
+    capital_efficiency: 3
+    competitive_intensity: 2
+    exit_potential: 3
+    strategic_scarcity: 3
+    overall_vc_priority: monitor
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - competitive_monitoring
+    - partnership
+    notes: Relevant primarily as a read on Korean sovereign AI silicon policy and supply diversity.
+  sources:
+  - source_id: src_rebellions_official
+    title: Rebellions official website
+    url: https://rebellions.ai/
+    publisher: Rebellions
+    date_published: null
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+    notes: Primary source for product positioning; financing detail intentionally not inferred.
+  - source_id: src_rebellions_k_nvidia
+    title: FuriosaAI, Rebellions Seen as Leading Candidates for Korea's 'K-Nvidia' Initiative Under National Growth
+      Fund
+    url: https://www.thelec.net/news/articleView.html?idxno=5833
+    publisher: TheElec
+    date_published: '2026-05-01'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  data_quality:
+    confidence_level: low
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields:
+    - funding_history
+    - customer_references
+    - product_specifications
+    notes: New profile added at the July 2026 refresh; most technical and financial detail is unverified.

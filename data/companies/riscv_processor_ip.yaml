@@ -77,8 +77,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Capital is directed at next-generation datacenter solutions and global engineering expansion
+      for agentic AI workloads. Royalty-bearing volume by end market is not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -91,13 +91,19 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series G
+    latest_round_date: '2026-04-09'
+    latest_round_amount_usd_m: 400.0
+    disclosed_valuation_usd_m: 3650.0
+    key_investors:
+    - Atreides Management
+    - Apollo Global Management
+    - NVIDIA
+    - Point72 Turion
+    - T. Rowe Price Investment Management
+    insider_quality: Crossover and strategic register consistent with a pre-IPO round; NVIDIA participation is notable
+      for a RISC-V IP vendor.
+    likely_fundraising_status: Recently financed; described publicly as supporting a datacenter roadmap push.
   team_profile:
     founders: []
     notable_executives: []
@@ -179,15 +185,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_sifive_series_g
+    title: SiFive Raises $400 Million to Accelerate High-Performance RISC-V Data Center Solutions
+    url: https://www.sifive.com/press/sifive-raises-400-million-to-accelerate-high-performance-risc-v-data-center-solutions
+    publisher: SiFive
+    date_published: '2026-04-09'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - royalty_revenue_detail
+    notes: Financing and valuation confirmed by company primary source.
 - company_id: codasip_001
   name: Codasip
   legal_name: null
@@ -204,7 +216,7 @@
   - RISC-V
   - processor_IP
   - custom_instructions
-  one_line_summary: Customizable RISC-V processor IP and design tools.
+  one_line_summary: CHERI-based cyber-resilient processor IP and SoCs after divesting low-end RISC-V cores.
   investor_summary: Codasip addresses a strategically important bottleneck in risc-v and processor ip. Its core
     investment case is architecture customization tools allow customers to create application-specific processor
     extensions. The underwriting focus should be repeatable customer adoption, production readiness, software integration,
@@ -268,8 +280,10 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: In April 2026 Codasip divested its low-end RISC-V processor design business to an unnamed
+      US public semiconductor company, including a broad licence to its Studio processor EDA tool, and refocused
+      on CHERI cyber-resilient processors, SoCs, and FPGAs. The divestiture followed a board-initiated sale process
+      opened in July 2025.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -327,19 +341,18 @@
     - Synopsys
     - Cadence
     - Arm
-    why_now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially
-      urgent.
+    why_now: The company is now a security-architecture story rather than a general RISC-V IP story, which changes
+      both the comparable set and the buyer universe.
     key_diligence_questions:
     - What is shipping today, at what volume, and with which production customers?
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Balance-sheet stress drove a board-initiated sale process in 2025
+    - Roadmap continuity concerns raised publicly by EU programme partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Identify the divestiture buyer and what IP remains with Codasip
+    - Test CHERI commercial demand outside publicly funded programmes
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -351,7 +364,7 @@
     competitive_intensity: 5
     exit_potential: 4
     strategic_scarcity: 5
-    overall_vc_priority: watchlist
+    overall_vc_priority: monitor
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -370,19 +383,26 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_codasip_pivot
+    title: Codasip Announces Strategic Pivot and Divestiture
+    url: https://codasip.com/press-release/2026/04/08/codasip-announces-strategic-pivot-and-divestiture/
+    publisher: Codasip
+    date_published: '2026-04-08'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - divestiture_buyer
+    - post_pivot_financials
+    notes: Pivot and divestiture confirmed by company primary source; the buyer was not named.
 - company_id: mips_001
   name: MIPS
   legal_name: null
-  status: private
+  status: acquired
   website: https://mips.com/
   hq:
     city: San Jose
@@ -458,8 +478,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Acquired by GlobalFoundries, announced 8 July 2025 and completed 14 August 2025. MIPS now
+      operates as a GlobalFoundries business and has continued to release RISC-V AI processor IP.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -511,8 +531,7 @@
     venture_scale_potential: high
     capital_intensity: medium
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Synopsys
     - Cadence
@@ -527,9 +546,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Track whether foundry ownership changes merchant IP availability to competing customers
   strategic_scoring:
     market_size: 5
     timing: 4
@@ -541,7 +558,7 @@
     competitive_intensity: 5
     exit_potential: 4
     strategic_scarcity: 4
-    overall_vc_priority: monitor
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -549,7 +566,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in risc-v and processor ip.
+    notes: Retained as an exit comparable; a foundry rather than a chip vendor bought the processor IP asset.
   sources:
   - source_id: src_mips_official
     title: MIPS official website
@@ -560,15 +577,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_mips_gf
+    title: GlobalFoundries Completes Acquisition of MIPS
+    url: https://investors.gf.com/news-releases/news-release-details/globalfoundries-completes-acquisition-mips
+    publisher: GlobalFoundries
+    date_published: '2025-08-14'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_value
+    notes: Acquisition confirmed by acquirer primary source; consideration undisclosed.
 - company_id: semidynamics_001
   name: Semidynamics
   legal_name: null
@@ -648,8 +671,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Taped out its first 3nm design with TSMC in December 2025 and presented a memory-centric
+      inference platform pairing an out-of-order 64-bit RISC-V core with vector and tensor units and the Gazzillion
+      memory subsystem at ISC High Performance 2026. Licensees are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -750,12 +774,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_semidynamics_2026
+    title: Semidynamics press releases
+    url: https://semidynamics.com/newsroom/press-releases
+    publisher: Semidynamics
+    date_published: '2026-06-01'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+    notes: First 3nm tape-out with TSMC in December 2025 and a memory-centric inference platform presented at ISC
+      High Performance 2026.
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Technical milestones sourced from the company newsroom; licensee detail remains open.

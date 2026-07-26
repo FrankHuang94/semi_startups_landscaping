@@ -1,7 +1,7 @@
 # Security and Confidential Compute Silicon
 
-Last refreshed: 2026-06-10  
-Refresh scope: full  
+Last refreshed: 2026-07-26  
+Refresh scope: partial  
 Number of companies: 4
 
 ## VC Summary
@@ -13,7 +13,7 @@ Security requirements are durable, but stand-alone monetization and platform int
 
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Axiado | series_c | San Jose, California, United States | AI-driven hardware security and platform management processors. | - |  | active_diligence | 2026-06-10 |
+| Axiado | series_c | San Jose, California, United States | AI-driven hardware security and platform management processors. | - | Maverick Silicon, Prosperity7 Ventures, Orbit Venture Partners, Crosslink Capital, Nosterra Ventures | active_diligence | 2026-07-26 |
 | Crypto Quantique | series_b | London, United Kingdom | Semiconductor-rooted identity and IoT security management. | - |  | watchlist | 2026-06-10 |
 | Xiphera | seed | Helsinki, Finland | Hardware cryptography and security IP. | - |  | watchlist | 2026-06-10 |
 | Cornami | growth | Dallas, Texas, United States | Scalable compute architecture targeting post-quantum cryptography. | - |  | monitor | 2026-06-10 |
@@ -44,7 +44,7 @@ Security requirements are durable, but stand-alone monetization and platform int
 
 **Differentiation:** Combines root-of-trust, platform management, and AI-based threat detection in a dedicated controller.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Capital is directed at OEM and ODM go-to-market motion for AI datacenter platform security and system management. Named design wins are not disclosed.
 
 **VC view:** active_diligence at series_c stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -56,7 +56,7 @@ Security requirements are durable, but stand-alone monetization and platform int
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Crypto Quantique
 
 **Summary:** Crypto Quantique addresses a strategically important bottleneck in security and confidential compute silicon. Its core investment case is combines a silicon physical-unclonable-function design with lifecycle security software. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -135,10 +135,11 @@ Security requirements are durable, but stand-alone monetization and platform int
 ## Key Sources
 
 - [Axiado official website](https://www.axiado.com/)
+- [Axiado Corporation Raises $100M in Series C+ Funding to Advance Platform Security and System Management Solutions for AI Data Centers](https://axiado.com/axiado-corporation-raises-100m-in-series-c-funding-to-advance-platform-security-and-system-management-solutions-for-ai-data-centers/)
 - [Crypto Quantique official website](https://www.cryptoquantique.com/)
 - [Xiphera official website](https://xiphera.com/)
 - [Cornami official website](https://cornami.com/)
 
 ## Refresh Notes
 
-Replaced empty scaffold with 4 source-backed baseline profiles.
+Recorded the Axiado Series C+ and reverified the remaining profiles.

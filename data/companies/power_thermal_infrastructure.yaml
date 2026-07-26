@@ -77,8 +77,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Ships AirJet solid-state cooling for edge devices and LiquidJet direct-to-chip liquid cooling
+      for datacenters. Named production customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -91,13 +91,15 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series D
+    latest_round_date: '2026-03-16'
+    latest_round_amount_usd_m: 143.0
+    disclosed_valuation_usd_m: 1640.0
+    key_investors:
+    - MVP Ventures
+    - Fidelity Management & Research
+    insider_quality: Crossover-led round at unicorn valuation for a solid-state cooling supplier.
+    likely_fundraising_status: Recently financed for the LiquidJet datacenter push.
   team_profile:
     founders: []
     notable_executives: []
@@ -180,15 +182,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_frore_series_d
+    title: Fidelity-Backed AI Chip Cooling Company Frore Valued at $1.64 Billion in New Funding
+    url: https://www.bloomberg.com/news/articles/2026-03-16/fidelity-backed-ai-chip-cooling-company-frore-valued-at-1-64-billion-in-new-funding
+    publisher: Bloomberg
+    date_published: '2026-03-16'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: &id001
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Financing reported by reputable financial press.
 - company_id: zutacore_001
   name: ZutaCore
   legal_name: null
@@ -268,8 +277,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Company describes rapidly growing bookings and deployments driven by AI and HPC demand. Named
+      end customers are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -282,13 +291,16 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Series C
+    latest_round_date: '2026-06-02'
+    latest_round_amount_usd_m: 100.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Mitsubishi Electric
+    - Carrier Ventures
+    - Samsung Electronics
+    insider_quality: Three industrial strategics in one round, which is a strong channel signal for a thermal supplier.
+    likely_fundraising_status: Recently financed for global commercialization of waterless two-phase cooling.
   team_profile:
     founders: []
     notable_executives: []
@@ -371,15 +383,20 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_zutacore_series_c
+    title: ZutaCore Secures $100M+ Series C Funding to Accelerate AI Data Center Cooling Innovation
+    url: https://blog.zutacore.com/press-releases/zutacore-100m-series-c-funding-ai-data-center-cooling
+    publisher: ZutaCore
+    date_published: '2026-06-02'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Financing confirmed by company primary source; bookings claims unverified.
 - company_id: accelsius_001
   name: Accelsius
   legal_name: null
@@ -459,8 +476,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Announced an agreement to deploy NeuCool two-phase technology at a 300MW datacenter campus
+      under construction by DarkNX in Ontario, Canada. Revenue recognition timing is not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -473,13 +490,15 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Series B
+    latest_round_date: '2026-01-15'
+    latest_round_amount_usd_m: 65.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Johnson Controls
+    - Legrand
+    insider_quality: Led by incumbent building-systems and electrical distribution strategics.
+    likely_fundraising_status: Recently financed for NeuCool two-phase deployments.
   team_profile:
     founders: []
     notable_executives: []
@@ -562,15 +581,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_accelsius_series_b
+    title: Accelsius is Building for a Two-Phase Future
+    url: https://datacenterrichness.substack.com/p/accelsius-is-building-for-a-two-phase
+    publisher: Data Center Richness
+    date_published: '2026-01-15'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+    notes: Reports a $65M Series B led by Johnson Controls with Legrand participating.
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Financing reported by trade press; company has not published a primary announcement we located.
 - company_id: cgd_001
   name: Cambridge GaN Devices
   legal_name: null
@@ -663,14 +688,20 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 60.0
+    latest_round: Series C
+    latest_round_date: '2025-02-18'
+    latest_round_amount_usd_m: 32.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - British Patient Capital
+    - Parkwalk Advisors
+    - BGF
+    - Cambridge Innovation Capital
+    - Foresight Group
+    - IQ Capital
+    insider_quality: UK deep-tech syndicate with a strategic lead investor that was not named publicly.
+    likely_fundraising_status: Financed for expansion into datacenter and automotive power designs.
   team_profile:
     founders: []
     notable_executives: []
@@ -753,12 +784,17 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_cgd_series_c
+    title: Cambridge GaN Devices Secures $32M to Drive Global Growth in Power Semiconductor Industry
+    url: https://camgandevices.com/p/cambridge-gan-devices-secures-$32m-to-drive-global-growth-in-power-semiconductor-industry/
+    publisher: Cambridge GaN Devices
+    date_published: '2025-02-18'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Financing confirmed by company primary source; no 2026 event identified.

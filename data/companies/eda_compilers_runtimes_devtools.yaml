@@ -764,3 +764,195 @@
     - customer_references
     - process_node_or_manufacturing_details
     notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+- company_id: chipagents_001
+  name: ChipAgents
+  legal_name: null
+  status: private
+  website: https://chipagents.ai/
+  hq:
+    city: Santa Barbara
+    state: California
+    country: United States
+  founded_year: 2023
+  primary_category: eda_compilers_runtimes_devtools
+  secondary_categories: []
+  technology_tags:
+  - agentic_AI
+  - RTL_design
+  - verification
+  - EDA
+  one_line_summary: Agentic AI environment for RTL design, debug, and verification.
+  investor_summary: ChipAgents is the best-capitalized of the agentic EDA entrants, with a strategic register that
+    includes memory, mobile, and communications vendors. Its core investment case is that verification labour, not
+    tool licences, is the binding constraint in chip design. The underwriting focus should be measured productivity
+    on production RTL rather than demonstration flows, and whether incumbents close the gap with their own agent
+    layers.
+  problem_statement: RTL design, debug, and verification consume the majority of engineering hours in a chip programme
+    and scale linearly with design complexity.
+  solution_summary: ChipAgents provides AI agents that generate and analyze RTL, and autonomously verify and debug
+    design code inside existing flows.
+  product_profile:
+    products:
+    - product_name: ChipAgents platform
+      product_type: Agentic AI design and verification environment
+      product_status: shipping
+      target_workloads:
+      - RTL_design
+      - verification
+      - debug
+      target_customers:
+      - semiconductor_company
+      - systems_OEM
+      deployment_model: Software subscription integrated with existing EDA flows
+  technical_profile:
+    architecture: LLM agent orchestration over RTL and verification artifacts
+    process_node: null
+    packaging: null
+    memory_interface: null
+    interconnect: null
+    software_stack: Agent platform layered on customer EDA toolchains
+    compiler_runtime: null
+    supported_frameworks: []
+    manufacturing_dependencies: []
+    technical_differentiation: Agents operate across specification, RTL generation, verification, and debug rather
+      than a single assistive step.
+    benchmark_claims:
+    - claim: Stated 10x productivity improvement in RTL design, debugging, and verification
+      metric: engineering productivity
+      workload: RTL design and verification
+      compared_against: Unspecified manual baseline
+      independently_verified: false
+      source_id: src_chipagents_series_a1
+    technical_risks:
+    - Productivity claims are company-stated with no disclosed benchmark methodology
+    - Incumbent EDA vendors are adding agent layers to tools customers already own
+  market_profile:
+    target_market: EDA, Compilers, Runtimes and Developer Tools
+    market_timing: Design-team headcount is the constraint on the number of custom silicon programmes that can run
+      in parallel.
+    market_tailwinds:
+    - Custom silicon proliferation
+    - Verification cost growth
+    - Rapid LLM capability gains on code
+    market_headwinds:
+    - Synopsys and Cadence bundling
+    - Customer IP-security concerns
+    - Procurement inertia in design flows
+    customer_segments:
+    - semiconductor_company
+    - systems_OEM
+    - hyperscaler
+    estimated_tam_relevance: medium
+    comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
+  commercial_profile:
+    revenue_stage: early_revenue
+    customer_traction: Strategic investment from Micron, MediaTek, and Ericsson is an adoption signal. Named production
+      deployments and seat counts are not disclosed.
+    disclosed_customers: []
+    partnerships: []
+    design_wins: []
+    business_model:
+    - software subscription
+    go_to_market_motion: Direct selling into design and verification organizations
+    sales_cycle_complexity: Medium
+  funding_profile:
+    total_raised_usd_m: 74.0
+    latest_round: Series A1
+    latest_round_date: '2026-02-17'
+    latest_round_amount_usd_m: 50.0
+    disclosed_valuation_usd_m: null
+    key_investors:
+    - Matter Venture Partners
+    - Bessemer Venture Partners
+    - Micron
+    - MediaTek
+    - Ericsson
+    insider_quality: Three semiconductor and communications strategics alongside a top-tier venture lead.
+    likely_fundraising_status: Recently financed; capital directed at scaling the agent platform.
+  team_profile:
+    founders: []
+    notable_executives: []
+    estimated_employee_count: null
+    founder_market_fit: University-affiliated founding team; references should be checked directly.
+    founder_technical_depth: Verify depth in formal verification and production RTL flows.
+  competitive_landscape:
+    direct_competitors:
+    - Silimate
+    - Circuit Mind
+    - CELUS
+    incumbent_competitors:
+    - Synopsys
+    - Cadence
+    - Siemens EDA
+    open_source_or_internal_customer_alternatives:
+    - Internal LLM tooling on general coding models
+    - Open-source verification frameworks
+    differentiation: End-to-end agent coverage of the design and verification loop.
+    moat_assessment: Potential moat from proprietary evaluation data and workflow integration; the underlying models
+      are not proprietary.
+    competitive_risks:
+    - Incumbent bundling
+    - Customer insourcing on general-purpose coding models
+    - Rapid commoditization of agent tooling
+  vc_investment_view:
+    investment_stage_fit: early_stage
+    venture_scale_potential: medium
+    capital_intensity: low
+    likely_exit_path:
+    - strategic_M&A
+    - IPO
+    likely_acquirers:
+    - Synopsys
+    - Cadence
+    - Siemens
+    - Keysight
+    why_now: Custom silicon demand is outrunning available design and verification engineers, and coding models
+      have become good enough to attack the verification loop.
+    key_diligence_questions:
+    - What productivity gain is measured on customer production RTL, not demonstrations?
+    - How is customer design IP isolated from model providers?
+    - What happens to pricing when incumbents ship equivalent agent layers?
+    red_flags:
+    - Unverified 10x productivity claim
+    - Defensibility depends on workflow lock-in rather than model ownership
+    next_steps:
+    - Obtain customer references with measured cycle-time data
+    - Review IP isolation architecture
+    - Track incumbent agent roadmaps
+  strategic_scoring:
+    market_size: 4
+    timing: 5
+    technical_differentiation: 3
+    founder_quality: 4
+    customer_pull: 3
+    business_model_quality: 4
+    capital_efficiency: 4
+    competitive_intensity: 2
+    exit_potential: 4
+    strategic_scarcity: 3
+    overall_vc_priority: watchlist
+  relevance_to_qualcomm_or_strategics:
+    relevance_level: medium
+    possible_strategic_angles:
+    - investment
+    - partnership
+    - competitive_monitoring
+    notes: Relevant to any organization running large internal silicon programmes.
+  sources:
+  - source_id: src_chipagents_series_a1
+    title: ChipAgents Raises $74M to Scale an Agentic AI Platform to Accelerate Chip Design
+    url: https://www.businesswire.com/news/home/20260217568914/en/ChipAgents-Raises-$74M-to-Scale-an-Agentic-AI-Platform-to-Accelerate-Chip-Design
+    publisher: ChipAgents
+    date_published: '2026-02-17'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: medium
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields:
+    - founders
+    - customer_references
+    - measured_productivity_data
+    notes: New profile added at the July 2026 refresh; productivity claims are company-stated.

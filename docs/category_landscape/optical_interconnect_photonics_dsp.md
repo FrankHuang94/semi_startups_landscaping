@@ -1,7 +1,7 @@
 # Optical Interconnect, Silicon Photonics, and Optical DSP
 
-Last refreshed: 2026-06-10  
-Refresh scope: full  
+Last refreshed: 2026-07-26  
+Refresh scope: partial  
 Number of companies: 4
 
 ## VC Summary
@@ -13,9 +13,9 @@ Electrical reach and power limits create a strong long-term optical transition, 
 
 | Company | Stage | HQ | Product | Funding USDm | Key Investors | VC Priority | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Ayar Labs | growth | Santa Clara, California, United States | In-package optical I/O chiplets and laser sources. | 870.0 | Neuberger Berman, ARK Invest, Insight Partners, Qatar Investment Authority, Sequoia Global Equities, AMD Ventures, NVIDIA | high_conviction | 2026-06-10 |
-| Lightmatter | growth | Mountain View, California, United States | Photonic interconnect fabric for AI compute. | - |  | high_conviction | 2026-06-10 |
-| Xscape Photonics | series_a | New York, New York, United States | Multi-wavelength optical interconnect platform. | - |  | active_diligence | 2026-06-10 |
+| Ayar Labs | growth | Santa Clara, California, United States | In-package optical I/O chiplets and laser sources. | 870.0 | Neuberger Berman, ARK Invest, Insight Partners, Qatar Investment Authority, Sequoia Global Equities, AMD Ventures, NVIDIA | high_conviction | 2026-07-26 |
+| Lightmatter | growth | Mountain View, California, United States | Photonic interconnect fabric for AI compute. | 850.0 | T. Rowe Price, Fidelity Management & Research, GV | high_conviction | 2026-07-26 |
+| Xscape Photonics | series_a | New York, New York, United States | Multi-wavelength optical interconnect platform. | 81.0 | Addition, IAG Capital Partners, NVIDIA | active_diligence | 2026-07-26 |
 | Scintil Photonics | series_b | Grenoble, France | Heterogeneous III-V-on-silicon photonic circuits. | - |  | watchlist | 2026-06-10 |
 
 ## Top Watchlist Names
@@ -44,7 +44,7 @@ Electrical reach and power limits create a strong long-term optical transition, 
 
 **Differentiation:** CMOS-compatible optical chiplets target bandwidth density and energy limits at the package edge.
 
-**Commercial status:** growth; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** growth; Publicly described co-packaged optics activity with an NVLink Fusion ecosystem position. Volume production and test capacity expansion is funded by the March 2026 Series E; customer concentration still requires verification.
 
 **VC view:** high_conviction at growth stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -77,7 +77,7 @@ Electrical reach and power limits create a strong long-term optical transition, 
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** s1_financial_detail
 ### Xscape Photonics
 
 **Summary:** Xscape Photonics addresses a strategically important bottleneck in optical interconnect, silicon photonics, and optical dsp. Its core investment case is academic-origin photonics architecture targets high-radix, energy-efficient connectivity for ai systems. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -86,7 +86,7 @@ Electrical reach and power limits create a strong long-term optical transition, 
 
 **Differentiation:** Academic-origin photonics architecture targets high-radix, energy-efficient connectivity for AI systems.
 
-**Commercial status:** pilot; Publicly described product activity exists; customer concentration and production revenue require verification.
+**Commercial status:** pilot; Launched FalconX, an eight-wavelength laser source for AI datacenter networks, in March 2026. Production design wins are not disclosed.
 
 **VC view:** active_diligence at series_a stage fit. Why now: AI infrastructure scaling makes compute, memory, networking, power, and design bottlenecks commercially urgent.
 
@@ -98,7 +98,7 @@ Electrical reach and power limits create a strong long-term optical transition, 
 
 **Risks:** Unverified benchmark comparability; Concentration in a small number of customers or manufacturing partners; Public performance claims may not map to customer production workloads; Manufacturing, packaging, qualification, and software schedules can delay revenue
 
-**Data gaps:** funding_history, customer_references, process_node_or_manufacturing_details
+**Data gaps:** customer_references, process_node_or_manufacturing_details
 ### Scintil Photonics
 
 **Summary:** Scintil Photonics addresses a strategically important bottleneck in optical interconnect, silicon photonics, and optical dsp. Its core investment case is integrates lasers and photonic functions on silicon to simplify high-speed optical connectivity. The underwriting focus should be repeatable customer adoption, production readiness, software integration, and capital required to reach durable commercial scale.
@@ -137,9 +137,11 @@ Electrical reach and power limits create a strong long-term optical transition, 
 - [Ayar Labs official website](https://ayarlabs.com/)
 - [Ayar Labs Closes $500M Series E, Accelerates Volume Production of Co-Packaged Optics](https://ayarlabs.com/news/ayar-labs-closes-500m-series-e-accelerates-volume-production-of-co-packaged-optics/)
 - [Lightmatter official website](https://lightmatter.co/)
+- [Lightmatter registration statement coverage ahead of a proposed IPO](https://stockanalysis.com/article/invest-in-lightmatter-stock/)
 - [Xscape Photonics official website](https://www.xscapephotonics.com/)
+- [Xscape Photonics Announces $37 Million in New Funding, Launches Eight-Wavelength Laser for AI Data Center Networks](https://www.businesswire.com/news/home/20260311692947/en/Xscape-Photonics-Announces-$37-Million-in-New-Funding-Launches-Eight-Wavelength-Laser-for-AI-Data-Center-Networks)
 - [Scintil Photonics official website](https://www.scintil-photonics.com/)
 
 ## Refresh Notes
 
-Replaced empty scaffold with 4 source-backed baseline profiles.
+Recorded the Lightmatter IPO registration and the Xscape financing, and reverified Ayar Labs.

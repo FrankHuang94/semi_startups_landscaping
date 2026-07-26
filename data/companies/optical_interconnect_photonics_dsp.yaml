@@ -77,8 +77,9 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Publicly described co-packaged optics activity with an NVLink Fusion ecosystem position.
+      Volume production and test capacity expansion is funded by the March 2026 Series E; customer concentration
+      still requires verification.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -198,12 +199,12 @@
     reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: &id001
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    notes: Reverified at the July 2026 refresh; no financing event since the March 2026 Series E.
 - company_id: lightmatter_001
   name: Lightmatter
   legal_name: null
@@ -296,14 +297,18 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    total_raised_usd_m: 850.0
+    latest_round: Series D
+    latest_round_date: '2024-10-16'
+    latest_round_amount_usd_m: 400.0
+    disclosed_valuation_usd_m: 4400.0
+    key_investors:
+    - T. Rowe Price
+    - Fidelity Management & Research
+    - GV
+    insider_quality: Crossover investors positioned ahead of a public listing.
+    likely_fundraising_status: Filed an S-1 registration statement on 12 April 2026. Still private as of this refresh;
+      pricing and timing are not set.
   team_profile:
     founders: []
     notable_executives: []
@@ -338,7 +343,6 @@
     capital_intensity: high
     likely_exit_path:
     - IPO
-    - strategic_M&A
     likely_acquirers:
     - NVIDIA
     - Broadcom
@@ -353,9 +357,8 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Read the S-1 for Passage revenue, customer concentration, and gross margin
+    - Use the eventual pricing as the optical-interconnect IPO comparable
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -387,15 +390,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_lightmatter_s1
+    title: Lightmatter registration statement coverage ahead of a proposed IPO
+    url: https://stockanalysis.com/article/invest-in-lightmatter-stock/
+    publisher: StockAnalysis
+    date_published: '2026-04-12'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+    notes: Used only to date the S-1 filing; replace with the SEC filing itself at the next refresh.
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - s1_financial_detail
+    notes: IPO registration dated from secondary coverage; the filing itself should replace this source.
 - company_id: xscape_001
   name: Xscape Photonics
   legal_name: null
@@ -475,8 +485,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Launched FalconX, an eight-wavelength laser source for AI datacenter networks, in March 2026.
+      Production design wins are not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -488,14 +498,17 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 81.0
+    latest_round: Series A extension
+    latest_round_date: '2026-03-11'
+    latest_round_amount_usd_m: 37.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Addition
+    - IAG Capital Partners
+    - NVIDIA
+    insider_quality: NVIDIA participation is a meaningful signal for a multi-wavelength laser supplier.
+    likely_fundraising_status: Recently financed alongside the FalconX product launch.
   team_profile:
     founders: []
     notable_executives: []
@@ -579,15 +592,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_xscape_2026
+    title: Xscape Photonics Announces $37 Million in New Funding, Launches Eight-Wavelength Laser for AI Data Center
+      Networks
+    url: https://www.businesswire.com/news/home/20260311692947/en/Xscape-Photonics-Announces-$37-Million-in-New-Funding-Launches-Eight-Wavelength-Laser-for-AI-Data-Center-Networks
+    publisher: Xscape Photonics
+    date_published: '2026-03-11'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
-    missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
+    missing_fields: *id001
+    notes: Financing and product launch confirmed by primary source.
 - company_id: scintil_001
   name: Scintil Photonics
   legal_name: null

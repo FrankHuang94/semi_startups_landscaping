@@ -212,3 +212,52 @@
   data_quality:
     confidence_level: medium
     last_verified: '2026-06-10'
+- partnership_id: partnership_cerebras_openai
+  name: Cerebras and OpenAI inference capacity agreement
+  participants:
+  - Cerebras Systems
+  - OpenAI
+  categories:
+  - datacenter_ai_accelerators
+  - inference_acceleration
+  announcement_date: '2026-06-24'
+  strategic_rationale: Multi-year agreement for OpenAI to deploy 750MW of Cerebras inference compute, stated at
+    more than $20B in value, alongside a co-launched low-latency coding model.
+  vc_readthrough: Frontier labs are willing to contract non-GPU inference capacity at utility scale, which materially
+    improves the demand case for challenger inference silicon while concentrating revenue risk in very few counterparties.
+  sources:
+  - source_id: src_partnership_cerebras_openai
+    title: Cerebras Systems Announces Strong First Quarter 2026 Results
+    url: https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results
+    publisher: Cerebras Systems
+    date_published: '2026-06-23'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'
+- partnership_id: partnership_cornelis_nextsilicon
+  name: Cornelis and NextSilicon AI and HPC reference architectures
+  participants:
+  - Cornelis Networks
+  - NextSilicon
+  categories:
+  - networking_switching_nic_dpu
+  announcement_date: '2026-06-22'
+  strategic_rationale: Joint reference architectures pairing the Cornelis CN5000 fabric with the NextSilicon Maverick-2
+    compute platform, with commercialization intended through shared OEM partners.
+  vc_readthrough: Sub-scale fabric and compute startups are combining into system-level offers to compete with integrated
+    incumbent stacks, which is a cheaper route to credibility than building both halves.
+  sources:
+  - source_id: src_partnership_cornelis_nextsilicon
+    title: Cornelis and NextSilicon to Build Joint Reference Architectures for AI and HPC
+    url: https://www.businesswire.com/news/home/20260622687428/en/Cornelis-and-NextSilicon-to-Build-Joint-Reference-Architectures-for-AI-and-HPC
+    publisher: Cornelis Networks
+    date_published: '2026-06-22'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  data_quality:
+    confidence_level: high
+    last_verified: '2026-07-26'

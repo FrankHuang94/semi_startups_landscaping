@@ -76,11 +76,16 @@
     estimated_tam_relevance: high
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
-    revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
-    disclosed_customers: []
-    partnerships: []
+    revenue_stage: scaling
+    customer_traction: Q1 2026 core revenue of $191.3M, up 92% year over year, with a multi-year 750MW inference
+      agreement with OpenAI valued at more than $20B and an AWS inference partnership. Customer concentration remains
+      the central diligence question.
+    disclosed_customers:
+    - OpenAI
+    - Amazon Web Services
+    partnerships:
+    - OpenAI multi-year 750MW inference agreement
+    - Amazon Web Services inference partnership
     design_wins: []
     business_model:
     - silicon
@@ -91,13 +96,14 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: 'IPO (Nasdaq: CBRS)'
+    latest_round_date: '2026-05-14'
+    latest_round_amount_usd_m: 5500.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - public shareholders
+    insider_quality: Pre-IPO syndicate included growth and sovereign investors; now a public float.
+    likely_fundraising_status: Financed through the public markets; no venture round expected.
   team_profile:
     founders: []
     notable_executives: []
@@ -127,12 +133,11 @@
     - Customer insourcing
     - Standards or workload shifts
   vc_investment_view:
-    investment_stage_fit: late_stage
+    investment_stage_fit: public_market
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - already_public
     likely_acquirers:
     - NVIDIA
     - AMD
@@ -144,12 +149,11 @@
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Guided core gross margin of 36-38% for Q2 2026, down from 47% in the prior quarter
+    - Revenue concentration in a small number of very large inference contracts
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Track quarterly gross margin trajectory against the OpenAI capacity ramp
+    - Use CBRS trading multiples as the primary AI-silicon IPO comparable
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -161,14 +165,13 @@
     competitive_intensity: 5
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: watchlist
+    overall_vc_priority: monitor
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
-    - acquisition
-    - investment
-    - partnership
     - competitive_monitoring
+    - partnership
+    - public_comparable
     notes: Relevant to strategic buyers seeking capability in datacenter ai accelerators.
   sources:
   - source_id: src_cerebras_official
@@ -180,15 +183,30 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_cerebras_q1_2026
+    title: Cerebras Systems Announces Strong First Quarter 2026 Results
+    url: https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results
+    publisher: Cerebras Systems
+    date_published: '2026-06-23'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  - source_id: src_cerebras_ipo_2026
+    title: Cerebras (CBRS) starts trading on Nasdaq after IPO
+    url: https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html
+    publisher: CNBC
+    date_published: '2026-05-14'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - gross_margin_by_product
+    - customer_concentration_detail
+    notes: Public-company record; financials sourced from the Q1 2026 earnings release.
 - company_id: sambanova_001
   name: SambaNova Systems
   legal_name: null
@@ -269,10 +287,11 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: SN50 announced in February 2026 with SoftBank described as the first deployment customer
+      in Japan. Production revenue and customer concentration still require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - Intel sales and marketing partnership (February 2026)
     design_wins: []
     business_model:
     - silicon
@@ -283,13 +302,17 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series F (first close)
+    latest_round_date: '2026-07-08'
+    latest_round_amount_usd_m: 1000.0
+    disclosed_valuation_usd_m: 11000.0
+    key_investors:
+    - Vista Equity Partners
+    - Cambium Capital
+    - Intel Capital
+    insider_quality: Series E investors named publicly; the Series F first-close syndicate has not been fully disclosed.
+    likely_fundraising_status: Recently financed. Raised a $350M Series E in February 2026 and a $1B Series F first
+      close in July 2026 after acquisition talks with Intel stalled.
   team_profile:
     founders: []
     notable_executives: []
@@ -336,12 +359,13 @@
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
+    - Valuation stepped from a reported ~$1.6B acquisition discussion to $11B within eighteen months
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Validate SN50 shipment schedule and SoftBank deployment scope
+    - Test whether the $11B mark is supported by contracted capacity rather than pipeline
+    - Reassess strategic exit odds given the stalled Intel process
   strategic_scoring:
     market_size: 5
     timing: 4
@@ -372,15 +396,30 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_sambanova_series_f_2026
+    title: AI chip maker SambaNova raises $1B at $11B valuation
+    url: https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/
+    publisher: TechCrunch
+    date_published: '2026-07-08'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
+  - source_id: src_sambanova_intel_2026
+    title: Intel partners with AI chip startup SambaNova after acquisition talks reportedly failed
+    url: https://www.cnbc.com/2026/02/24/intel-partners-with-sambanova-after-buyout-talks-reportedly-failed.html
+    publisher: CNBC
+    date_published: '2026-02-24'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - revenue_disclosure
+    notes: Financing and Intel relationship sourced from reputable press; primary confirmation pending.
 - company_id: tenstorrent_001
   name: Tenstorrent
   legal_name: null
@@ -463,7 +502,8 @@
     customer_traction: Publicly described product activity exists; customer concentration and production revenue
       require verification.
     disclosed_customers: []
-    partnerships: []
+    partnerships:
+    - Blue Cheetah Analog Design acquired in July 2025 to internalize die-to-die interconnect IP
     design_wins: []
     business_model:
     - silicon
@@ -474,13 +514,19 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
-    disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    latest_round: Series D
+    latest_round_date: '2024-12-02'
+    latest_round_amount_usd_m: 693.0
+    disclosed_valuation_usd_m: 2600.0
+    key_investors:
+    - Samsung Securities
+    - AFW Partners
+    - Bezos Expeditions
+    - LG Electronics
+    - Hyundai Motor Group
+    insider_quality: Mix of strategic Korean and Japanese industrial backers with financial growth investors.
+    likely_fundraising_status: Reported to be in talks for a further round at a higher valuation; treat the reported
+      terms as unconfirmed until the round is announced.
   team_profile:
     founders: []
     notable_executives: []
@@ -562,15 +608,22 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_tenstorrent_blue_cheetah
+    title: Tenstorrent Acquires Blue Cheetah Analog Design
+    url: https://tenstorrent.com/newsroom/tenstorrent-acquires-blue-cheetah-analog-design
+    publisher: Tenstorrent
+    date_published: '2025-07-01'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - current_round_terms
+    notes: Blue Cheetah acquisition confirmed by primary source; later financing reports remain unconfirmed.
 - company_id: matx_001
   name: MatX
   legal_name: null
@@ -665,13 +718,15 @@
     sales_cycle_complexity: High
   funding_profile:
     total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    latest_round: Series B
+    latest_round_date: '2026-02-01'
+    latest_round_amount_usd_m: 500.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Situational Awareness
+    - Jane Street
+    insider_quality: Round co-led by an AI-thesis crossover fund and a quantitative trading firm.
+    likely_fundraising_status: Recently financed; capital directed at silicon bring-up for frontier-model customers.
   team_profile:
     founders: []
     notable_executives: []
@@ -753,12 +808,20 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_matx_series_b_2026
+    title: 'Sector Snapshot: Semiconductor Startup Funding Still Running Hot'
+    url: https://news.crunchbase.com/semiconductors-and-5g/chip-startup-funding-2026-cerebras-matx-ayar-labs-ipos-nvda/
+    publisher: Crunchbase News
+    date_published: '2026-06-01'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
     - customer_references
     - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - exact_round_close_date
+    notes: Round reported by credible press; company has not published a primary announcement.

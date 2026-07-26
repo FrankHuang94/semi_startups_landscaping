@@ -7,12 +7,26 @@ CSV files, and SQLite are generated views.
 The repository supports sourcing, market mapping, investment screening, technical
 diligence, co-investor analysis, M&A exit analysis, and category-by-category refreshes.
 
-The June 2026 baseline contains 60 company profiles across all 15 categories, 10
-commercialization-relevant papers, 8 patent publications, 12 researcher profiles,
-10 labs, 17 investors, 12 M&A transactions, 12 public comparables, and 8 strategic
-partnerships or standards ecosystems. Records are conservative screening profiles:
-unknown financing, customer, benchmark, and manufacturing details remain `null` or
-are explicitly listed as diligence gaps.
+As of the 26 July 2026 refresh the database contains 64 company profiles across all 15
+categories, 10 commercialization-relevant papers, 8 patent publications, 12 researcher
+profiles, 10 labs, 17 investors, 21 M&A transactions, 13 public comparables, and 10
+strategic partnerships or standards ecosystems. Records are conservative screening
+profiles: unknown financing, customer, benchmark, and manufacturing details remain
+`null` or are explicitly listed as diligence gaps.
+
+## Current Market State
+
+Fifty-two of the 64 profiled companies are still private, three are public, and nine
+have been acquired. The July 2026 refresh recorded nine transactions between July 2025
+and February 2026 that the June baseline had missed, including two licence-and-hire
+structures (NVIDIA with Enfabrica and with Groq) that return capital without a
+conventional acquisition. Marvell set the category price references by buying Celestial
+AI and XConn; Meta, Qualcomm, and GlobalFoundries each removed a processor IP or CPU
+team from the market. On the financing side, capital continues to concentrate around
+visible AI bottlenecks: inference silicon, optical and chiplet interconnect, and
+datacenter power and cooling. Cerebras listed on Nasdaq in May 2026, and Lightmatter and
+Syntiant have both filed registration statements, which gives the category its first
+real set of public comparables.
 
 ## Investor Workflow
 

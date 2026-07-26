@@ -2,289 +2,315 @@ sections:
   datacenter_ai_accelerators:
     display_name: Datacenter AI Accelerators
     file_path: data/companies/datacenter_ai_accelerators.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Refreshed all four profiles against events through 26 July 2026, including the Cerebras IPO
+      and OpenAI capacity agreement and the SambaNova Series F first close.
+    companies_added: []
+    companies_updated:
     - cerebras_001
     - sambanova_001
     - tenstorrent_001
     - matx_001
-    companies_updated: []
-    companies_removed:
-    - example_ai_accelerator_001
+    companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Cerebras moved to a public-company profile with Q1 2026 results and the 750MW OpenAI agreement
+    - 'SambaNova financing rebuilt: $350M Series E, $1B Series F first close at $11B, stalled Intel process'
+    - Tenstorrent financing populated and the Blue Cheetah acquisition recorded
+    - MatX $500M Series B recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - How much of the Cerebras backlog is contracted capacity versus intent?
+    - What syndicate completed the SambaNova Series F and on what terms?
+    next_refresh_recommendation: '2026-09-10'
   inference_acceleration:
     display_name: Inference Acceleration
     file_path: data/companies/inference_acceleration.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
     refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    refresh_summary: Rebuilt the section after the NVIDIA-Groq licence, added two Korean entrants, and recorded
+      2026 financing across the incumbent set.
     companies_added:
+    - furiosa_ai_001
+    - rebellions_001
+    companies_updated:
     - groq_001
     - dmatrix_001
     - etched_001
     - positron_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Groq repositioned as an inference cloud operator after NVIDIA licensed its technology and hired leadership
+    - Etched Series C at a $10.3B valuation recorded
+    - d-Matrix and Positron financing populated
+    - FuriosaAI and Rebellions added as non-US inference supply options
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - What exclusivity, if any, does Groq retain after the NVIDIA licence?
+    - Do the Korean entrants have exportable demand outside domestic programmes?
+    next_refresh_recommendation: '2026-09-10'
   custom_asic_chiplets:
     display_name: Custom ASIC and Chiplet Platforms
     file_path: data/companies/custom_asic_chiplets.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the Blue Cheetah exit, Eliyan's strategic round, Zero ASIC product cadence, and added
+      TYLsemi.
     companies_added:
+    - tylsemi_001
+    companies_updated:
     - eliyan_001
-    - chipletz_001
     - blue_cheetah_001
     - zero_asic_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Blue Cheetah marked acquired by Tenstorrent
+    - Eliyan $50M strategic round from AMD, Arm, Coherent, and Meta recorded
+    - Zero ASIC 2026 product releases recorded
+    - TYLsemi added following its July 2026 launch
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Does merchant die-to-die IP remain available from Blue Cheetah post-acquisition?
+    next_refresh_recommendation: '2026-09-10'
   datacenter_cpu_server_soc:
     display_name: Datacenter CPU and Server SoC
     file_path: data/companies/datacenter_cpu_server_soc.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
-    - ampere_001
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Corrected two stale status records and refreshed the Tachyum financing picture.
+    companies_added: []
+    companies_updated:
     - rivos_001
     - ventana_001
     - tachyum_001
-    companies_updated: []
+    - ampere_001
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Rivos marked acquired by Meta (September 2025)
+    - Ventana marked acquired by Qualcomm (December 2025)
+    - Tachyum Series C and purchase-order concentration risk recorded
+    - Ampere priority aligned with the other closed acquisitions
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Has Tachyum taped out Prodigy, and is the stated purchase order independent of the investor?
+    next_refresh_recommendation: '2026-09-10'
   memory_hbm_cxl_near_memory:
     display_name: Memory, HBM, CXL, and Near-Memory Compute
     file_path: data/companies/memory_hbm_cxl_near_memory.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
-    - memverge_001
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded two exits and refreshed the remaining CXL profiles.
+    companies_added: []
+    companies_updated:
     - xconn_001
-    - panmnesia_001
     - neuroblade_001
-    companies_updated: []
+    - panmnesia_001
+    - memverge_001
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - XConn marked acquired by Marvell for $540M
+    - NeuroBlade marked acquired by AWS in a talent-led outcome
+    - Panmnesia financing and CXL 3.2 / CXL 4.0 roadmap recorded
+    - MemVerge partner exposure reassessed now that XConn sits inside Marvell
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Which independent CXL switch suppliers remain after the Marvell transaction?
+    next_refresh_recommendation: '2026-09-10'
   networking_switching_nic_dpu:
     display_name: Networking, Switching, NIC, and DPU
     file_path: data/companies/networking_switching_nic_dpu.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the NVIDIA-Enfabrica outcome and the Cornelis / NextSilicon reference architecture
+      work.
+    companies_added: []
+    companies_updated:
     - enfabrica_001
     - cornelis_001
-    - asterfusion_001
     - nextsilicon_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Enfabrica marked acquired following NVIDIA's licence-and-hire transaction
+    - Cornelis and NextSilicon joint reference architectures recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Does any independent high-radix server fabric supplier remain fundable at scale?
+    next_refresh_recommendation: '2026-09-10'
   optical_interconnect_photonics_dsp:
     display_name: Optical Interconnect, Silicon Photonics, and Optical DSP
     file_path: data/companies/optical_interconnect_photonics_dsp.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
-    - ayar_labs_001
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the Lightmatter IPO registration and the Xscape financing, and reverified Ayar Labs.
+    companies_added: []
+    companies_updated:
     - lightmatter_001
     - xscape_001
-    - scintil_001
-    companies_updated: []
+    - ayar_labs_001
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Lightmatter S-1 registration recorded with financing history populated
+    - Xscape $37M extension and FalconX launch recorded
+    - Ayar Labs reverified with no financing event since the March 2026 Series E
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - What do the Lightmatter S-1 disclosures show for Passage revenue concentration?
+    next_refresh_recommendation: '2026-09-10'
   pcie_cxl_retimers_connectivity:
     display_name: PCIe, CXL, Retimers, and Connectivity
     file_path: data/companies/pcie_cxl_retimers_connectivity.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Refreshed Astera Labs financial detail and recorded the Point2 Series B extension.
+    companies_added: []
+    companies_updated:
     - astera_labs_001
-    - kandou_001
     - point2_001
-    - credo_001
-    companies_updated: []
+    - kandou_001
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Astera Labs Q1 2026 revenue and Q2 guidance recorded
+    - Point2 Series B extension with NVentures and UMC Capital recorded
+    - Kandou priority aligned with the other closed acquisitions
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - How quickly does Scorpio X displace merchant switching in hyperscaler racks?
+    next_refresh_recommendation: '2026-09-10'
   edge_ai_iot_wearables:
     display_name: Edge AI, IoT, Wearables, and Consumer AI Chips
     file_path: data/companies/edge_ai_iot_wearables.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the Syntiant IPO filing, the Axelera round, and the deterioration at Hailo.
+    companies_added: []
+    companies_updated:
     - hailo_001
     - axelera_001
     - sima_ai_001
     - syntiant_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Syntiant S-1 filing and reported financials recorded
+    - Axelera $250M+ round and Europa positioning recorded
+    - Hailo marked distressed with an unresolved listing process
+    - SiMa.ai in-progress round flagged as unconfirmed
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Did the Hailo SPAC process terminate, and what is the current runway?
+    next_refresh_recommendation: '2026-09-10'
   automotive_robotics_ai_silicon:
     display_name: Automotive and Robotics AI Silicon
     file_path: data/companies/automotive_robotics_ai_silicon.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
-    - recogni_001
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded 2026 financing and product milestones for the NPU IP and neuromorphic profiles.
+    companies_added: []
+    companies_updated:
     - quadric_001
-    - expedera_001
     - innatera_001
-    companies_updated: []
+    - expedera_001
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Quadric Series C second close recorded
+    - Innatera Pulsar volume production and Series A extension recorded
+    - Expedera Origin Evolution recognition recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Do Innatera and Quadric have confirmed automotive purchase orders?
+    next_refresh_recommendation: '2026-09-10'
   eda_compilers_runtimes_devtools:
     display_name: EDA, Compiler, Runtime, and Developer Tools
     file_path: data/companies/eda_compilers_runtimes_devtools.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Added ChipAgents, the best-capitalized agentic EDA entrant.
     companies_added:
-    - celus_001
-    - circuit_mind_001
-    - chipflow_001
-    - silimate_001
+    - chipagents_001
     companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - ChipAgents added with the February 2026 Series A1 recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - What productivity gains are measured on customer production RTL rather than demonstrations?
+    next_refresh_recommendation: '2026-09-10'
   advanced_packaging_chiplets_substrates:
     display_name: Advanced Packaging, Chiplets, and Substrates
     file_path: data/companies/advanced_packaging_chiplets_substrates.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the Silicon Box debt facility, equity round, and unit shipment milestones.
+    companies_added: []
+    companies_updated:
     - silicon_box_001
-    - saras_micro_001
-    - nhanced_001
-    - mosaic_microsystems_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Silicon Box SGD 100M debt facility and $150M Series B2 recorded
+    - imec Automotive Chiplet Program membership recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - What are unit economics at the stated 250 million units shipped?
+    next_refresh_recommendation: '2026-09-10'
   riscv_processor_ip:
     display_name: RISC-V and Processor IP
     file_path: data/companies/riscv_processor_ip.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the SiFive Series G, the MIPS exit, and the Codasip pivot.
+    companies_added: []
+    companies_updated:
     - sifive_001
     - codasip_001
     - mips_001
     - semidynamics_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - SiFive $400M Series G at a $3.65B valuation recorded
+    - MIPS marked acquired by GlobalFoundries
+    - Codasip repositioned around CHERI after divesting its low-end RISC-V business
+    - Semidynamics 3nm tape-out and inference platform recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Who bought the Codasip low-end RISC-V business, and what remains with Codasip?
+    next_refresh_recommendation: '2026-09-10'
   security_confidential_compute:
     display_name: Security and Confidential Compute Silicon
     file_path: data/companies/security_confidential_compute.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
-    refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
+    refresh_scope: partial
+    refresh_summary: Recorded the Axiado Series C+ and reverified the remaining profiles.
+    companies_added: []
+    companies_updated:
     - axiado_001
-    - cornami_001
-    - crypto_quantique_001
-    - xiphera_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Axiado $100M Series C+ recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - Which OEM and ODM platforms have committed to Axiado silicon?
+    next_refresh_recommendation: '2026-09-10'
   power_thermal_infrastructure:
     display_name: Power and Thermal Infrastructure
     file_path: data/companies/power_thermal_infrastructure.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
     refresh_scope: full
-    refresh_summary: Replaced empty scaffold with 4 source-backed baseline profiles.
-    companies_added:
+    refresh_summary: Rebuilt financing across the cooling and power set, which saw the heaviest 2026 activity.
+    companies_added: []
+    companies_updated:
     - frore_001
     - zutacore_001
     - accelsius_001
     - cgd_001
-    companies_updated: []
     companies_removed: []
     major_changes:
-    - Added investor views, technical profiles, risk flags, strategic scoring, and primary sources.
+    - Frore $143M Series D at a $1.64B valuation recorded
+    - ZutaCore $100M Series C with three industrial strategics recorded
+    - Accelsius $65M Series B and the DarkNX deployment recorded
+    - Cambridge GaN Devices Series C recorded
     open_questions:
-    - Reconstruct financing history and validate production customer references.
-    next_refresh_recommendation: '2026-07-10'
+    - How much of the cooling bookings pipeline is contracted versus letter-of-intent?
+    next_refresh_recommendation: '2026-09-10'
   research_papers:
     display_name: Research Paper Radar
     file_path: data/research/papers.yaml
@@ -330,7 +356,7 @@ sections:
     - theme_power_delivery
     open_questions:
     - Add citation and replication metrics.
-    next_refresh_recommendation: '2026-07-10'
+    next_refresh_recommendation: '2026-10-26'
   patents:
     display_name: Patent Radar
     file_path: data/research/patents.yaml
@@ -363,31 +389,33 @@ sections:
     - photonic compute
     open_questions:
     - Add family, assignment, prosecution, and forward-citation analysis.
-    next_refresh_recommendation: '2026-07-10'
+    next_refresh_recommendation: '2026-10-26'
   ma_transactions:
     display_name: M&A Transactions
     file_path: data/transactions/ma_transactions.yaml
-    last_refreshed: '2026-06-10'
-    refreshed_by: Frank / Codex
+    last_refreshed: '2026-07-26'
+    refreshed_by: Frank / Claude
     refresh_scope: full
-    refresh_summary: Replaced placeholder with twelve strategic semiconductor and infrastructure transactions.
+    refresh_summary: Added nine transactions covering the July 2025 to February 2026 consolidation wave that the
+      June baseline did not capture.
     transactions_added:
-    - txn_amd_seamicro
-    - txn_intel_habana
-    - txn_nvidia_mellanox
-    - txn_amd_xilinx
-    - txn_qualcomm_nuvia
-    - txn_marvell_innovium
-    - txn_amd_pensando
-    - txn_softbank_graphcore
-    - txn_synopsys_ansys
-    - txn_renesas_altium
-    - txn_qualcomm_kandou
-    - txn_softbank_ampere
+    - txn_tenstorrent_blue_cheetah
+    - txn_globalfoundries_mips
+    - txn_nvidia_enfabrica
+    - txn_meta_rivos
+    - txn_aws_neuroblade
+    - txn_marvell_celestial_ai
+    - txn_qualcomm_ventana
+    - txn_nvidia_groq
+    - txn_marvell_xconn
     transactions_updated: []
     open_questions:
-    - Normalize target revenue and funding at acquisition.
+    - Do licence-and-hire structures return capital to preferred holders on the same terms as an acquisition?
     next_refresh_recommendation: '2026-09-10'
+    major_changes:
+    - Recorded two licence-and-hire structures (NVIDIA / Enfabrica, NVIDIA / Groq) as a distinct exit pattern
+    - Recorded the Marvell optical and CXL acquisitions as the category price references
+    - Recorded hyperscaler and foundry acquisitions of processor IP and CPU teams
   vc_investors:
     display_name: VC Investor Landscape
     file_path: data/investors/vc_investors.yaml
@@ -417,4 +445,4 @@ sections:
     portfolio_updates: []
     open_questions:
     - Add partner-level sourcing maps and dated portfolio evidence.
-    next_refresh_recommendation: '2026-08-10'
+    next_refresh_recommendation: '2026-10-26'

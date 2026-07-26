@@ -130,8 +130,7 @@
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - SoftBank
     - Oracle
@@ -160,7 +159,7 @@
     competitive_intensity: 5
     exit_potential: 4
     strategic_scarcity: 4
-    overall_vc_priority: monitor
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: medium
     possible_strategic_angles:
@@ -168,7 +167,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in datacenter cpu and server soc.
+    notes: Retained as an exit comparable; no longer independently investable following the SoftBank acquisition.
   sources:
   - source_id: src_ampere_official
     title: Ampere Computing official website
@@ -182,7 +181,7 @@
   data_quality:
     confidence_level: medium
     last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_verified: '2026-07-26'
     missing_fields:
     - funding_history
     - customer_references
@@ -191,7 +190,7 @@
 - company_id: rivos_001
   name: Rivos
   legal_name: null
-  status: private
+  status: acquired
   website: https://www.rivosinc.com/
   hq:
     city: Santa Clara
@@ -267,8 +266,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Acquired by Meta in September 2025 to reinforce the MTIA accelerator program. Terms were
+      not disclosed; press reports referenced a figure of roughly $2B, which remains unconfirmed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -320,8 +319,7 @@
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Google
     - Intel
@@ -336,9 +334,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use as a comparable for hyperscaler acquisitions of pre-revenue RISC-V CPU teams
   strategic_scoring:
     market_size: 5
     timing: 5
@@ -350,7 +346,7 @@
     competitive_intensity: 5
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: active_diligence
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
@@ -358,7 +354,7 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in datacenter cpu and server soc.
+    notes: Retained as an exit comparable; a hyperscaler removed a datacenter RISC-V team from the market.
   sources:
   - source_id: src_rivos_official
     title: Rivos official website
@@ -369,19 +365,25 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_rivos_meta
+    title: Meta acquires RISC-V chip startup Rivos
+    url: https://www.datacenterdynamics.com/en/news/meta-acquires-risc-v-chip-startup-rivos-report/
+    publisher: Data Center Dynamics
+    date_published: '2025-09-30'
+    date_accessed: '2026-07-26'
+    source_type: news
+    reliability: medium
   data_quality:
     confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_value
+    notes: Acquisition reported by reputable press; neither party published transaction terms.
 - company_id: ventana_001
   name: Ventana Micro Systems
   legal_name: null
-  status: private
+  status: acquired
   website: https://www.ventanamicro.com/
   hq:
     city: Cupertino
@@ -457,8 +459,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: pilot
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: Acquired by Qualcomm on 10 December 2025. The Ventana team complements Qualcomm's RISC-V
+      and custom Oryon CPU development. Terms were not disclosed.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -510,8 +512,7 @@
     venture_scale_potential: high
     capital_intensity: high
     likely_exit_path:
-    - IPO
-    - strategic_M&A
+    - completed_strategic_M&A
     likely_acquirers:
     - Marvell
     - Broadcom
@@ -526,9 +527,7 @@
     - Unverified benchmark comparability
     - Concentration in a small number of customers or manufacturing partners
     next_steps:
-    - Validate customer references
-    - Review architecture and software roadmap
-    - Reconstruct financing history
+    - Use as the reference comparable for datacenter-class RISC-V CPU acquisitions
   strategic_scoring:
     market_size: 5
     timing: 4
@@ -540,7 +539,7 @@
     competitive_intensity: 5
     exit_potential: 5
     strategic_scarcity: 5
-    overall_vc_priority: watchlist
+    overall_vc_priority: pass
   relevance_to_qualcomm_or_strategics:
     relevance_level: high
     possible_strategic_angles:
@@ -548,7 +547,8 @@
     - investment
     - partnership
     - competitive_monitoring
-    notes: Relevant to strategic buyers seeking capability in datacenter cpu and server soc.
+    notes: Now inside Qualcomm. The transaction is the clearest signal to date of strategic willingness to buy datacenter
+      RISC-V CPU capability.
   sources:
   - source_id: src_ventana_official
     title: Ventana Micro Systems official website
@@ -559,15 +559,21 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_ventana_qualcomm
+    title: Qualcomm Acquires Ventana Micro Systems, Deepening RISC-V CPU Expertise
+    url: https://www.qualcomm.com/news/releases/2025/12/qualcomm-acquires-ventana-micro-systems--deepening-risc-v-cpu-ex
+    publisher: Qualcomm
+    date_published: '2025-12-10'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: high
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - transaction_value
+    notes: Acquisition confirmed by acquirer primary source; consideration undisclosed.
 - company_id: tachyum_001
   name: Tachyum
   legal_name: null
@@ -647,8 +653,8 @@
     comments_on_tam: TAM relevance reflects category exposure, not a bottom-up revenue forecast.
   commercial_profile:
     revenue_stage: growth
-    customer_traction: Publicly described product activity exists; customer concentration and production revenue
-      require verification.
+    customer_traction: The Series C investor signed a stated $500M purchase order for Prodigy. Prodigy has not taped
+      out and the order is not independently verified.
     disclosed_customers: []
     partnerships: []
     design_wins: []
@@ -660,14 +666,17 @@
     go_to_market_motion: Direct strategic selling to infrastructure operators, OEMs, or semiconductor partners
     sales_cycle_complexity: High
   funding_profile:
-    total_raised_usd_m: null
-    latest_round: null
-    latest_round_date: null
-    latest_round_amount_usd_m: null
+    total_raised_usd_m: 300.0
+    latest_round: Series C
+    latest_round_date: '2025-10-14'
+    latest_round_amount_usd_m: 220.0
     disclosed_valuation_usd_m: null
-    key_investors: []
-    insider_quality: null
-    likely_fundraising_status: null
+    key_investors:
+    - Undisclosed European investor
+    insider_quality: Single-investor round paired with a purchase order from the same counterparty, which concentrates
+      both financing and demand risk.
+    likely_fundraising_status: Company stated in June 2026 that it is advancing further financing while working
+      toward tape-out.
   team_profile:
     founders: []
     notable_executives: []
@@ -714,8 +723,8 @@
     - Which measured workload shows a durable advantage after software and system overhead?
     - What capital and supply commitments are required before the next commercial proof point?
     red_flags:
-    - Unverified benchmark comparability
-    - Concentration in a small number of customers or manufacturing partners
+    - Repeated schedule extensions with no silicon in the market
+    - Financing and the headline purchase order originate from the same counterparty
     next_steps:
     - Validate customer references
     - Review architecture and software roadmap
@@ -750,12 +759,27 @@
     source_type: primary
     reliability: high
     notes: Primary source for product positioning; financing and customer claims intentionally not inferred.
+  - source_id: src_tachyum_series_c
+    title: Tachyum Signs $220 Million Funding and $500 Million Purchase Order
+    url: https://www.tachyum.com/media/press-releases/2025/10/14/tachyum-signs-220-million-funding-and-500-million-purchase-order/
+    publisher: Tachyum
+    date_published: '2025-10-14'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
+  - source_id: src_tachyum_2026_update
+    title: Tachyum Reaffirms Strong Operational Position, and Expected Tape-Out Milestones
+    url: https://www.tachyum.com/media/press-releases/2026/06/02/tachyum-reaffirms-strong-operational-position-and-expected-tape-out-milestones/
+    publisher: Tachyum
+    date_published: '2026-06-02'
+    date_accessed: '2026-07-26'
+    source_type: primary
+    reliability: high
   data_quality:
-    confidence_level: medium
-    last_company_update: '2026-06-10'
-    last_verified: '2026-06-10'
+    confidence_level: low
+    last_company_update: '2026-07-26'
+    last_verified: '2026-07-26'
     missing_fields:
-    - funding_history
-    - customer_references
-    - process_node_or_manufacturing_details
-    notes: Source-backed baseline profile; detailed financing and customer diligence remain open.
+    - tape_out_status
+    - independent_customer_validation
+    notes: Company statements are the only source for both the financing and the purchase order.
